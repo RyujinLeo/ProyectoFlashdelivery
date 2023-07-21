@@ -1,5 +1,57 @@
+/*seccion de login*/
 #top-menu{
     background-color: #FF293E;
     height: 50px;
-    border-bottom-left-radius:10%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 9px;
 }
+
+#logo1{
+    background-image: url(/img/logoblanco.png);
+    background-attachment: inherit;
+    background-size: auto;
+    background-position-x: center;
+    height: 99px;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+
+#textoinicial1{
+text-align: center;
+
+}
+
+#textoinicial1 img{
+position: relative;
+padding-bottom: 2px;
+}
+#textoinicial1 h1{
+    margin: auto;
+    animation-composition: accumulate;
+    size: a3;
+    line-height: 1.5;
+    padding-bottom: 11px;
+    margin-left: 78px;
+    margin-right: 78px;
+    color: #FF293E;
+}
+
+#textoinicial1 p{
+    line-height: 1.5;
+    margin-left: 78px;
+    font-size: large;
+    margin-right: 78px;
+}
+
+.Boton1{
+    background-color: #FE293E;
+    color: white;
+    border-radius: 15px;
+    margin: auto;
+    width: 49%;
+    font-size: large;
+    margin-left: 78px;
+    margin-right: 78px;
+}
+/*seccion de login*/
