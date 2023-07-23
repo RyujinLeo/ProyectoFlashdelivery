@@ -1,4 +1,12 @@
 /*seccion de landing*/
+
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+
+}
+
 #top-menu{
     background-color: #FF293E;
     height: 50px;
@@ -56,19 +64,45 @@ padding-bottom: 2px;
 }
 /*seccion de landing page*/
 /*seccion de login*/
-#logolog{
-    
-}
-#logintop{
-    width: 100%;
-    background-color: #FE293E;
-    padding-bottom: 45px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+.navbar{
+background-color: #FE293E;
+height: 40px;
+display: flex;
+justify-content: center;
+position: sticky;
+top: 0;
+z-index: 999;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+width: 100%;
 }
 
-/*seccion de login*/
+#logolgin{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
 
+#logologin2{
+    max-width: -webkit-fill-available;
+    max-height: -webkit-fill-available;
+}
+
+#formulariolog{
+    background-color: #D9D9D9;
+    width: 85%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+/* fin seccion de login*/
+
+
+/* mobile*/
 @media screen and (max-width: 428px){
     /*seccion de landing*/
 #top-menu{
@@ -129,19 +163,7 @@ padding-bottom: 2px;
 /*seccion de landing page*/
 
 /*seccion de login*/
-#logolog{
-    padding-left: 76px;
-    padding-right: 100px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-#logintop{
-    width: 100%;
-    background-color: #FE293E;
-    padding-bottom: 45px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
+
 /* fin de seccion login*/
 
 }

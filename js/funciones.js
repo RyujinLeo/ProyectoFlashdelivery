@@ -1,3 +1,3 @@
 function redirland() {
-    location.href= "/html/login.html"
+    location.href= "/html/logi.html"
 }
