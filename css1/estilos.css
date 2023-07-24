@@ -1,5 +1,8 @@
 /*seccion de landing*/
-
+@font-face{
+    font-family:'Inter';
+    src: url(../Fonts/Inter-Regular.ttf);
+}
 *{
 box-sizing: border-box;
 padding: 0;
@@ -81,6 +84,8 @@ width: 100%;
     width: 50%;
     margin: 0 auto;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 #logologin2{
@@ -89,16 +94,79 @@ width: 100%;
 }
 
 #formulariolog{
-    background-color: #D9D9D9;
+    background-color: #d9d9d96b;
     width: 85%;
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
     height: 600px;
-    border-radius: 10px;
+    border-radius: 25px;
     margin-top: 50px;
+    font-family: 'Inter';
+    text-align: center;
+
 }
 
+#formulariolog h1{
+    TEXT-ALIGN: center;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter';
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.logininput {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: center;
+    border: none;
+    background: transparent;
+    border-bottom: groove;
+    border-color: black;
+    border-bottom-width: thin;
+    color: #0f0e0e;
+    margin-top: 10px;
+
+}
+.botonlog{
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #fe293edb;
+    color: white;
+    margin-top: 40px;
+    border-radius: 50px;
+    border-width: thin;
+}
+#formulariolog a{
+    color: #FE293E;
+    font-size: 1.25rem;
+    text-decoration: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+#formulariolog h2{
+    font-size: 1.25rem;
+    margin-top: 25px;
+}
+
+.foologin {
+   display: flex;
+   justify-content: space-around;
+   
+}
 /* fin seccion de login*/
 
 
