@@ -104,7 +104,6 @@ width: 100%;
     margin-top: 50px;
     font-family: 'Inter';
     text-align: center;
-
 }
 
 #formulariolog h1{
@@ -156,6 +155,12 @@ width: 100%;
     display: flex;
     justify-content: space-around;
 }
+.formulariolog1{
+    display: none;
+}
+.formulariolog1.activado{
+    display: block;
+}
 
 #formulariolog h2{
     font-size: 1.25rem;
@@ -184,10 +189,12 @@ width: 100%;
 .botonestabs.cli.active{
     background-color: #C5FEF3;
     color: #0f0e0e;
+    transition: ease 0.5s;
 }
 .botonestabs.moto.active{
     background-color: #C5FEF3;
     color: #0f0e0e;
+    transition: ease 0.5s;
 }
 .botonestabs.cli{
     border-top-left-radius: 25px;
