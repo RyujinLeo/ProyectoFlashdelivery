@@ -163,9 +163,37 @@ width: 100%;
 }
 
 .foologin {
-   display: flex;
-   justify-content: space-around;
-   
+    margin-top: 20px; 
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.botonestabs{
+    text-align: center;
+    background-color: #fe293edb;
+    color: white;
+    border-width: thin;
+    width: 100%;
+    height: 90px;
+}
+.botonestabs.cli.active{
+    background-color: #C5FEF3;
+    color: #0f0e0e;
+}
+.botonestabs.moto.active{
+    background-color: #C5FEF3;
+    color: #0f0e0e;
+}
+.botonestabs.cli{
+    border-top-left-radius: 25px;
+}
+.botonestabs.moto{
+    border-top-right-radius: 25px;
 }
 /* fin seccion de login*/
 

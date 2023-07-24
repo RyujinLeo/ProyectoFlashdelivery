@@ -17,6 +17,8 @@
     <div id="logolgin">
         <img src="/img/logob.png" alt="logos" id="logologin2">
     </div>
+
+
         <section id="formulariolog">
             <h1>Iniciar sesion</h1>
             <input class="logininput" type="text" placeholder="Email o nombre de usuario">
@@ -27,8 +29,22 @@
             <input class="botonlog" type="button" value="Registrarse">
         </section>
         <div class="foologin">
-            <input class="botonlog ele" type="button" value="Registrarse">
-            <input class="botonlog ele" type="button" value="Registrarse">
+            <button class="botonestabs cli">Clientes</button>
+            <button class="botonestabs moto">Motoristas</button>
         </div>
+
+    <script>
+        const tabs =document.querySelectorAll('.botonestabs') ;
+        const contenido =document.querySelectorAll('#formulariolog') ;
+
+            tabs.forEach((tab, index)=>{
+            tab.addEventListener('click',()=>{
+            tabs.forEach(tab=>{tab.classList.remove('active')})
+            tab.classList.add('active');
+            }
+            )
+            })
+    </script>
+    
 </body>
 </html>
