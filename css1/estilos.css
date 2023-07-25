@@ -80,18 +80,7 @@ border-bottom-right-radius: 15px;
 width: 100%;
 }
 
-.navbarreg{
-    background-color: #FE293E;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    width: 100%;
-    }
+
 
 #logolgin{
     width: 50%;
@@ -230,6 +219,78 @@ width: 100%;
     font-family: 'Inter';
     text-align: center;
 }
+
+.navbarreg{
+    background-color: #FE293E;
+    color: white;
+    height: 80px;
+    display: grid;
+    grid-template-areas: "i h1 h2";
+    position: sticky;
+    grid-auto-flow: column;
+    align-items: center;
+    top: 0;
+    z-index: 999;
+    border-bottom-left-radius: 15px;
+    justify-content: space-between;
+    border-bottom-right-radius: 15px;
+    width: 100%;
+    }
+.navbarreg h1{
+    text-align: center;
+    font-size: 1.9rem;
+
+}
+.fa-arrow-left {
+    font-size: xx-large;
+    margin-left: 7px;
+    width: 80%;
+}
+.reginput{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: left;
+    border: none;
+    background: transparent;
+    border-bottom: groove;
+    border-color: black;
+    border-bottom-width: thin;
+    color: #0f0e0e;
+    margin-top: 10px;
+}
+.telefonoregistro{
+    display: grid;
+    width: 100%;
+    grid-auto-flow: column;
+}
+.fa-square-font-awesome-stroke{
+    font-size: xx-large;
+    padding-top: 50%;
+    padding-bottom: 50%;   
+}
+#telefonocodigo{
+    padding-top: 50%;
+    padding-bottom: 50%;
+    font-size: 1rem;
+}
+#regcheck{
+
+}
+#checkbx{
+    width: 100%;
+}
+#terminosycond{
+    text-decoration: none;
+    color: black;
+}
+#terminosycond:hover{
+    text-decoration: underline;
+}
+
+/*fin de registro*/
 
 /* mobile*/
 @media screen and (max-width: 428px){
