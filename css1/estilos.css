@@ -276,9 +276,6 @@ width: 100%;
     padding-bottom: 50%;
     font-size: 1rem;
 }
-#regcheck{
-
-}
 #checkbx{
     width: 100%;
 }
@@ -291,6 +288,45 @@ width: 100%;
 }
 
 /*fin de registro*/
+
+
+/*Index motoristas*/
+.navbarmoto{
+    background-color: #FE293E;
+    color: white;
+    height: 149px;
+    display: flex;
+    position: sticky;
+    align-items: center;
+    top: 0;
+    z-index: 999;
+    border-bottom-left-radius: 15px;
+    justify-content: space-between;
+    border-bottom-right-radius: 15px;
+    width: 100%;
+    }
+
+#logomoto{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 118px;
+}
+/*Fin index motoristas*/
+
+.contenidomoto{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* mobile*/
 @media screen and (max-width: 428px){
