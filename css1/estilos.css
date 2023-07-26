@@ -312,11 +312,97 @@ width: 100%;
     margin-right: auto;
     height: 118px;
 }
-/*Fin index motoristas*/
 
 .contenidomoto{
     width: 100%;
 }
+
+#textoinicialmoto{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    font-size: xx-large;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.botonestabmoto {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botonestabmotor {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #fe293edb;
+    color: white;
+    margin-top: 30px;
+    /* border-radius: 50px; */
+    border-width: thin;
+}
+.botonestabmotor.aceptadas {
+    border-top-right-radius: 20px;
+}
+.botonestabmotor.aceptar {
+    border-top-left-radius: 20px;
+}
+.botonestabmotor.aceptadas.active{
+    background-color: #C5FEF3;
+    color: #0f0e0e;
+    transition: ease 0.5s;
+}
+.botonestabmotor.aceptar.active{
+    background-color: #C5FEF3;
+    color: #0f0e0e;
+    transition: ease 0.5s;
+}
+
+#formularioordenes{
+    width: 100%;
+    background-color: #d9d9d96b;
+    height: 380px;
+    padding: 15px 5px;
+    margin-top: -10px;
+}
+
+.orden{
+    width: 100%;
+    background-color: ghostwhite;
+    height: 111px;
+    border-color: black;
+    border-radius: 50px;
+    border: 1px solid #000;
+
+    overflow: hidden;
+    display: grid;
+    grid-template-areas: 
+    "imagenorden nombreorden"
+    "imagenorden h2"
+    "imagenorden h3"
+    ;
+    grid-template-rows: 50px 1fr 30px;
+    grid-template-columns: 150px 1fr;
+}
+#imagenorden{
+width: 80%;
+height: 40px;
+background-color: #000;
+}
+
+.orden > imagenorden{
+grid-area: imagenorden;
+}
+/*Fin index motoristas*/
+
+
 
 
 
