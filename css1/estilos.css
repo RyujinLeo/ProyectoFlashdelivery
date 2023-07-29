@@ -3,11 +3,12 @@
     font-family:'Inter';
     src: url(../Fonts/Inter-Regular.ttf);
 }
+
 *{
 box-sizing: border-box;
+font-family: Inter;
 padding: 0;
 margin: 0;
-
 }
 
 #top-menu{
@@ -371,6 +372,7 @@ width: 100%;
     height: 380px;
     padding: 15px 5px;
     margin-top: -10px;
+    overflow: scroll;
 }
 
 .orden{
@@ -380,26 +382,69 @@ width: 100%;
     border-color: black;
     border-radius: 50px;
     border: 1px solid #000;
-
     overflow: hidden;
-    display: grid;
-    grid-template-areas: 
-    "imagenorden nombreorden"
-    "imagenorden h2"
-    "imagenorden h3"
-    ;
-    grid-template-rows: 50px 1fr 30px;
-    grid-template-columns: 150px 1fr;
-}
-#imagenorden{
-width: 80%;
-height: 40px;
-background-color: #000;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 2px;
+   
 }
 
-.orden > imagenorden{
-grid-area: imagenorden;
+.contenidoorden{
+    display: grid;
+    width: 84%;
+    height: 109px;
+    background-color: #FE293E;
+    grid-template-areas: 
+    "main header"
+    "main aside"
+    "main footer"
+    ;
+    justify-content: space-evenly;
+    grid-gap: 5px;
 }
+
+.contenidoorden #imagenorden{
+grid-area: main;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+padding-top: 5px;
+}
+
+#imagenorden img{
+    border-radius: 10px;
+    width: 90%;
+    height: 100px;
+}
+
+#nombreorden{
+    font-size: 1.4rem;
+    grid-area: header;
+    text-align: center;
+    margin-bottom: 0;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-thickness: from-font;
+    font-family: Inter;
+}
+.contenidoorden h2{
+    font-size: 1rem;
+    grid-area: aside;
+    margin: 0;
+    color: rgb(101, 101, 101);
+    font-family: Inter;
+
+}
+
+.contenidoorden h3{
+    font-size: 1rem;
+    grid-area: footer;
+    overflow: overlay;
+    font-family: Inter;
+
+}
+
 /*Fin index motoristas*/
 
 
@@ -478,5 +523,24 @@ padding-bottom: 2px;
 
 /* fin de seccion login*/
 
+/*seccion de indexmoto*/
+
+.contenidoorden{
+    display: grid;
+    width: 84%;
+    height: 109px;
+    background-color: #FE293E;
+    grid-template-areas: 
+    "main header"
+    "main aside"
+    "main footer"
+    ;
+    justify-content: space-evenly;
+    grid-gap: 5px;
+    grid-template-rows: 23px;
+    grid-template-columns: 100px 0fr;
+}
+
+/*fin seccion indexmoto*/
 }
 
