@@ -14,3 +14,5 @@ function rediriniciocl() {
 function rediriniciomt() {
     location.href= "/html/Indexmotorista.html"
 }
+
+

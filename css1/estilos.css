@@ -451,6 +451,29 @@ padding-top: 5px;
 .formularioordenes.activado{
     display: block;
 }
+
+.menumoto{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+margin-top: 100px;
+border-radius: 25px;
+}
+
+.contenerdormenu{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    align-items: center;
+}
+
+#homebutton{
+    font-size: xx-large;
+
+}
 /*Fin index motoristas*/
 
 
@@ -546,6 +569,29 @@ padding-bottom: 2px;
     grid-template-columns: 100px 0fr;
 }
 
+
+.menumoto{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+margin-top: 100px;
+border-radius: 25px;
+}
+
+.contenerdormenu{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    align-items: center;
+}
+
+#homebutton{
+    font-size: xx-large;
+
+}
 /*fin seccion indexmoto*/
 }
 
