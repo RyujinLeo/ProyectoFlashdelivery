@@ -30,7 +30,7 @@
                 <div id="imagenorden">
                    <img src="../img/Ordenes/restaurantes_hamburguer.jpg" alt="imagen de orden">
                 </div>
-                <h1 id="nombreorden">Orden:dasdsadasdas</h1>
+                <h1 id="nombreorden">Orden:123456789</h1>
                 <h2>Direccion</h2>
                 <h3 id="direccionorden">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure mollitia quo repudiandae dicta a enim laboriosam architecto dolore sint dolorum.</h3>
             </div>
@@ -41,7 +41,7 @@
                 <div id="imagenorden">
                    <img src="../img/Ordenes/restaurantes_hamburguer.jpg" alt="imagen de orden">
                 </div>
-                <h1 id="nombreorden">Orden:dasdsadasdas</h1>
+                <h1 id="nombreorden">Orden:123456789</h1>
                 <h2>Direccion</h2>
                 <h3 id="direccionorden">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure mollitia quo repudiandae dicta a enim laboriosam architecto dolore sint dolorum.</h3>
             </div>
@@ -52,14 +52,33 @@
                 <div id="imagenorden">
                    <img src="../img/Ordenes/restaurantes_hamburguer.jpg" alt="imagen de orden">
                 </div>
-                <h1 id="nombreorden">Orden:dasdsadasdas</h1>
+                <h1 id="nombreorden">Orden:123456789</h1>
                 <h2>Direccion</h2>
                 <h3 id="direccionorden">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure mollitia quo repudiandae dicta a enim laboriosam architecto dolore sint dolorum.</h3>
             </div>
         </div>
-        
+
        </section>
 
     </Div>
+
+    <script>
+        const tabs =document.querySelectorAll('.botonestabmotor') ;
+        const contenido =document.querySelectorAll('.formularioordenes') ;
+
+            tabs.forEach((tab, index)=>{
+            tab.addEventListener('click',()=>{
+            tabs.forEach(tab=>{tab.classList.remove('active')});
+            tab.classList.add('active');
+
+            contenido.forEach(contenido=>{contenido.classList.remove('activado')});
+            contenido[index].classList.add('activado')
+
+            }
+            )
+            })
+</script>
+
+
 </body>
 </html>

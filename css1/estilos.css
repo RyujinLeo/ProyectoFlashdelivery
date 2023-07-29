@@ -394,7 +394,6 @@ width: 100%;
     display: grid;
     width: 84%;
     height: 109px;
-    background-color: #FE293E;
     grid-template-areas: 
     "main header"
     "main aside"
@@ -445,6 +444,13 @@ padding-top: 5px;
 
 }
 
+.formularioordenes{
+    display: none;
+}
+
+.formularioordenes.activado{
+    display: block;
+}
 /*Fin index motoristas*/
 
 
@@ -529,7 +535,6 @@ padding-bottom: 2px;
     display: grid;
     width: 84%;
     height: 109px;
-    background-color: #FE293E;
     grid-template-areas: 
     "main header"
     "main aside"
