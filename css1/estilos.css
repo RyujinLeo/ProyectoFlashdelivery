@@ -314,8 +314,9 @@ width: 100%;
     height: 118px;
 }
 
-.contenidomoto{
+.Contenidomoto{
     width: 100%;
+    display: none;
 }
 
 #textoinicialmoto{
@@ -472,8 +473,62 @@ border-radius: 25px;
 
 #homebutton{
     font-size: xx-large;
-
 }
+
+.homebutton.active i.fa-solid.fa-house{
+    color: #FFAB07;
+}
+.homebutton i.fa-solid.fa-house{
+    color: #FE293E;
+}
+
+.homebutton.active i.fa-solid.fa-bell{
+    color: #FFAB07;
+}
+.homebutton i.fa-solid.fa-bell{
+    color: #FE293E;
+}
+
+.homebutton i.fa-solid.fa-user{
+    color: #FE293E;
+}
+
+.Contenidomoto.activado{
+    display: block;
+}
+
+.notificaciones{
+    background-color: #d9d9d96b;
+    width: 100%;
+    height: 470.8px;
+    overflow: scroll;
+} 
+
+.notificaion{
+    width: 100%;
+    display: grid;
+    height: 61px;
+    border-bottom: groove;
+    margin-bottom: 5px;
+    grid-template-areas: "noti content";
+    align-content: center;
+    justify-content: start;}
+
+.simbolonoti{
+    font-size: xx-large;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+#noticontent h2{
+font-size: 1rem;
+}
+#noticontent h1{
+font-size: 1.3rem;
+font-weight: 800;
+}
+
+
 /*Fin index motoristas*/
 
 

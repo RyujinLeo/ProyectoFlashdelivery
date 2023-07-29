@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <Div class="Contenidomoto">
+
+    <Div class="Contenidomoto activado">
         <nav class="navbarmoto">
             <img src="../img/logomotoristas.jpg" alt="Logo" id="logomoto">
         </nav>
@@ -83,20 +84,78 @@
                 <h3 id="direccionorden">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure mollitia quo repudiandae dicta a enim laboriosam architecto dolore sint dolorum.</h3>
             </div>
         </div>
-
        </section>
-
     </Div>
+
+    <div class="Contenidomoto">
+        <nav class="navbarmoto">
+            <img src="../img/logomotoristas.jpg" alt="Logo" id="logomoto">
+        </nav>
+        <div id="textoinicialmoto">
+            <h1>Notificaiones</h1>
+        </div>
+        <div class="notificaciones">
+            <div class="notificaion">
+                <div id="simbolonoti" class="simbolonoti">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+                <div id="noticontent">
+                    <h1>Tu pedido ha llegado</h1>
+                     <h2>codigo de pedido:123243434</h2>
+                </div>
+            </div>
+            <div class="notificaion">
+                <div id="simbolonoti" class="simbolonoti">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+                <div id="noticontent">
+                    <h1>Tu pedido ha llegado</h1>
+                     <h2>codigo de pedido:123243434</h2>
+                </div>
+            </div>
+            <div class="notificaion">
+                <div id="simbolonoti" class="simbolonoti">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+                <div id="noticontent">
+                    <h1>Tu pedido ha llegado</h1>
+                     <h2>codigo de pedido:123243434</h2>
+                </div>
+            </div>
+            <div class="notificaion">
+                <div id="simbolonoti" class="simbolonoti">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+                <div id="noticontent">
+                    <h1>Tu pedido ha llegado</h1>
+                     <h2>codigo de pedido:123243434</h2>
+                </div>
+            </div>
+            <div class="notificaion">
+                <div id="simbolonoti" class="simbolonoti">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+                <div id="noticontent">
+                    <h1>Tu pedido ha llegado</h1>
+                     <h2>codigo de pedido:123243434</h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
   <footer class="menumoto">
         <div class="contenerdormenu">
-            <div id="homebutton">
-                <i class="fa-solid fa-house" style="color: #fe293e;"></i>           </div>
-                <div id="homebutton">
-                <i class="fa-solid fa-bell" style="color: #fe293e;"></i>   </div>
-                <div id="homebutton">
-                    <i class="fa-solid fa-user" style="color: #fe293e;"></i>        </div>
+            <div id="homebutton" class="homebutton active">
+                <i class="fa-solid fa-house"></i>           </div>
+                <div id="homebutton" class="homebutton">
+                <i class="fa-solid fa-bell" ></i>   </div>
+                <div id="homebutton" class="homebutton">
+                    <i class="fa-solid fa-user"></i>        </div>
         </div>
-          
+       
        </footer>
 
     <script>
@@ -114,8 +173,27 @@
             }
             )
             })
+
 </script>
 
+
+<script>
+    const tabs1 =document.querySelectorAll('.homebutton') ;
+    const contenido1 =document.querySelectorAll('.Contenidomoto') ;
+
+        tabs1.forEach((tab, index)=>{
+        tab.addEventListener('click',()=>{
+        tabs1.forEach(tab=>{tab.classList.remove('active')});
+        tab.classList.add('active');
+
+        contenido1.forEach(contenido=>{contenido.classList.remove('activado')});
+        contenido1[index].classList.add('activado')
+
+        }
+        )
+        })
+
+</script>
 
 </body>
 </html>
