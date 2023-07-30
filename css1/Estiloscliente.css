@@ -27,6 +27,7 @@ margin: 0;
     justify-items: center;
     border-bottom-left-radius: 15px ;
     border-bottom-right-radius: 15px;
+    position: relative;
 }
 .fa-arrow-left {
     font-size: xx-large;
@@ -72,13 +73,39 @@ padding-top: 15px;
 .infoperf1{
     width: 90%;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-areas: "orden direccion mpago";
     background-color: white;
-    border-radius: 20px;
+    border-radius: 25px;
     margin-left: auto;
     margin-right: auto;
-    z-index: 1;
+    z-index: 100;
     padding-left: 15px;
     padding-right: 15px;
+    position: relative;
+    bottom: 20px;
+}
+
+.infoperf1 #ordenes{
+grid-area: orden;
+font-size: 1rem;
+border-right: groove;
+}
+.infoperf1 #Direcciones{
+    grid-area: direccion;
+    font-size: 1rem;
+    border-right: groove;
+
+}
+.infoperf1 #Metodopago{
+    grid-area: mpago;
+    font-size: 1rem;
+}
+.infoperf1 h1{
+    font-size: 1.1rem;
+    text-align: center;
+}
+.infoperf1 h2{
+    font-size: 1.0rem;
+    text-align: center;
 }
 /*fin de perfiles*/
