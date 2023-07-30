@@ -14,5 +14,12 @@ function rediriniciocl() {
 function rediriniciomt() {
     location.href= "/html/Indexmotorista.html"
 }
-
-
+function redirorden() {
+    location.href= "/html/Orden.html"
+}
+function redirordenaceptada() {
+    location.href= "/html/Ordenaceptada.html"
+}
+function redirperfilmoto() {
+    location.href= "/html/Perfilmoto.html"
+}
