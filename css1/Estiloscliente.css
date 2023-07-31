@@ -108,4 +108,85 @@ border-right: groove;
     font-size: 1.0rem;
     text-align: center;
 }
+
+.contenedorbtnperfiles{
+    background-color: white;
+    width: 90%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+}
+
+.botonperfil{
+    display: flex;
+    padding-top: 10px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.botonperfil #fondo1{
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    /* padding-top: 5px; */
+    justify-content: center;
+    align-items: center;
+}
+.botonperfil #fondo1 i{
+    font-size: x-large;
+ 
+}
+
+#derechabtn1{
+display: grid;
+width: 100%;
+grid-template-areas: "texto arrow1";
+border-bottom: groove;
+grid-template-areas: 2fr 1fr;
+align-items: center;
+justify-content: space-between;
+margin-left: 10px;
+}
+
+#infoboton1{
+font-size: 1rem;
+grid-area: texto;
+}
+
+#derechabtn1 i{
+    font-size: x-large;
+    grid-area: arrow1;
+}
+
+.botonperfil.info #fondo1{
+background-color: #FF9C07;
+}
+
+.botonperfil.orden #fondo1{
+    background-color: #119905;
+    }
+.botonperfil.mpago #fondo1{
+        background-color: #FFCA0D;
+}
+.botonperfil.dir #fondo1{
+    background-color: #DA18D2;
+}
+.botonperfil.num #fondo1{
+    background-color: #FFCA0D;
+}
+
+.botonperfil.config #fondo1{
+    background-color: #18C3DF;
+}
+.botonperfil.term #fondo1{
+    background-color: #119905;
+}
+
+.contenedorbtnperfiles.bajo{
+    margin-top: 50px;
+    height: 150px;
+}
 /*fin de perfiles*/
