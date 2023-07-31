@@ -28,19 +28,19 @@
 
    <div class="formulariocliente activado">
     <div class="categorias">
-        <div class="Restaurantes">
+        <div class="Restaurantes" onclick="redirrest()">
             <h1>Restaurantes</h1>
             <img src="../img/hamburguesa4.png" alt="hamburger" srcset="">
         </div>
-        <div class="Super">
+        <div class="Super" onclick="redirsuper()">
             <h1>Super</h1>
             <img src="../img/Super.jpg" alt="super" srcset="">
         </div>
-        <div class="Cafeypostres">
+        <div class="Cafeypostres" onclick="redircafe()">
             <h1>Café y postres</h1>
             <img src="../img/cafe.png" alt="cafe" srcset="">
         </div>
-        <div class="Bebidas">
+        <div class="Bebidas" onclick="redirbebida()">
             <h1>Bebidas</h1>
             <img src="../img/vino.jpg" alt="vino" srcset="">
         </div>
@@ -170,6 +170,9 @@
             </div>
             <div id="homebutton" class="homebutton">
                 <i class="fa-solid fa-receipt"></i>
+            </div>
+            <div id="homebutton" class="homebutton" onclick="redircarrito()">
+                <i class="fa-solid fa-cart-shopping"></i>
             </div>
             <div id="homebutton" class="homebutton" onclick="redirperfilcliente()">
                     <i class="fa-solid fa-user"></i> 

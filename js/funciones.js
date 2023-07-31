@@ -26,3 +26,19 @@ function redirperfilmoto() {
 function redirperfilcliente() {
     location.href= "/html/Perfilcliente.html"
 }
+function redircarrito() {
+    location.href= "/html/carrito.html"
+}
+
+function redirrest() {
+    location.href= "/html/restaurantes.index.html"
+}
+function redirsuper() {
+    location.href= "/html/super.index.html"
+}
+function redircafe() {
+    location.href= "/html/cafe.postres.index.html"
+}
+function redirbebida() {
+    location.href= "/html/bebidas.index.html"
+}
