@@ -6,6 +6,7 @@
     <title>Menu Cliente</title>
     <link rel="stylesheet" href="/css1/Estiloscliente.css">
     <link rel="stylesheet" href="/css1/mobile.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/jquery-3.7.0.min.js"></script>
@@ -14,12 +15,185 @@
 
 </head>
 <body>
-    <nav class="navbarorden">
-        <div id="arrowleft"> <i class="fa-solid fa-arrow-left" style="color: #000000;" onclick="rediriniciomt()"></i>
+    <nav class="navbarcliente">
+        <div class="barrabusqueda">
+            <div id="textobarra">
+                <input type="search" name="busqueda" id="boxbusqueda">
+            </div>
+            <div id="iconobarra">
+                <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+            </div>
         </div>
-        <h1>Detalles de orden</h1>
-        <h2>
-        </h2>
     </nav>
+
+   <div class="formulariocliente activado">
+    <div class="categorias">
+        <div class="Restaurantes">
+            <h1>Restaurantes</h1>
+            <img src="../img/hamburguesa4.png" alt="hamburger" srcset="">
+        </div>
+        <div class="Super">
+            <h1>Super</h1>
+            <img src="../img/Super.jpg" alt="super" srcset="">
+        </div>
+        <div class="Cafeypostres">
+            <h1>Café y postres</h1>
+            <img src="../img/cafe.png" alt="cafe" srcset="">
+        </div>
+        <div class="Bebidas">
+            <h1>Bebidas</h1>
+            <img src="../img/vino.jpg" alt="vino" srcset="">
+        </div>
+    </div>
+
+
+    <section id="seccion-producto" class="section-producto">
+
+        <div class="scroll-producto">
+            <div class="card-producto" style="justify-content: space-between;">
+                <div style="font-family: initial;">
+                    <div>
+                        <div style="font-size: 1.5rem; color: #ffab04; margin-bottom: 10px;">Cappuccino</div>
+                        <div class="estilo-precio" style="margin-left: 5px;">Lps. 57.00</div>
+                    </div>
+                </div>
+                <div style="margin-left: 5px;">
+                    <img class="img-producto" src="../assets/img/abarrotes.png" alt="">
+                </div>
+            </div>
+
+            <div class="card-producto" style="justify-content: space-between;">
+                <div style="font-family: initial;">
+                    <div>
+                        <div style="font-size: 1.5rem; color: #ffab04; margin-bottom: 10px;">Mocha</div>
+                        <div class="estilo-precio" style="margin-left: 5px;">Lps. 90.00</div>
+                    </div>
+                </div>
+                <div style="margin-left: 5px;">
+                    <img class="img-producto" src="../assets/img/abarrotes.png" alt="">
+                </div>
+            </div>
+
+            <div class="card-producto" style="justify-content: space-between;">
+                <div style="font-family: initial;">
+                    <div>
+                        <div style="font-size: 1.5rem; color: #ffab04; margin-bottom: 10px;">Lempira en Paris</div>
+                        <div class="estilo-precio" style="margin-left: 5px;">Lps. 166.00</div>
+                    </div>
+                </div>
+                <div style="margin-left: 5px;">
+                    <img class="img-producto" src="../assets/img/abarrotes.png" alt="">
+                </div>
+            </div>
+
+            <div class="card-producto" style="justify-content: space-between;">
+                <div style="font-family: initial;">
+                    <div>
+                        <div style="font-size: 1.5rem; color: #ffab04; margin-bottom: 10px;">Crepas</div>
+                        <div class="estilo-precio" style="margin-left: 5px;">Lps. 99.00</div>
+                    </div>
+                </div>
+                <div style="margin-left: 5px;">
+                    <img class="img-producto" src="../assets/img/abarrotes.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+   </div>
+
+   <div class="formulariocliente">
+    <div id="textoinicial">
+        <h1>Notificaciones</h1>
+    </div>
+    <div class="notificaciones">
+        <div class="notificaion">
+            <div id="simbolonoti" class="simbolonoti">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <div id="noticontent">
+                <h1>Tu pedido ha llegado</h1>
+                 <h2>codigo de pedido:123243434</h2>
+            </div>
+        </div>
+        <div class="notificaion">
+            <div id="simbolonoti" class="simbolonoti">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <div id="noticontent">
+                <h1>Tu pedido ha llegado</h1>
+                 <h2>codigo de pedido:123243434</h2>
+            </div>
+        </div>
+        <div class="notificaion">
+            <div id="simbolonoti" class="simbolonoti">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <div id="noticontent">
+                <h1>Tu pedido ha llegado</h1>
+                 <h2>codigo de pedido:123243434</h2>
+            </div>
+        </div>
+        <div class="notificaion">
+            <div id="simbolonoti" class="simbolonoti">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <div id="noticontent">
+                <h1>Tu pedido ha llegado</h1>
+                 <h2>codigo de pedido:123243434</h2>
+            </div>
+        </div>
+        <div class="notificaion">
+            <div id="simbolonoti" class="simbolonoti">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <div id="noticontent">
+                <h1>Tu pedido ha llegado</h1>
+                 <h2>codigo de pedido:123243434</h2>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <div class="formulariocliente" id="ordenes12">
+    <button type="button" class="botonesordenes">Ordenes</button>
+    <button type="button" class="botonesordenes">Ordenes resgitradas</button>
+   </div>
+
+
+
+    <footer class="menumoto">
+        <div class="contenerdormenu">
+            <div id="homebutton" class="homebutton active">
+                <i class="fa-solid fa-house"></i>           </div>
+            <div id="homebutton" class="homebutton">
+                <i class="fa-solid fa-bell" ></i>
+            </div>
+            <div id="homebutton" class="homebutton">
+                <i class="fa-solid fa-receipt"></i>
+            </div>
+            <div id="homebutton" class="homebutton" onclick="redirperfilcliente()">
+                    <i class="fa-solid fa-user"></i> 
+            </div>
+        </div>
+       
+       </footer>
+
+       <script>
+        const tabs1 =document.querySelectorAll('.homebutton') ;
+        const contenido1 =document.querySelectorAll('.formulariocliente') ;
+    
+            tabs1.forEach((tab, index)=>{
+            tab.addEventListener('click',()=>{
+            tabs1.forEach(tab=>{tab.classList.remove('active')});
+            tab.classList.add('active');
+    
+            contenido1.forEach(contenido=>{contenido.classList.remove('activado')});
+            contenido1[index].classList.add('activado')
+    
+            }
+            )
+            })
+    
+    </script>
 </body>
 </html>

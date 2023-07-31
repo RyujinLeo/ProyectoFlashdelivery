@@ -73,7 +73,7 @@ padding-top: 15px;
 .infoperf1{
     width: 90%;
     display: grid;
-    grid-template-areas: "orden direccion mpago";
+    grid-template-areas: "orden direccion mpago estado";
     background-color: white;
     border-radius: 25px;
     margin-left: auto;
@@ -94,11 +94,17 @@ border-right: groove;
     grid-area: direccion;
     font-size: 1rem;
     border-right: groove;
-
+}
+.infoperf1 #Estado{
+    grid-area: estado;
+    font-size: 1rem;
+    margin-top: 10px;
 }
 .infoperf1 #Metodopago{
     grid-area: mpago;
     font-size: 1rem;
+    border-right: groove;
+
 }
 .infoperf1 h1{
     font-size: 1.1rem;
@@ -196,6 +202,254 @@ background-color: #FF9C07;
 
 /*indexcliente*/
 .navbarcliente{
-    
+    background-color: #FE293E;
+    height: 159px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
-/*fin index cliente*/
+.barrabusqueda{
+    width: 80%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 16px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+.barrabusqueda #textobarra{
+   width: 100%;
+}
+
+#boxbusqueda {
+    height: 40px;
+    width: fit-content;
+    border: none;
+    padding-left: 5px;
+}
+#iconobarra{
+    background-color: red;
+    height: 34px;
+    width: 50px;
+    width: 53px;
+    display: flex;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: x-large;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.categorias{
+    display: grid;
+    width: 90%;
+    height: 275px;
+    grid-template-areas: "Restaurantes Supers Supers"
+    "Restaurantes Cafeypostres Bebidas";
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.categorias .Restaurantes{
+    grid-area: Restaurantes;
+    background-color: #FFAB07;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    width: 137px;
+    margin-right: 10px;
+}
+.categorias .Restaurantes h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+.categorias .Restaurantes img{
+    height: 150px;
+    width: 123px;
+    margin-top: 50px;
+}
+.categorias .Cafeypostres{
+grid-area: Cafeypostres;
+background-color: rgb(197, 254, 244);
+color: black;
+border-radius: 20px;
+margin-right: 10px;
+padding: 10px;
+}
+.categorias .Cafeypostres h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.categorias .Cafeypostres img{
+    height: 82px;
+    width: 94px;
+}
+.categorias .Super{
+grid-area: Supers;
+background-color: #FF0202;
+display: flex;
+color: white;
+flex-direction: row;
+align-items: center;
+margin-bottom: 10px;
+}
+.categorias .Super h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.categorias .Super img{
+    height: 150px;
+    width: 123px;
+}
+.categorias .Bebidas{
+grid-area: Bebidas;
+color: black;
+background-color: rgb(247, 197, 255);
+border-radius: 20px;
+padding: 5px;
+}
+.categorias .Bebidas h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+.categorias .Bebidas img{
+    height: 82px;
+    width: 94px;}
+
+
+.section-producto {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 84px;   
+     }
+.menumoto{
+        width: 100%;
+        background-color: rgb(238, 238, 238);
+    margin-top: 49px;
+    border-radius: 25px;
+    }
+.contenerdormenu{
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 4px;
+        align-items: center;
+    }
+    
+#homebutton{
+        font-size: xx-large;
+}
+    
+.homebutton.active i.fa-solid.fa-house{
+        color: #FFAB07;
+}
+.homebutton i.fa-solid.fa-house{
+        color: #FE293E;
+ }
+    
+    .homebutton.active i.fa-solid.fa-bell{
+        color: #FFAB07;
+    }
+    .homebutton i.fa-solid.fa-bell{
+        color: #FE293E;
+    }
+    .homebutton.active i.fa-solid.fa-receipt{
+        color: #FFAB07;
+    }
+    .homebutton i.fa-solid.fa-receipt{
+        color: #FE293E;
+    }
+    .homebutton i.fa-solid.fa-user{
+        color: #FE293E;
+    }
+    
+    .Contenidomoto.activado{
+        display: block;
+    }
+
+
+    .formulariocliente{
+        display: none;
+    }
+    
+    .formulariocliente.activado{
+        display: block;
+        width: 100%;
+    }
+
+    .notificaciones{
+        background-color: #d9d9d96b;
+        width: 100%;
+        height: 470.8px;
+        overflow: scroll;
+        margin-bottom: 129px;
+    } 
+    
+    .notificaion{
+        width: 100%;
+        display: grid;
+        height: 61px;
+        border-bottom: groove;
+        margin-bottom: 5px;
+        grid-template-areas: "noti content";
+        align-content: center;
+        justify-content: start;}
+    
+    .simbolonoti{
+        font-size: xx-large;
+        margin-left: 5px;
+        margin-right: 15px;
+    }
+    
+    #noticontent h2{
+    font-size: 1rem;
+    }
+    #noticontent h1{
+    font-size: 1.3rem;
+    font-weight: 800;
+    }
+    #textoinicial{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+.botonesordenes{
+    background-color: #FE293E;
+    color: white;
+    font-size: 1.5rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    height: 89px;
+    border-radius: 30px;
+}
+#ordenes12 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 275px;
+    margin-top: 100px;
+}
+
+    /*fin index cliente*/

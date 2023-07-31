@@ -23,3 +23,6 @@ function redirordenaceptada() {
 function redirperfilmoto() {
     location.href= "/html/Perfilmoto.html"
 }
+function redirperfilcliente() {
+    location.href= "/html/Perfilcliente.html"
+}
