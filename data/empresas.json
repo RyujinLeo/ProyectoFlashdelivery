@@ -1,0 +1,594 @@
+[
+    {
+        "id": "",
+        "nombre": "Burger King",
+        "logo": "",
+        "ubicacion": "Toncontín",
+        "tiempoEnvio": "25-30",
+        "costoEnvio": "25",
+        "calificacion": "4.9",
+        "imagenEmpresa": "",
+        "favoritos":true,
+        "productos": [
+            {
+                "idProducto": "1",
+                "nombreProducto": "Whopper",
+                "precio": "159.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"2",
+                "nombreProducto": "Whopper Texana",
+                "precio": "179.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"3",
+                "nombreProducto": "Bacon King Doble",
+                "precio": "174.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"4",
+                "nombreProducto": "King de Pollo",
+                "precio": "155.00",
+                "imagenProducto": ""
+            }
+        ]
+    },
+    {
+        "id": "",
+        "nombre": "Mc Donalds",
+        "logo": "",
+        "ubicacion": "Cascadas Mall",
+        "tiempoEnvio": "15-30",
+        "costoEnvio": "40",
+        "calificacion": "4.5",
+        "imagenEmpresa": "",
+        "favoritos":null,
+        "productos": [
+            {
+                "idProducto":"5",
+                "nombreProducto": "Big Tasty Res",
+                "precio": "212.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Big Mac",
+                "precio": "172.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "McNifíca de Res Doble",
+                "precio": "221.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Gran McMenú Familiar",
+                "precio": "549.00",
+                "imagenProducto": ""
+            }
+        ]
+    },
+    {
+        "id": "",
+        "nombre": "Pizza Hut",
+        "logo": "",
+        "ubicacion": "Toncontín",
+        "tiempoEnvio": "25-40",
+        "costoEnvio": "30",
+        "calificacion": "4.7",
+        "imagenEmpresa": "",
+        "favoritos":true,
+        "productos": [
+            {
+                "idProducto":"5",
+                "nombreProducto": "4 Estaciones",
+                "precio": "299.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Super Suprema",
+                "precio": "299.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Pepperoni o Jamón",
+                "precio": "169.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "WOw Box",
+                "precio": "349.00",
+                "imagenProducto": ""
+            }
+        ]
+    },
+    {
+        "id": "",
+        "nombre": "Little Caesars",
+        "logo": "",
+        "ubicacion": "Sta Mónica Toncontín",
+        "tiempoEnvio": "25-30",
+        "costoEnvio": "30",
+        "calificacion": "3.7",
+        "imagenEmpresa": "",
+        "favoritos":null,
+        "productos": [
+            {
+                "idProducto":"5",
+                "nombreProducto": "Clásica Pepperoni",
+                "precio": "129.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Hula Hawaiian",
+                "precio": "199.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Clásica Queso",
+                "precio": "129.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Calzone",
+                "precio": "85.00",
+                "imagenProducto": ""
+            }
+        ]
+    },
+    {
+        "id": "",
+        "nombre": "Cafetano",
+        "logo": "",
+        "ubicacion": "Aeropuerto",
+        "tiempoEnvio": "15-30",
+        "costoEnvio": "30",
+        "calificacion": "4.9",
+        "imagenEmpresa": "",
+        "favoritos":null,
+        "productos": [
+            {
+                "idProducto":"5",
+                "nombreProducto": "Waffle Original",
+                "precio": "95.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Muffin de Elote",
+                "precio": "72.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Frappé Chocolate",
+                "precio": "99.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Cappuccino",
+                "precio": "73.00",
+                "imagenProducto": ""
+            }
+        ]
+    },
+    {
+        "id": "",
+        "nombre": "Cinnabon",
+        "logo": "",
+        "ubicacion": "Cascadas Mall",
+        "tiempoEnvio": "15-30",
+        "costoEnvio": "25",
+        "calificacion": "4.9",
+        "imagenEmpresa": "",
+        "favoritos":null,
+        "productos": [
+            {
+                "idProducto":"5",
+                "nombreProducto": "Pecanbon Bites",
+                "precio": "145.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Minibon Classic Con Cherry",
+                "precio": "90.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Cinnabon Classic",
+                "precio": "113.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Mocha",
+                "precio": "65.00",
+                "imagenProducto": ""
+            }
+        ]
+    },
+    {
+        "id": "",
+        "nombre": "Coffee Lab",
+        "logo": "",
+        "ubicacion": "Los Próceres",
+        "tiempoEnvio": "15-30",
+        "costoEnvio": "40",
+        "calificacion": "4.5",
+        "imagenEmpresa": "",
+        "favoritos":null,
+        "productos": [
+            {
+                "idProducto":"5",
+                "nombreProducto": "Baleada",
+                "precio": "38.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Waffle Benedictino",
+                "precio": "99.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Cappuccino",
+                "precio": "60.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Café Latte",
+                "precio": "53.00",
+                "imagenProducto": ""
+            }
+        ]
+    },
+    {
+        "id": "",
+        "nombre": "Galeano Café",
+        "logo": "",
+        "ubicacion": "Plaza Maderos",
+        "tiempoEnvio": "15-25",
+        "costoEnvio": "25",
+        "calificacion": "3.9",
+        "imagenEmpresa": "",
+        "favoritos":null,
+        "productos": [
+            {
+                "idProducto":"5",
+                "nombreProducto": "Cappuccino",
+                "precio": "57.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Mocha",
+                "precio": "90.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Lempira en Paris",
+                "precio": "166.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Crepas",
+                "precio": "99.00",
+                "imagenProducto": ""
+            }
+        ]
+    },
+    {
+        "id": "",
+        "nombre": "Buhos Liquor Store",
+        "logo": "",
+        "ubicacion": "Blvd. Morazán",
+        "tiempoEnvio": "15-30",
+        "costoEnvio": "40",
+        "calificacion": "4.3",
+        "imagenEmpresa": "",
+        "favoritos":null,
+        "productos": [
+            {
+                "idProducto":"5",
+                "nombreProducto": "Freixenet Italian Rose",
+                "precio": "588.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Cerveza Gallo",
+                "precio": "145.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Licor St. Germain",
+                "precio": "1.085.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Martini Vermouth",
+                "precio": "382.00",
+                "imagenProducto": ""
+            }
+        ]
+    },
+    {
+        "id": "",
+        "nombre": "Rock And Ron Liquor Store",
+        "logo": "",
+        "ubicacion": "Toncontín",
+        "tiempoEnvio": "15-25",
+        "costoEnvio": "35",
+        "calificacion": "5.0",
+        "imagenEmpresa": "",
+        "favoritos":true,
+        "productos": [
+            {
+                "idProducto":"",
+                "nombreProducto": "Tequila Corralejo",
+                "precio": "1.140.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"",
+                "nombreProducto": "Tequila Patrón Reposado",
+                "precio": "2.736.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"",
+                "nombreProducto": "Tequila Rose Strawberry",
+                "precio": "1.425.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"",
+                "nombreProducto": "Jack Daniel's",
+                "precio": "1.200.00",
+                "imagenProducto": ""
+            }
+        ]
+    },
+    {
+        "id": "",
+        "nombre": "Licorería El Corcho",
+        "logo": "",
+        "ubicacion": "",
+        "tiempoEnvio": "10-25",
+        "costoEnvio": "45",
+        "calificacion": "2.3",
+        "imagenEmpresa": "",
+        "favoritos":null,
+        "productos": [
+            {
+                "idProducto":"5",
+                "nombreProducto": "Cerveza Corona Extra",
+                "precio": "47.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Tequila Don Julio Añejo",
+                "precio": "2.789.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Tequila José Cuervo",
+                "precio": "590.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Vino Freixenet Rosado",
+                "precio": "520.00",
+                "imagenProducto": ""
+            }
+        ]
+    },
+    {
+        "id": "",
+        "nombre": "The Winery",
+        "logo": "",
+        "ubicacion": "Plaza Los Cipreces",
+        "tiempoEnvio": "10-25",
+        "costoEnvio": "Gratis",
+        "calificacion": "5.0",
+        "imagenEmpresa": "",
+        "favoritos":true,
+        "productos": [
+            {
+                "idProducto":"5",
+                "nombreProducto": "Vino Tinto Enemigo Malbec",
+                "precio": "1.735.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Vino tinto Rutini Malbec",
+                "precio": "1.105.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Ramón Bilbao",
+                "precio": "1.235.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Vino Romeo & Julieta Blanco",
+                "precio": "660.00",
+                "imagenProducto": ""
+            }
+        ]
+    },
+    {
+        "id": "",
+        "nombre": "Supermercado La Colonia",
+        "logo": "",
+        "ubicacion": "Las Torres",
+        "tiempoEnvio": "10-30",
+        "costoEnvio": "40",
+        "calificacion": "4.5",
+        "imagenEmpresa": "",
+        "favoritos":true,
+        "productos": [
+            {
+                "idProducto":"5",
+                "nombreProducto": "Piña",
+                "precio": "75.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Zambos Chile Limón",
+                "precio": "32.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Gomitas Panditas",
+                "precio": "45.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Manzanas",
+                "precio": "190.00",
+                "imagenProducto": ""
+            }
+        ]
+    },
+    {
+        "id": "",
+        "nombre": "Walmart",
+        "logo": "",
+        "ubicacion": "El Sauce",
+        "tiempoEnvio": "25-40",
+        "costoEnvio": "30",
+        "calificacion": "5.0",
+        "imagenEmpresa": "",
+        "favoritos":true,
+        "productos": [
+            {
+                "idProducto":"5",
+                "nombreProducto": "Zanahoria Lb",
+                "precio": "8.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Manzana Roja Lb",
+                "precio": "40.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Uva Lb",
+                "precio": "70.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Bistec De Res Especial Lb",
+                "precio": "115.00",
+                "imagenProducto": ""
+            }
+        ]
+    },
+    {
+        "id": "",
+        "nombre": "Hiper Tinedas Extra",
+        "logo": "",
+        "ubicacion": "Blvd. Suyapa",
+        "tiempoEnvio": "25-40",
+        "costoEnvio": "45",
+        "calificacion": "4.9",
+        "imagenEmpresa": "",
+        "favoritos":true,
+        "productos": [
+            {
+                "idProducto":"5",
+                "nombreProducto": "Cereal Rice Krispis 42 Oz",
+                "precio": "410.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Choco Krispis 290g",
+                "precio": "90.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Alitas De Pollo Krispy",
+                "precio": "99.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Alitas De Pollo Picante",
+                "precio": "90.00",
+                "imagenProducto": ""
+            }
+        ]
+    },
+    {
+        "id": "",
+        "nombre": "Paiz",
+        "logo": "",
+        "ubicacion": "Plaza Miraflores",
+        "tiempoEnvio": "25-35",
+        "costoEnvio": "30",
+        "calificacion": "5.0",
+        "imagenEmpresa": "",
+        "favoritos":true,
+        "productos": [
+            {
+                "idProducto":"5",
+                "nombreProducto": "Manzana Lb",
+                "precio": "45.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Tomate Pera Lb",
+                "precio": "12.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Escarola Unidad",
+                "precio": "15.00",
+                "imagenProducto": ""
+            },
+            {
+                "idProducto":"5",
+                "nombreProducto": "Cebolla Morada Lb",
+                "precio": "45.00",
+                "imagenProducto": ""
+            }
+        ]
+    }
+]

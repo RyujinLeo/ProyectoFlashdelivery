@@ -1,0 +1,16 @@
+[
+    {
+        "nombre": "María",
+        "identidad":"0801-1999-55555",
+        "correo": "maria@gmail.com",
+        "contrasena": "asd.456",
+        "telefono": "99556633"
+    },
+    {
+        "nombre": "Pérez",
+        "identidad":"0801-1999-55555",
+        "correo": "maria@gmail.com",
+        "contrasena": "asd.456",
+        "telefono": "99556633"
+    }
+]
