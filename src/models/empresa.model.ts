@@ -15,7 +15,7 @@ export interface Empresa {
     tiempoEnvio: string;
     costoEnvio: string;
     calificacion: string;
-    favoritos: boolean |null;
+    favoritos: boolean;
     productos: Array<Producto>;
     imagenLocal: string;
     recomendaciones: Recomendaciones;
