@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 export class Database {
-  server:string = 'localhost';
+  server:string = '127.0.0.1';
   port:string = '27017';
   db:string = 'flash';
 

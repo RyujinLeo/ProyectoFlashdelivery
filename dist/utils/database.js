@@ -7,7 +7,7 @@ exports.Database = void 0;
 const mongoose_1 = __importDefault(require("mongoose"));
 class Database {
     constructor() {
-        this.server = 'localhost';
+        this.server = '127.0.0.1';
         this.port = '27017';
         this.db = 'flash';
         // Cadena de conexión
