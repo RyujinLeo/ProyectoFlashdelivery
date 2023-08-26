@@ -8,6 +8,11 @@
         "calificacion": "4.9",
         "imagenEmpresa": "",
         "favoritos":true,
+        "recomendaciones": {
+            "nombreProducto": "",
+            "Precio": "",
+            "imagenProducto": ""
+        },
         "productos": [
             {
                 "idProducto": "1",

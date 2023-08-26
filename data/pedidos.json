@@ -1,0 +1,53 @@
+[
+    {
+        "restaurante": "Burger King",
+        "total": "204.00",
+        "ganancia": "25",
+        "direccionEntrega": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "estadoOrden": "entregado",
+        "detallePago": "tarjeta",
+        "detalleProducto": [
+            {
+                "idProducto":"1",
+                "nombreProducto": "Whopper Texana",
+                "precio": "179.00",
+                "cantidadProducto": "1",
+                "imagenProducto": ""
+            }
+        ]
+    },
+    {
+        "restaurante": "Mc Donalds",
+        "total": "252.00",
+        "ganancia": "40",
+        "direccionEntrega": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "estadoOrden": "tomada",
+        "detallePago": "efectivo",
+        "detalleProducto": [
+            {
+                "idProducto":"2",
+                "nombreProducto": "Big Tasty Res",
+                "precio": "212.00",
+                "cantidadProducto": "1",
+                "imagenProducto": ""
+            }
+        ]
+    },
+    {
+        "restaurante": "Pizza Hut",
+        "total": "299.00",
+        "ganancia": "40",
+        "direccionEntrega": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "estadoOrden": "tomada",
+        "detallePago": "efectivo",
+        "detalleProducto": [
+            {
+                "idProducto":"2",
+                "nombreProducto": "Super Suprema",
+                "precio": "212.00",
+                "cantidadProducto": "1",
+                "imagenProducto": "https://www.pizzahutonline.hn/Imagenes/CATEGORIAS/PIZZAS/SUPER%20SUPREMA.jpg"
+            }
+        ]
+    }
+]
