@@ -8,6 +8,7 @@ const schema = new mongoose.Schema<Usuario>({
     contrasena: String,
     telefono: String,
     direccion: String,
+    pedidos: Array<mongoose.Types.ObjectId>,
     imagenUsuario: String
 });
 

@@ -12,6 +12,7 @@ const schema = new mongoose_1.default.Schema({
     contrasena: String,
     telefono: String,
     direccion: String,
+    pedidos: (Array),
     imagenUsuario: String
 });
 exports.UsuarioSchema = mongoose_1.default.model('usuarios', schema);

@@ -11,5 +11,6 @@ export interface BaseUsuario {
 
 export interface Usuario extends BaseUsuario {
     direccion: string;
+    pedidos: Array<mongoose.Types.ObjectId>;
     imagenUsuario: string;
 }
