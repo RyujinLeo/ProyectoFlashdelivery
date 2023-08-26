@@ -9,7 +9,7 @@ app.use(express.json());
 
 
 app.get("/", (req:Request, res:Response) => {
-    res.send("Servidor para el ejercicio de teams");
+    res.send("Servidor para proyecto");
     res.end();
 });
 
