@@ -11,6 +11,7 @@ const empresa_router_1 = __importDefault(require("./routers/empresa.router"));
 const categoria_router_1 = __importDefault(require("./routers/categoria.router"));
 const motorista_router_1 = __importDefault(require("./routers/motorista.router"));
 const producto_router_1 = __importDefault(require("./routers/producto.router"));
+const administrador_router_1 = __importDefault(require("./routers/administrador.router"));
 const app = (0, express_1.default)();
 const db = new database_1.Database();
 app.use((0, cors_1.default)());
@@ -20,6 +21,7 @@ app.use('/empresas', empresa_router_1.default);
 app.use('/categorias', categoria_router_1.default);
 app.use('/motoristas', motorista_router_1.default);
 app.use('/productos', producto_router_1.default);
+app.use('/administradores', administrador_router_1.default);
 app.get("/", (req, res) => {
     res.send("Servidor para el proyecto");
     res.end();

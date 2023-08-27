@@ -52,12 +52,12 @@ const obtenerMotoristas = (req, res) => __awaiter(void 0, void 0, void 0, functi
 });
 exports.obtenerMotoristas = obtenerMotoristas;
 const obtenerMotoristasDisponibles = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    //const motorista = await MotoristaSchema.find({disponible: true}, {id: true, nombre: true, estado: true}).limit(2);
-    //if (motorista) {
-    //    res.send({status: true, message:'Motoristas disponibles obtenidos con exito', motorista});
-    //}
-    //else
-    //res.send({status: false, message:'Motoristas dispobles no encontrados'});
-    //res.end();
+    const motorista = yield motorista_schema_1.MotoristaSchema.find({ disponible: true }).limit(2);
+    if (motorista) {
+        res.send({ status: true, message: 'Motoristas disponibles obtenidos con exito', motorista });
+    }
+    else
+        res.send({ status: false, message: 'Motoristas disponibles no encontrados' });
+    res.end();
 });
 exports.obtenerMotoristasDisponibles = obtenerMotoristasDisponibles;

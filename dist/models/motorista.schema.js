@@ -7,6 +7,7 @@ exports.MotoristaSchema = void 0;
 const mongoose_1 = __importDefault(require("mongoose"));
 const schema = new mongoose_1.default.Schema({
     estado: String,
+    disponible: Boolean,
     nombre: String,
     identidad: String,
     correo: String,

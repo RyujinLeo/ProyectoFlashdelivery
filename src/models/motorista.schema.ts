@@ -3,6 +3,7 @@ import { Motorista } from "./motorista.model";
 
 const schema = new mongoose.Schema<Motorista>({
     estado: String,
+    disponible: Boolean,
     nombre: String,
     identidad: String,
     correo: String,

@@ -6,6 +6,7 @@ import empresaRouter from './routers/empresa.router';
 import categoriaRouter from './routers/categoria.router';
 import motoristaRouter from './routers/motorista.router';
 import productoRouter from './routers/producto.router';
+import administradorRouter from './routers/administrador.router';
 
 const app:Express = express();
 const db:Database = new Database();
@@ -16,6 +17,7 @@ app.use('/empresas', empresaRouter);
 app.use('/categorias', categoriaRouter);
 app.use('/motoristas',motoristaRouter);
 app.use('/productos', productoRouter);
+app.use('/administradores', administradorRouter);
 
 
 app.get("/", (req:Request, res:Response) => {

@@ -2,6 +2,7 @@ import mongoose from "mongoose";
 
 export interface Motorista {
     _id?: mongoose.Types.ObjectId;
+    disponible: boolean;
     estado: string;
     nombre: string;
     identidad: string;

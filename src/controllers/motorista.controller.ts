@@ -13,7 +13,7 @@ export const loginMotorista = async (req: Request, res: Response) => {
     res.end();
 }
 
-export const obtenerOrdenesMotorista =async (req: Request, res: Response) => {
+export const obtenerOrdenesMotorista = async (req: Request, res: Response) => {
 
     const motorista = await MotoristaSchema.findById(req.params.id, {ordenes: true});
     if (motorista) {
@@ -24,7 +24,7 @@ export const obtenerOrdenesMotorista =async (req: Request, res: Response) => {
     res.end();
 }
 
-export const obtenerDetalleMotorista =async (req: Request, res: Response) => {
+export const obtenerDetalleMotorista = async (req: Request, res: Response) => {
 
     const motorista = await MotoristaSchema.findById(req.params.id);
     if (motorista) {
@@ -36,7 +36,7 @@ export const obtenerDetalleMotorista =async (req: Request, res: Response) => {
 
 }
 
-export const obtenerMotoristas =async (req: Request, res: Response) => {
+export const obtenerMotoristas = async (req: Request, res: Response) => {
 
     const motorista = await MotoristaSchema.find().limit(2);
     if (motorista) {
@@ -48,14 +48,14 @@ export const obtenerMotoristas =async (req: Request, res: Response) => {
 
 }
 
-export const obtenerMotoristasDisponibles =async (req: Request, res: Response) => {
+export const obtenerMotoristasDisponibles = async (req: Request, res: Response) => {
 
-    //const motorista = await MotoristaSchema.find({disponible: true}, {id: true, nombre: true, estado: true}).limit(2);
-    //if (motorista) {
-    //    res.send({status: true, message:'Motoristas disponibles obtenidos con exito', motorista});
-    //}
-    //else
-        //res.send({status: false, message:'Motoristas dispobles no encontrados'});
-    //res.end();
+    const motorista = await MotoristaSchema.find({disponible: true}).limit(2);
+    if (motorista) {
+        res.send({status: true, message:'Motoristas disponibles obtenidos con exito', motorista});
+    }
+    else
+        res.send({status: false, message:'Motoristas disponibles no encontrados'});
+    res.end();
 }
 
