@@ -623,8 +623,10 @@ grid-area: cantidad; font-size: 1rem;
     "orden orden"
     "total numtotal"
     "ganancia numganancia"
+    "gananciauno numgananciauno"
     "direct direct"
     "direccion direccion"
+    "metododepago pagoseleccionado"
     ;
     margin-bottom: 10px;
 }
@@ -655,6 +657,30 @@ grid-area: cantidad; font-size: 1rem;
     font-size: 1.1rem;
     text-align: right;
 }
+.infoorden #gananciauno{
+    grid-area: gananciauno;
+    font-size: 1.1rem;
+}
+.infoorden #numgananciauno{
+    grid-area: numgananciauno;
+    font-size: 1.1rem;
+    text-align: right;
+}
+
+.infoorden #Metododepago{
+    grid-area: metododepago;
+    font-size: 1.1rem;
+    margin-top: 10px;
+
+}
+.infoorden #pagoseleccionado{
+    grid-area: pagoseleccionado;
+    font-size: 1.1rem;
+    text-align: right;
+    margin-top: 10px;
+
+}
+
 .infoorden #direccionlabel{
     grid-area: direct;
     font-size: 1.1rem;
@@ -684,7 +710,21 @@ grid-area: cantidad; font-size: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 40%;
+    height: 55px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-size: 1.3rem;
+}
+.botoncancelar{
+    background-color: #FE293E;
+    border-radius: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
     height: 55px;
     border: none;
     margin-left: auto;
