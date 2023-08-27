@@ -1,583 +1,832 @@
-[
+[{
+  "_id": {
+    "$oid": "64e89f1ffaad5e51b864f9f6"
+  },
+  "nombre": "Burger King",
+  "logo": "https://lh3.googleusercontent.com/pw/AIL4fc9WyZ_q-6wJyjvcSclMtRkO64P8MQ0XMFmUSsPr47laN_FYlSrjDdwQt8ePb0jjVyVEHDDszEZ-A-G5NwysJHubPFL_8sHkWLpLBVELqGl8_AUvXj0Tnd_r5R7oERH6fhE-vs_k6OI-N0vminOra48HibzD8oDVy1iNurinuuwrhAwzIYQI32yuQQUWYtxn_JdOnewXSx6EUZ8K_eQFsPloTDHX3VWtpAOKMhq0gdShNgHGdtAR3pilhce2cpq61tkgRMibJ0iAviDziLmKcENYYIDjuRwzss7lUVTOwqeQdr5zisyth1BWJggDu3hI-OmKqbM4KPsgcZNqu1Vwyf-obwcgM7iLwKZE2G15nT18AIzexoB9Q0PGoeClm1gA5bA8NyHhmqW610arC_klKvn4ukFRhY3dQ4KpcS4IAN7Wy9v29MkGkWukKU2tD5ZwXrUgKmOvkwmNZsJNkoCR7HJc5eZeHC7Ho1d-EI3pQfrjYpbJdL448CGLGHTw5jp4HSs-z1AyySd2VTDN16yJiGhOWhqeYXfihRQB-VsIWI2onVG1pWckPprWwiIJw1QIeuvWO3QaEz5b13VrYVXkgSDgMD9gaTtoMNTMYEcr874YSFSH1LbDqHJFBpTNBfbjJREGE6DTJ_qiHU6V_DXLxsd2TKDvxqtldp3eayTMcmAKZ22_-sjALdfGtvy6UE2h-G-t3OqvNp3BnzY9sF7g5CxRAp2QQFcmD5QhfqfinRduSWS60LcAKqLS4ltkGJ4SP7uvEA96NG3taqu3lUnZWLtD_UvGGImV8kzq8X2vYbaLLw35sE57gNM1-r_FSu_FH_DXlzB3ED86eu9a-77vq1513CcmlAZ3ppiKa-VzB4cc69XfZLPWECHPsAGbR9Pbo4vmmEA4ncNtgC7S6AkbvQ=w914-h924-s-no?authuser=0",
+  "ubicacion": "Toncontín",
+  "tiempoEnvio": "25-30",
+  "costoEnvio": "25",
+  "calificacion": "4.9",
+  "favoritos": true,
+  "productos": [
     {
-        "nombre": "Burger King",
-        "logo": "",
-        "ubicacion": "Toncontín",
-        "tiempoEnvio": "25-30",
-        "costoEnvio": "25",
-        "calificacion": "4.9",
-        "imagenEmpresa": "",
-        "favoritos":true,
-        "recomendaciones": {
-            "nombreProducto": "",
-            "Precio": "",
-            "imagenProducto": ""
-        },
-        "productos": [
-            {
-                "idProducto": "1",
-                "nombreProducto": "Whopper",
-                "precio": "159.00",
-                "imagenProducto": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.hn/files/WHOPPER_1.png"
-            },
-            {
-                "idProducto":"2",
-                "nombreProducto": "Whopper Texana",
-                "precio": "179.00",
-                "imagenProducto": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.hn/files/WHOPPER%20TEXANA_0.png"
-            },
-            {
-                "idProducto":"3",
-                "nombreProducto": "Bacon King Doble",
-                "precio": "174.00",
-                "imagenProducto": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.hn/files/BACON%20KING.png"
-            },
-            {
-                "idProducto":"4",
-                "nombreProducto": "King de Pollo",
-                "precio": "155.00",
-                "imagenProducto": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.hn/files/KING%20DE%20POLLO_1.png"
-            }
-        ]
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9b5"
+      },
+      "nombreProducto": "Whopper",
+      "precio": "159.00",
+      "imagenProducto": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.hn/files/WHOPPER_1.png"
     },
     {
-        "nombre": "Mc Donalds",
-        "logo": "",
-        "ubicacion": "Cascadas Mall",
-        "tiempoEnvio": "15-30",
-        "costoEnvio": "40",
-        "calificacion": "4.5",
-        "imagenEmpresa": "",
-        "favoritos":null,
-        "productos": [
-            {
-                "idProducto":"5",
-                "nombreProducto": "Big Tasty Res",
-                "precio": "212.00",
-                "imagenProducto": "https://mcdonalds.com.hn/imagen/menu-products/1641161964_big%20tasty%20res.jpg"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Big Mac",
-                "precio": "172.00",
-                "imagenProducto": "https://mcdonalds.com.hn/imagen/menu-products/1690994235_Bigmac_400x400px_BB.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "McNifíca de Res Doble",
-                "precio": "221.00",
-                "imagenProducto": "https://mcdonalds.com.hn/imagen/menu-products/1640814580_9.McNifica%20res%20doble.jpg"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Gran McMenú Familiar",
-                "precio": "549.00",
-                "imagenProducto": "https://mcdonalds.com.hn/imagen/menu-products/1641162647_4%20personas.jpg"
-            }
-        ]
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9b6"
+      },
+      "nombreProducto": "Whopper Texana",
+      "precio": "179.00",
+      "imagenProducto": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.hn/files/WHOPPER%20TEXANA_0.png"
     },
     {
-        "nombre": "Pizza Hut",
-        "logo": "",
-        "ubicacion": "Toncontín",
-        "tiempoEnvio": "25-40",
-        "costoEnvio": "30",
-        "calificacion": "4.7",
-        "imagenEmpresa": "",
-        "favoritos":true,
-        "productos": [
-            {
-                "idProducto":"5",
-                "nombreProducto": "4 Estaciones",
-                "precio": "299.00",
-                "imagenProducto": "https://www.pizzahutonline.hn/Imagenes/CATEGORIAS/PIZZAS/001.jpg "
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Super Suprema",
-                "precio": "299.00",
-                "imagenProducto": "https://www.pizzahutonline.hn/Imagenes/CATEGORIAS/PIZZAS/SUPER%20SUPREMA.jpg"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Pepperoni o Jamón",
-                "precio": "279.00",
-                "imagenProducto": "https://www.pizzahutonline.hn/Imagenes/CATEGORIAS/PIZZAS/PEPPERONI%20O%20JAMON%20LOVERS.jpg"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "WOw Box",
-                "precio": "669.00",
-                "imagenProducto": "https://www.pizzahutonline.hn/Imagenes/CATEGORIAS/PROMOS/Wow%20Box.png"
-            }
-        ]
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9b7"
+      },
+      "nombreProducto": "Bacon King Doble",
+      "precio": "174.00",
+      "imagenProducto": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.hn/files/BACON%20KING.png"
     },
     {
-        "nombre": "Little Caesars",
-        "logo": "",
-        "ubicacion": "Sta Mónica Toncontín",
-        "tiempoEnvio": "25-30",
-        "costoEnvio": "30",
-        "calificacion": "3.7",
-        "imagenEmpresa": "",
-        "favoritos":null,
-        "productos": [
-            {
-                "idProducto":"5",
-                "nombreProducto": "Clásica Pepperoni",
-                "precio": "129.00",
-                "imagenProducto": "https://inturfiles.s3.us-east-2.amazonaws.com/folder/products/500X500/Pizza-Pepperoni-de_1611544979362.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Hula Hawaiian",
-                "precio": "169.00",
-                "imagenProducto": "https://inturfiles.s3.us-east-2.amazonaws.com/folder/products/500X500/Pizza-Hula-Hawaian-54_1611544977393.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Clásica Queso",
-                "precio": "129.00",
-                "imagenProducto": "https://inturfiles.s3.us-east-2.amazonaws.com/folder/products/500X500/Pizza-Queso-50_1611545034860.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Calzone",
-                "precio": "90.00",
-                "imagenProducto": "https://inturfiles.s3.us-east-2.amazonaws.com/folder/products/500X500/Calzone-82_1611545091416.png"
-            }
-        ]
-    },
-    {
-        "nombre": "Cafetano",
-        "logo": "",
-        "ubicacion": "Aeropuerto",
-        "tiempoEnvio": "15-30",
-        "costoEnvio": "30",
-        "calificacion": "4.9",
-        "imagenEmpresa": "",
-        "favoritos":null,
-        "productos": [
-            {
-                "idProducto":"5",
-                "nombreProducto": "Waffle Original",
-                "precio": "95.00",
-                "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc-JGxuNgEnkXl9595a4O-N8WNwW9uMKggbmAOcRTwNFkPObUoJhMbjjDTFWFbNhDJKihAZh-fcwOKocIBbY_aIYp5fjclynmjJxzMvKPdac__GVDl-YoWMbQCA6hZPo279JHHd6aaZfpvmOdd6jOrHizufjXIiuFSOLQlE6lg83cox9eHHPbTYc7bVdN7hISC_s4mhdV6SwvEvjT_ofPlp5tEdUkGMeNPzpcNL31gs7UQGNKoyke9NC6wTFF0aJPRmP7iKusxvBcoR8Gfb6jPBC0400hlN0BJnjvLzUsQDcpVfWqnP30r0wwWpVbazja88UY_hepVxhjfHEAvDp1qIesW3ePK3g_AXT_7md3uI1YkPALXZVkUqrCn0y_8n9cQ5j6Zfy60uYJNNnpgHoK8yEf1hjCMJ4GJUEJLVsFJKF5AoKYMcs8lS24J9nr1ZIKU5Mw0Mylr1r4WTf31zWtCS2LtqNhmCsfEUVlFmqIukTzRfsnvDdScrYxDlY6vhvQyPrJP3Vp_C67vnP6dLLG-6-fCLPVk9F4FUMN0jr6sf8g1SYyzoc-DYM2e_3R0Q0aJq_YImtkN00frwpgn8gneCFI0u3IQGreNfrsnH9ejS3xNB269WtTvHAgiaDSc9JD_pdi7nlieZAC_kmBY-PF82gTcXKyH5so5aIrVz-Mx0Osfqhy8UtgkLbTgXkO0XkVsiqgDvUdJjQHP6VvdrkTNi9j86FYAarEXZrmvWTjrN47JwEQpHIX_Z49tHs3L8okYktL2qmi6SL_PwsSq8c7HwWPbnMxw1lFOqn6U9eaSU9LcDgqxnhnglnFThNT5_5i2HXJSAyrhc78h7i8KkzoZA8XW-f9KnaQOrQYFqnd6DzFda8GOG_kln0WVo4ihH7q99Q-UYmIHKN781J03ficw=w201-h251-s-no?authuser=0"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Muffin de Elote",
-                "precio": "72.00",
-                "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc8GpaA1SYVTqiukPwHAELg4aLuyvUYJgssCMhbZs6oELlWRw6Vtt7OR5X-SSPZ_MPLFrrcgdoVXK2f9XI2J387rR5UrAYo6gKFw508v9TEzJ0x5n-pRo5o34b2IzUL-EnKUNZP1ohW5MmTU_a2GsgAp9Mt-NqGYmSiLdkIamZUDbOhaLfZUj5qXSWdKrC4sQRgourRihK9yicSpBoe9Z-87jWBM_JFtQ6Lj1d2MfvxPmCTGLdnPPX1x8dho-FUrETaDA6uRGgFPXM7KgsgmARymX6h-zNRulJq68XeGYGhWFAnxYeSQDTN7xYV5RFul0DAFa2kZgQ3P4GTBGT21yQ2SDzQlsQRJmQ5ZZOYQEZMXhs1YtqQCTdEJFC2xv0E1eT-xRqksP7HPJl1diyqq31MZNr4-kUcsa0BSNBNZqGQ5cpQNP0KQa-7qRyWt-MxKsooRZxBWkedzMehunZ_oxMXNenEE_gC22wkfbG5rKMbRXddXtXuW6fjbOyYyG_C-R10mCJFHcHW-OijSKthxaF9aqNgzQo62qrXse860DdkCHLtxxETvfkFkzkMfbM7WbOHad_mkPnsF5jut2ex-esA9H68wEEusPx7rrEj6HeSB3XoIHT30WDtjaClV5BcKz1tIDW9AHmCtRo_EjkVejEXxSSwi6RNnfI58qX5YTraHN4XzUY2CscfjxLO-vb4M0Bxh-Kt2LJ-WUihY9_jqeXh5IZyT83vCHYzBtjhiGLPHB8Ge-5MWvu1QcV2zdluHrYBrB2VAOD-y1JjNjV1jKJueZnLdVmCUv69QP_PsoyS_KrZdGEEj0613LCxap1hdaJMYv_FNuczRt2YWajai8GDq0bttUn_CuMcADpaMQzVOkNr07LL8vkv9l7Tg34lgmknD-PQX9WMEMfbAfGKV0A=w739-h924-s-no?authuser=0"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Frappé Chocolate",
-                "precio": "99.00",
-                "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc8dkjspQT0WMpVwiDB_eBgYwgCcAAE4w1_zZXFvSTW7ATzvtx3_VAy8Y_MNM5VyVi7S7TiIFeFYL2f7uG1tOAevrQp_JvIFZXeUMerIwWAdlCaI2Imc6YfSqe5XfaUA369DaZiOXwq4CbNuV34dO8xflDyF2YgA931rSC9ogzwihCuv3NMKu1lArmmJkOP6RutABwOutAzLXYjmVvNBE6CgFV07e_-XYHWU47665U3riCTnKt5ojLDNgOAJoQiIUHPCMz6KnOF_YTlXGGwZ9A0mQhnuIMp-Vj4Y8G6a8M0SeSmCmNmMll5dXnt3odAj1UY2m2787Ia_DCH_IdaUf5g1WaVm1agKOnETBwfPilQ23wgvf5146Eg1mCxHaBXFE_2qF7TEb0R0tYvdp0yIyjPybB0P4dzZ4i-21QVJebtRtUu5sZpWvsAMMVtVZcJwBO6iiw6xQXZUwQiMwFDaC0_EnlbEGfYD2RC7bVZayzOWdKklEYkiheDt0KWF6tPGBHVoeOFFKFLCGFLfe8qtyFiM7DkZP4RRqV2PpVDFPX_2dqSluys-FA3kS55lFFzsyDHJ1uUdfHmtsT-GbZcIbFdbWN3VnpvXkdeqQ1emd_e0dzGmFTBdxpYSlVhQeKS2psDRW8PnFJF5auAQ09dCRPJ9akA6X7G5fvtjfNMXxcGbKuTi1gE3tsJhcRiYzss3nE5kGmIR1HwnifbdYDHfzAK8neMd3lrheMJJU1tpcN8bhgIKDFgVw-AfYDQbNzW6K4FrHFVGq4yc7J5Jlxp86IUfAfYOyS6sL9CsT-Z7NpCv_lZSZ_vCbknF26Wnlr8h6gX5iXZz3SelbeJjGKBKGZDVya3M0kddOjUTlDGLnSjvP65d0Jsqx-_OrQ-iom7xkKZwIC6aUNksdbiQV1p5gw=w201-h251-s-no?authuser=0"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Cappuccino",
-                "precio": "73.00",
-                "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc866XBcvGsQJRdNoxvUe04qZK7JpLFEqCdsbyuxoX4gPepz3E0wx6VixlAESWKqxAe5KePiBWiT0aYLZgdOAHM9mGJgogoh3PIh6mXmEtNcnZdN7WeNn_e_CwtYPV5rK1Pa_oa_IfeTxNhzJFTEb0PNX3M3p-4fV3bpopPVQVwEqF6jENqxGviyCSRIYgFmZCC3OoEAc2OE-j3mE-_MlyPqqdvDFeLCG3kXEOxVtFqVYES-3hA8Om2owqNlfOcWvGOv29bLWrE2dXNpCPA5SGnOyO50heINepOYybz1zydTXoCuNL0RffI-jebNtVlW_QpVEQP1gOwBZAVEjlczSgX5NxkVzdUs9PmGFjXrsOo3OJWWJJKcQ3WNZDPe7rGMQsjRllLeLkufyRsL7qBYZ82oIO3e4FQyR16c5b4UToHcSR_uxzxf5UuwWGOZuwvtwhitru0j0RDnpGTTsEvdjvxFgt45YJU15h0F71D9OmGbHb9FdQtcf1WCubASj9G7QX-jD7AnLiOnAPyHj1NHfVwhZVd7gIHIOYaj0nysLtdn_E-7oNb7e8t6pdDXlrvp4nuEk4CCShuuDhKoSo80gwWsHu2CUIMZy7sWBPMI675t8xiCjcx87gpeCbmso8MsudbErZKPMkJdM4vslHHzYD24Wo8rMkMMbuB7JPGbzczU_wMgfKZHNo9ZGZeGLTQGJf9mw1CGCTH8iu9S2GtvMco07XwjJOYQqV_sNux3wi70xcJFdN2LxSORtBw_swZ4WOfz5YS4tw9fd8piDFGOByDqsjXemYOib5k4RL7oSv6hVzNLGt49EF3gO7ZJi9YsnbpMsabOabfS1yH8OCm2e90AKedJnNcWHknv94IVL3RpzlPW-t7STzbKy4zOAnB3bTzg7lZ4EgifkigOLikYfw=w573-h702-s-no?authuser=0"
-            }
-        ]
-    },
-    {
-        "nombre": "Cinnabon",
-        "logo": "",
-        "ubicacion": "Cascadas Mall",
-        "tiempoEnvio": "15-30",
-        "costoEnvio": "25",
-        "calificacion": "4.9",
-        "imagenEmpresa": "",
-        "favoritos":null,
-        "productos": [
-            {
-                "idProducto":"5",
-                "nombreProducto": "Pecanbon Bites",
-                "precio": "145.00",
-                "imagenProducto": "https://www.cinnabon.com/-/media/cinnabon/menu/caramel-pecanbon/cin_520528_pecanbon_314x256.jpg?v=1&d=20220210T091139Z&la=en&h=256&w=314&hash=F73218C801B2F0BA70D0DE0BE96245BF"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Pecan Bites Cherry",
-                "precio": "90.00",
-                "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc-0vL7iLEBZTG29lo6o28pJYPE8u8fF54DtByDiUzvqb59-ujlM3Ihq0TAaH79iEVghLzDhpjDEhcwlqSBPDZo8Ni6MD-zUx3CGI8ZxvmZymKVC3PBeKphLpAmgFIAjGGsjCdB4ootIoPHTPlRnK7XPCrGae6rGoH9i90MdrKDFIncArNjueKt3anQBvem6dozG4bnoRqsbpkxrqI5E7jITE1oq0OtpV5ooYWrHMzlyZnbU6CPuV5oreTeeS7_jNr7JfUVxfR01IhaKXObRAk8gMOOmA772JIaqgVAgkX2XUfMNOoCfdgMA3J4_aZTdofVHckb5PIQQUzbfvRsXvoiFJPyz9FOddjZfUGFnEfY49Cr-3AUe3qa-YGJ69WlMWb4wLhyAGQyDkh2t1dBnFJ0mM2U3JsM3Dn2MDlmooJfVJFlT18j8SCBdlEU8QVIeVAfLMdVrgusRLg1BlVRHSYGrqdJ3ZDCB-RXQ0prjxbJ0ldh3BrsS3_8nvCOehWzxI5z4nRyufOtPqyom844gTAzN91BJda8rVTDZtBjuV1GRzUBwYIdB_Nh3TlHcevSeVyyhe5-eXelpXoBN61h2sTlm05mVG0-y5ZVz-PkTdWqSFAmcBSZ-mr9QrVKb_WSdab3Ufp0X3-aC3aoa5oeEei201KO0c237nF2GMcpuxdJ3Zrxw2ErhkicDtoEzzR3zk41LQjus7KDmjeWfQbIMIr0Jp-tdXZJpe6n7gnq3WYm8HwP7q7hoP3B7sdsoWuw2U11eIkkx5s9y8w-AlNANNxGMc5CRphwRKV5ybLLrWwXZcr1X9VEVnVtT0tQjJR5Ujj2Cm0bsr_4VnN2qTDiiPhz6wVTqYzrpNh6mmllaPUkxL-ZW-JBxsM9F2Q_8DlXWEGioyiGm2nGNSWz6gCiuZQ=w700-h779-s-no?authuser=0"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Cinnabon Classic",
-                "precio": "113.00",
-                "imagenProducto": "https://www.cinnabon.com/-/media/cinnabon/menu/classic-roll/cin_520528_classic-roll_314x256.jpg?v=1&d=20220210T085803Z&la=en&h=256&w=314&hash=DF46927F79A42465357785467AF71CC9"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Mocha",
-                "precio": "65.00",
-                "imagenProducto": "https://www.cinnabon.com/-/media/cinnabon/menu/mochalatta-chill/cin_520528_mochalattachill_314x256.jpg?v=1&d=20220209T122340Z&la=en&h=256&w=314&hash=D45C5484EDA5B1F692A1A2FFCDFE57DF"
-            }
-        ]
-    },
-    {
-        "nombre": "Coffee Lab",
-        "logo": "",
-        "ubicacion": "Los Próceres",
-        "tiempoEnvio": "15-30",
-        "costoEnvio": "40",
-        "calificacion": "4.5",
-        "imagenEmpresa": "",
-        "favoritos":null,
-        "productos": [
-            {
-                "idProducto":"5",
-                "nombreProducto": "Baleada",
-                "precio": "38.00",
-                "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc9FkqTeplTWV-pTumMOM61qskLHxwH8YJWP1W9QMS7k90mFpEhB463Scejza2NaEeksM_Ys09cYw8AM8DAH5OW78Fn8K49NJcjWGUR-8xNfj0FaXusdTAqDpoWpAHWoL22p1nvV774RFiCz9SqNJVLYCbtoI2RzGvi1fOYNbCYeggCRbMrZ6T61eBsHZJEA266eLzF6nZJjT0Kn1CqdHktSeUWkjpsDGcPT0hhh26otQgF7fz6LLgj9LPmu8WCdNy0WHUcqprGJMV4rZI7Fa2IyCWjlBrXke6VyL-QAxDihqaSnn2_Xn9oC0CCmOmcxMhT0X6jKjqD7-xj1P83-4IADPVrVoHNs_tQodWw9VbftWWqhBqWwNsid6WeuQH7QPA3fEreoQblI5C7u9oYcdJ3d2upzfIRNHkUcnGI3x6aVmi50RKtUggqBHWJMrS67EYMX70nQp8eqRYDsIbRtTj-P44tA8XfFwpZV9ApxQz-515omZkpXAwLZ6JBGWeo9S6lDScdEbt8a8jb_Jv2-lTSAmPJQp10IIVR5M830flF37sk5cIJimwmQdQTsL43efSFQRZFjbYVOAZO6n8cmscn-FpM7DaOrRithF-up201w0cWuOznw5jeuiAZXMUVJsZidVO5lLxFCICzg5ltOOkQHDwvsU9mZvpyWcJVLpd_wJgoL79PcOqxZaeLGgm1dvbKElclpScDn0OHM57PGk9BqeT1RRuFpNR_l5K1nWqNohgdIdEG_GzJOTL74xpStJnTItsYqEEc0afh9yD9WQFEu8F8VAgJAuY2d3nUvYy1jYdH9M3jcQ021dS-bV_pDzo91LS4Br7AL2shrDjKUMS6RifHcvVNb2rtf9M-tNf_51ChP7f52AkiACd9QyyWLvvPoCZRimlOdCLfeXHpy5Q=w355-h285-no?authuser=0"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Waffle Benedictino",
-                "precio": "99.00",
-                "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc_xzZRE9OsaXnkR_MTOcRe73XphpLZFwrjhpiEPFrocoG3XqDu8Z7GVKR4rcUcomP0CHSfI4V7bFa-7oUIqWPimCngo_FxtawkuHXBcX3tLidb6NbNK24Lh4Ys7haV44M22wOoaowwIdZ-idlI797Mt68yXCSS9Fv71v8ZQDSMjuDmXb7AYJOFcMm5piUpmlEF39B-DxW6UUMQbkE89u7c-pWJd8cIIGLNXkDwmpG_BsbR8fP8BdzQONghsmJGXa8Q4a_GPLv8UvpAiBXyHE8O0ovbEPl6Et9CTu8MQpZhU6-NWumO_JrhBSdf41wyZsOu8JF7LHUAEZrQjpaVq-9l6GsjncgHHs0JEZzBxz8pWTi6HpuBfwwQbQ2YEfDcMDX08kGu0rKdhMR3k1Cd1FZmvvF61MWZZ1CiCWEYpv9Y2UnVDZKdwVsNBxLJZ9WTlGm3EAp18yXXEB--a7mQYkSfTT8QTDrZogjnTuI1JhwwMxLybIOLyNIFv6JoqO_hHNb2mi1IKlZW9IWHwptq4ugkiWpcVinLzPLnePcb28gbndLjmG0r9cK9U1jgViUPqoRteGfI9jRsMTNq9LhoaQry0FqjLk6ipkMOhmFs8tK8Wvyxw-Xq9y1lhCnJwPvNmRzd3CBgBQY9zLXb5-AUxBabcDgtswRdxZDN5O24gjh13hykRgr6ARfioQW8J-eotnC36PNHi-KI_rer1FSuVQYxQwzD3jVCq2zDa2nNheNg4d7v2zc47LeVSDYaMjNS7TQ739T-P18b6fYj-oiB-pRrqFkIdb9pfn1H45O6wRt2RpGFEZ1sNGuOZiGi2kPM7hEOdf6LI-9Ra-1mzUIhzeOhD830cdEACsn_s4b0zVh6GDbwXQosC-QGrWJL-jgVsLVL76f5u6cNktD0uo3V2qQ=w1000-h563-s-no?authuser=0"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Cappuccino",
-                "precio": "60.00",
-                "imagenProducto": "https://saki.us/cdn/shop/articles/20221223082901-cappuccino-recipe-blog_1200x1200.webp?v=1671784153"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Café Latte",
-                "precio": "53.00",
-                "imagenProducto": "https://www.roastycoffee.com/wp-content/uploads/mBPxUtTx-480x480.jpeg"
-            }
-        ]
-    },
-    {
-        "nombre": "Galeano Café",
-        "logo": "",
-        "ubicacion": "Plaza Maderos",
-        "tiempoEnvio": "15-25",
-        "costoEnvio": "25",
-        "calificacion": "3.9",
-        "imagenEmpresa": "",
-        "favoritos":null,
-        "productos": [
-            {
-                "idProducto":"5",
-                "nombreProducto": "Cappuccino",
-                "precio": "57.00",
-                "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc_okdRB8WK_684q7g3WDaJhp77wtRxxMGBVx2LaKX2Wva7hi66djLbWxNi1rKDYGC95eTDApKo9RoahCNpeP-87YhX6PfcNLkARlCy8YPeFnOLG9Fp7yMg-zmpf7vMYRvIlsJCOiET5or7YwiY5ZC9cmHfXdmXd5K-4b0f-w2qKYdG2776syXHPMhoaoaurUK1ugmGMajR0gRzwh_Bc_J0N6x-7IcxZMgJ_pXuiksl8CY6xciFKFFZiPV9SE1H5lOpbEYjE2vFxdbqq_8Bt5xQcd26OTX34dPzzfR0ZBkABP5bLOGh50wPAYRomjxrC26zF5PvsPVEvSnljVLevGdLmrXc0pU9MMRmCIQJHcZY3snIWSbYJBJW_Tmb8AG09An4t0Wf6Ne8CTsMS82FZMGGsaXh4WFC4ohZmdR3xOqlpZXNf7v25kz6isbEVgbiCVWqGDnX8COhCJeLs9RCOXadxKz2EZMw8nR5nN3g7kMKZMDNlnizzt22MT8ZBdVDPOfowJjm97vF0ZVHMOMiISCuDOK89Ns9NgSwcTmZWONf6P1AbAMoUwCxN2U-4r-KQMc3__Z5NbnJvaIpAJSPJqrIvjUnKFjkL-Ov3m_C_8Im-xpV2CfX7jNeGvkKv7IB_-DU12t7ExObi1KAAf6IR5H5LhAMUrOOdNT12pfQN87nE6A8Rex7pM1FJRiDs-15UfRlgNjDjo0Iz3fsH3ZXveDdwtO0hQbrEaY4d1BZLpPefaVcKIeSnkCKrx_0iEbgv9Ec_YwaXGBwvjgH4z6-trfFVfMk7lTCsL2U7jMKPE6CXReMMU1IhNJnCwsqDb7Ii1u-vs5ap7UeL0RE7TpHmuuisObOehGJgwFsIUm4xjbS-8E5aMjm6NBAIInc_QOZOHl6tCKdLt8xaXrYn8G019Q=w175-h202-s-no?authuser=0"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Mocha",
-                "precio": "90.00",
-                "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc-ZamVJEV8K-ysAZ5-eTTVDw6sJV0MKtHxrOvz2ZZnSylsdmub4X3679qn9oqB4lajSnrDKscZE_NURjV6d5stkXn7roTCUiBD7gqUGiOdLjzO-A_B5HAiaK_bZWVpS7UNqHGhcs2iS91OOPOz3BBvlk7LKq4_46e74T3hpVcjZ8sVHH7GHG1PxsXrm0AKo6VLlrTcfjRiVVIdiG8HVdHxUfh24p8-hofLat9uv9T4-3eqwvX55GnsPrEH0FY6TJ-yIW_bceFuTQlL8cor2qNYKTr_1fdaHu-2AaheTBCr3bi1vSZq69JUyYXSKvNLsispMh_crQ0wgStrb379oxqgx3Bos6HR_2qN6N8TRqtxx8o-Vgo5E8q179i8ewTVRtBIaeC0nAipZS8BpAxp1eBq9mzo6LSwUCT6Mpb-0GNNL3iyFI3MjF9AV4P0pyFPVlQ2lrEOFgjwgicA-fNlYK3b_a6gCk6MMTG5_l6XDQBP0ut4sEMSptFxuYKakoucy4c5ea14gsNDwFMx26Apjl07xaOe9bf03ERZ50ZGHzUUyn9wis_BZWZLteYPi21incxdplt2gP86TYZL1aoJm9WQ7AUgjqKtk1zaYF3hG-13ugp3qwqXytwkmiK2uHrSUYHiddxQ7cwHPJs7jNXubRZbrt9GUTWPzG9zzejAA6rv2WfqbX32lwvEmYwh_AvsVK5MA995SDScsR39MROE42XkfVLuwpjwuXb-xPlxd-JnGwa3PvS3rgdPJn8GNftF-sTbG0fcmx75jlhrZwvc0BSuP_vXghph3r1Vt1fIdKmmmEN1PrsfZGy2bvCjslDg4o7BUqbDnXOjNg4OQnW7ykHSVBdHF1xPQdCIzqnlm9bE77xiGOlM5HpvcsWr5hnWpk2-F0-elknHT0ZsNe8l_Cg=w924-h924-s-no?authuser=0"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Lempira en Paris",
-                "precio": "166.00",
-                "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc_JhhLaz_2r59CSyXDw6CVCYhRwNq8PL647lAdjHUfrjCkvie0q6k807CCXj49piLZJLvO1ZMwv7vpMts8JT4ZHGUhwOj8aDKqymyrwx8Gxn7Wni_IBtARsMKucRo-NoQrOrRVTe6KDg5F0wuaxuBbCoiCf2GVVJOxCp2UR64NsVTRgxYH1xLMsKcXnZNZnqBa1LXalF-v6LBdrZ8cMrcZAZrcQ4cZoWogRInY59Rqp6Oigh_7EVZRUGrI5SC8lt1c4FWj0L8SsAl7aoEyPObq3j0lHdpW3fb0rrOeQBSj4eXc5FII5zufIHaVWYPGry7eCMjaXtqFiameCv9gwtAWg4M2iRnCSXh2-v4XtXec7tXFt6qy4MxutJmoLfuIe2yb2zCABfbqYIP3RkHqShii_9Q9iu9E20U6yhbwzZdIS9Uf17DIvsaehFwEjfZbrtQCFznHyS6-wqjm6xyxdCjD--BUdM_dCUdF86ajp3SydxPeJ48sYgeTIts7jIv9Uf4xbwuQAINpB13-F6ZOXeFYtI_y0HSNQFQ9mo-L3xl0FvF7YwsqpxlIrL121Bfi2OvdYroKqVwPuIRFsTn0rSF4LXq8WIAhRRW406uImVjZG4swPqrhejxpz1nOYZK9FCI1i9UDfukZ34onAYL_qu9Ua005QoW8TcjZdwwjX-f9TNi8fZmwIMcYOcBpmvkgjSv7ZBtH1N9LUCn-eh1hOPAG7ROa-rH9i1zxYqC-7x29ukyC9zgGHJa560NpFPoZ-Of0uWDNV4wA3DpBwf1uFV0O4ypfkAIr0Obc40dMuoDn0U74fMFDGsyoVagZKBoowe8Z3bHijIlyVCFp5qvgQ1ZTno-C6KbiZx2py5zM0TwAM_gv9xP8REqd9QL42rfL5xzMitoTq-RiXy6VuJOaxVQ=w449-h307-no?authuser=0"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Crepas",
-                "precio": "99.00",
-                "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc_hmiLwdUaZmt1yfVN62npTx_vmxtsC8RcSWK9mvct0SEAHSWjJg2fnVDR7a8O0gjmJgNWD5rR0QjIv7urdhD2vDRCV9kWAvjsJmuDrOLWDz9hlvD8IO4c3W_8ZyXSbinnOF_Grn_pJXhgjQTGdCsN4AmIYL4k1m7rCgAMW0BtpTLH0edqH_7NgmE-L6bvmk3odM-JunW4BtcnbCTuKp32zVCXVjGTRk1cg88hmwhor20zv2CWYjj12qjvzG_6ntkNUiwFMV7FfRp-zc2dL8_zt_VC7hXROhvvg-BxJEKTrCrGgB9k25IvlyQbyL6r49fRbKo8lYxf22kSEV7_BImE83RK4Z9JZviTr2pG5bHFZkTY_o-F9OCFhAK49rQo-zlcXAuCMSCn8o-lGszxFHlgtaa1xzlfqo_Mnc3OGuo-Kznr7hdLdOLbAR_bhgwElMLGrYLZMHCthf7ahotnakVsuQLeD7P7g1lpIVNj1i8jBQgbcHuPCHmlIZfRuLnsepIn_PlIP8kVF4gB6V6kWGtqExNx2MnPRLJirQh_y6a_PIkGnqsTVgmppW4y_EzmzFjdALGbHTfiSMZzjkFYLGSGIo02p6RdMkqR0QHXZPPLaVBFYNu_oSJwU4xU-V7iRPund1L2PdTt2EJoKR_WXNXIApYRZb1lh2_O2yDJ2MtZ4c7etyFRhkjaPMO540yxVWoPiOW1d3emb0PZTj_pCQboPeSORQFhy7UR8NYN4q5Zwu5g_T53gWHXycVQ_0r94jxdtBZByBYhL96UxJswqBHc2lFofpRA_bQA_zTPDKC41RzEHClGqgL02o3fFnC0HE8wgJz04wJ7y_RhYrqgmL0V7azmEX7gbN7UcJbGmr_C_KV119BuQhJWRj-qzlJ77J7h_6Azz9LUWninu2tglYQ=w361-h329-no?authuser=0"
-            }
-        ]
-    },
-    {
-        "nombre": "Buhos Liquor Store",
-        "logo": "",
-        "ubicacion": "Blvd. Morazán",
-        "tiempoEnvio": "15-30",
-        "costoEnvio": "40",
-        "calificacion": "4.3",
-        "imagenEmpresa": "",
-        "favoritos":null,
-        "productos": [
-            {
-                "idProducto":"5",
-                "nombreProducto": "Freixenet Italian Rose",
-                "precio": "588.00",
-                "imagenProducto": "https://www.vinosycavasonline.es/images/products/freixenet-prosecco-rose-italian-rose-.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Cerveza Gallo",
-                "precio": "145.00",
-                "imagenProducto": "https://i.pinimg.com/originals/81/5e/09/815e0979cb647ecc49befe49015327a8.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Licor St. Germain",
-                "precio": "1.085.00",
-                "imagenProducto": "https://surtivinos.com.mx/cdn/shop/products/germain.png?v=1689108279"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Martini Vermouth",
-                "precio": "382.00",
-                "imagenProducto": "https://curiada.com/cdn/shop/products/Martini_RossiTransp_450x450.png?v=1628102078"
-            }
-        ]
-    },
-    {
-        "nombre": "Rock And Ron Liquor Store",
-        "logo": "",
-        "ubicacion": "Toncontín",
-        "tiempoEnvio": "15-25",
-        "costoEnvio": "35",
-        "calificacion": "5.0",
-        "imagenEmpresa": "",
-        "favoritos":true,
-        "productos": [
-            {
-                "idProducto":"",
-                "nombreProducto": "Tequila Corralejo",
-                "precio": "1.140.00",
-                "imagenProducto": "https://corralejotequila.com/wp-content/uploads/2020/12/corralejo-anejo-tequila.png.webp"
-            },
-            {
-                "idProducto":"",
-                "nombreProducto": "Tequila Patrón Reposado",
-                "precio": "2.736.00",
-                "imagenProducto": "https://www.patrontequila.com/binaries/largeretina/content/gallery/patrontequila/products/patron-reposado/bottle-37.png"
-            },
-            {
-                "idProducto":"",
-                "nombreProducto": "Tequila Rose Strawberry",
-                "precio": "1.425.00",
-                "imagenProducto": "https://www.inveruriewhiskyshop.com/cdn/shop/products/TequilaRose_1200x1697.png?v=1506965971"
-            },
-            {
-                "idProducto":"",
-                "nombreProducto": "Jack Daniel's",
-                "precio": "1.200.00",
-                "imagenProducto": "https://www.nicepng.com/png/detail/78-786131_jack-daniels-png.png"
-            }
-        ]
-    },
-    {
-        "nombre": "Licorería El Corcho",
-        "logo": "",
-        "ubicacion": "",
-        "tiempoEnvio": "10-25",
-        "costoEnvio": "45",
-        "calificacion": "2.3",
-        "imagenEmpresa": "",
-        "favoritos":null,
-        "productos": [
-            {
-                "idProducto":"5",
-                "nombreProducto": "Cerveza Corona Extra",
-                "precio": "47.00",
-                "imagenProducto": "https://www.cervezacorona.cl/sites/g/files/seuoyk931/files/2021-11/Ritual-Del-Limon-La-Historia%20%281%29.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Tequila Don Julio Añejo",
-                "precio": "2.789.00",
-                "imagenProducto": "https://d37orfp70tellf.cloudfront.net/wp-content/uploads/2016/11/11000117/Tequila-Don-Julio-AnCC83ejo-75cl.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Tequila José Cuervo",
-                "precio": "590.00",
-                "imagenProducto": "https://www.vinasa.mx/wp-content/uploads/2021/07/Jose-Cuervo-especial-1L.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Vino Freixenet Rosado",
-                "precio": "520.00",
-                "imagenProducto": "https://www.distribucionesgourmet340.es/wp-content/uploads/xItalian_Rose_Freixenet_Mini.png.pagespeed.ic_.6BSCJ9KQ7S-3.png"
-            }
-        ]
-    },
-    {
-        "nombre": "The Winery",
-        "logo": "",
-        "ubicacion": "Plaza Los Cipreces",
-        "tiempoEnvio": "10-25",
-        "costoEnvio": "Gratis",
-        "calificacion": "5.0",
-        "imagenEmpresa": "",
-        "favoritos":true,
-        "productos": [
-            {
-                "idProducto":"5",
-                "nombreProducto": "Vino Tinto Enemigo Malbec",
-                "precio": "1.735.00",
-                "imagenProducto": "https://www.vinoselkiosco.com/wp-content/uploads/2021/05/El_Enemigo_Malbec-edited.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Vino Tinto Rutini Malbec",
-                "precio": "1.105.00",
-                "imagenProducto": "https://www.vintagevinoteca.com.ar/image/cache/catalog/VINOS_BOTELLA/RUTINI/ESTUCHE_RUTINI_CAB-MB_X1-651x800.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Ramón Bilbao",
-                "precio": "1.235.00",
-                "imagenProducto": "https://static2.aporvino.com/14625-thickbox_default/ramon-bilbao-crianza-2019.jpg"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Vino Romeo & Julieta Blanco",
-                "precio": "660.00",
-                "imagenProducto": "https://www.cava.pa/cdn/shop/products/PASQUAPassioneeSentimentoRomeo_JulietaWhitewine-2016_1024x1024_2x_eef82b72-1059-4bc0-a1d6-21eb76c2771e_948x.png?v=1644950955"
-            }
-        ]
-    },
-    {
-        "nombre": "Supermercado La Colonia",
-        "logo": "",
-        "ubicacion": "Las Torres",
-        "tiempoEnvio": "10-30",
-        "costoEnvio": "40",
-        "calificacion": "4.5",
-        "imagenEmpresa": "",
-        "favoritos":true,
-        "productos": [
-            {
-                "idProducto":"5",
-                "nombreProducto": "Piña",
-                "precio": "75.00",
-                "imagenProducto": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c181.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Zambos Chile Limón",
-                "precio": "32.00",
-                "imagenProducto": "https://www.dinant.com//wp-content/uploads/2018/06/11-6.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Gomitas Panditas",
-                "precio": "45.00",
-                "imagenProducto": "https://cdn.shopify.com/s/files/1/0566/4391/1854/products/7501030452508_2ee78846-65d6-4a21-a165-7c6a00fa255d.png?v=1646614254"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Manzanas",
-                "precio": "190.00",
-                "imagenProducto": "https://www.vip.coop/images/content/473963_37260_5_N_350_400_0_6276405/blitzmatic-8fr-biography-gala-wiederhergestellt.png"
-            }
-        ]
-    },
-    {
-        "nombre": "Walmart",
-        "logo": "",
-        "ubicacion": "El Sauce",
-        "tiempoEnvio": "25-40",
-        "costoEnvio": "30",
-        "calificacion": "5.0",
-        "imagenEmpresa": "",
-        "favoritos":true,
-        "productos": [
-            {
-                "idProducto":"5",
-                "nombreProducto": "Zanahoria Lb",
-                "precio": "8.00",
-                "imagenProducto": "https://cdn-icons-png.flaticon.com/512/2036/2036016.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Manzana Roja Lb",
-                "precio": "40.00",
-                "imagenProducto": "https://assets.stickpng.com/images/580b57fbd9996e24bc43c112.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Uva Lb",
-                "precio": "70.00",
-                "imagenProducto": "https://www.pngplay.com/wp-content/uploads/1/Grapes-PNG-Photos.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Bistec De Res Especial Lb",
-                "precio": "115.00",
-                "imagenProducto": "https://cajausa.com/wp-content/uploads/2020/10/bisteck.png"
-            }
-        ]
-    },
-    {
-        "nombre": "Hiper Tinedas Extra",
-        "logo": "",
-        "ubicacion": "Blvd. Suyapa",
-        "tiempoEnvio": "25-40",
-        "costoEnvio": "45",
-        "calificacion": "4.9",
-        "imagenEmpresa": "",
-        "favoritos":true,
-        "productos": [
-            {
-                "idProducto":"5",
-                "nombreProducto": "Cereal Rice Krispis 42 Oz",
-                "precio": "410.00",
-                "imagenProducto": "https://images.kglobalservices.com/www.kelloggs.com/en_us/product/product_4508660/kicproductimage-127505_kicproductimage-127505.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Choco Krispis 290g",
-                "precio": "90.00",
-                "imagenProducto": "https://supernossoio.vtexassets.com/arquivos/ids/228022/CER-CHOCO-KRISPIS-200G.png?v=637914114358400000"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Alitas De Pollo Krispy",
-                "precio": "99.00",
-                "imagenProducto": "https://walmarthn.vtexassets.com/arquivos/ids/175130/Alitas-De-Pollo-Rey-Picante-340Gr-1-9815.jpg?v=637667674305370000"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Alitas De Pollo Picante",
-                "precio": "90.00",
-                "imagenProducto": "https://walmarthn.vtexassets.com/arquivos/ids/175130/Alitas-De-Pollo-Rey-Picante-340Gr-1-9815.jpg?v=637667674305370000"
-            }
-        ]
-    },
-    {
-        "nombre": "Paiz",
-        "logo": "",
-        "ubicacion": "Plaza Miraflores",
-        "tiempoEnvio": "25-35",
-        "costoEnvio": "30",
-        "calificacion": "5.0",
-        "imagenEmpresa": "",
-        "favoritos":true,
-        "productos": [
-            {
-                "idProducto":"5",
-                "nombreProducto": "Manzana Lb",
-                "precio": "45.00",
-                "imagenProducto": "https://assets.stickpng.com/images/580b57fbd9996e24bc43c112.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Tomate Pera Lb",
-                "precio": "12.00",
-                "imagenProducto": "https://hortiberia.es/wp-content/uploads/products-tomate-pera.png"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Escarola Unidad",
-                "precio": "15.00",
-                "imagenProducto": "https://d1cft8rz0k7w99.cloudfront.net/n/6/7/e/1/67e15b406412c3f27353a6b4d7864aa8f8b8e5cf_FruitsandVegetables_104016_01.jpg"
-            },
-            {
-                "idProducto":"5",
-                "nombreProducto": "Cebolla Morada Lb",
-                "precio": "45.00",
-                "imagenProducto": "https://img.freepik.com/vector-premium/bulbos-cebolla-morada-fresca-cebollas-verdes-picadas_212889-2395.jpg"
-            }
-        ]
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9b8"
+      },
+      "nombreProducto": "King de Pollo",
+      "precio": "155.00",
+      "imagenProducto": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.hn/files/KING%20DE%20POLLO_1.png"
     }
-]
+  ],
+  "imagenLocal": "https://lh3.googleusercontent.com/pw/AIL4fc9qbMkDHWwFGZEo4QTACey5tKv-WDzHQJLuT71OJddw1bkfvZmmXJBeveDFeWTGKiEGASyLrt_s8GnihNMtro8w2ux8ycJkXkJJim9ZZrciJgSaQG7wayB7y6CZCLn9Xrc0aB79Isp8ZqvoDzgAf_f9YyJm7Rt8U7gZaBU8cISok3kQmWX2UYptFxpgNl1S0FVptP2vMEhCTPB3s7aL8G8zJ9Dr7fJvWfS25UZHKR1GVUONJswDHq5OzMKLTO9fLG4bdQCVE2G8t9bD8p7rftfzt5mKNVj1R48qvjcSeWVMzv7e-cCAS6Js9SeQsWPi1zEBm_GjyoXWcsouKgnQ4HH6a5acIElPPot1Tsugt823blza0Y8A2pt5RzYSQ4hRHyUmw9G7BTN89bYsZ4Nd1zWKV81zg-7Rj0ZRWmBEbuKXbkZMCOLSs0bFvW8K4r6SuGPvw6jvBR8GgX1OsAYshPTwo2GEHCkvBPadzG6RH_N-al0e77nn3_5FGlJcJn5nJCWKdJxXq-_isr0qh5_qk5LdLgGlbxNykZ9wNJ4R949kKf2bKwuu2LruABBHiEeEOOGeqxKm7SFpol5jb71I3U2bpJuI6rDx1JL5pEi6xVad-6wDyX6D059Wm0ePD-bdy0mk5NmF_yxeqFvCZ5asEaOwc0BmuZ2YR6xHOPj3aVf0OBWIfZ8btbDZgpQ0T6na9D0VK_t2FvhlPpCYriT9Dv5GMWIOwTdR6dD69IarCz8soz765up3cyOKGruprjQksmuzUA0LOGjOqoJQauWxbFXG5shxkXYac2gLDbKDJJvAYZW_Nn0JsU66uGZ7H5xWPLE9od99QZiNsCpGFnEHdhffCEyiVoZY45_LonLLe6kSg2TdBkBSl45AGZLLAvWQSyqBFEWQHy_P0hnC47vRCw=w470-h225-s-no?authuser=0",
+  "recomendaciones": {
+    "nombreProducto": "MEGAKING PLUS",
+    "precio": "429.00",
+    "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc81waMx4cPuMz6QHp7re1Ec5McSQcO8cJMfwrBEsQCt6wQlgSiGLMuV8hlttydV8yVGL61kDLERB1K1aB_vicNF48A94XTImEAcLRS0rJmDO5qSQAHk0Gy7ugoN2rG7tpIOPL5zTKUAXpeCHqMYmTwdqR1T8ZLTewjk14sX6-O5KZgad3AfwgxHkhrOwPhywYt_T4wolGOfWZbesZzchkquD-5KtVEtpkm1644X8TWJdsrRFTmF-G09oUjt_ya6_NOrtMLrD2iBP1HVbbBog1Dny6k9Njjdtw5YYYoxhtjEkZSH7-Bn-oZ1qpdFHEkuf747TmyobBuvmbHsqdJcO3rN9omw1bP22kmqRdZsASdVz_gXIx9Cn_pThbpRB0mmGnrmAlvC4L7LoxHUMvsJ5E6M6iZOlzoqyS1wkBciAOwvRiKSP67sAR40GpKaPBCS60viPxiBueiiro6lvgOmND3s4XNVjPQZAZJnDagXPEU8vHR4CMY8bmZ8wVKIVTkVHyz1wfRa9L95jgK-DKV-4lkaKWys1yn6U_PzSRw2rRs5OSvGjbJMfGQ32KrFXxY-5MQrp8_mdQuAlfl9nVPzQ59KnkMZOJwbprGvA7dcQrrSTo9vsUZBoZM97zazU7Oi8EUBRRHaiqUhfbUzQCufncphVBOrSXrtDBUgB06s8iqif9b_PkYxlfjt-WgFg-j6F0kfP6F-HTHlrAHx7Es_Xy3vIVeccKN-uQ8JJwZFbDwEYVg11PZ8M72q8lwITrKuv_cilTZlbRfEei9CVDNTdmR2UcuFpTUeTx1EIivoIkuSgZl1sn8sVgYh4aRaF_BdXwBBGUk4_oLBRKoF2aRVtcj9chQSkEoX4U6MwU6xrx6whYTGd5A44Qi0LejJ3V-pp5llK8s2nfDq4aJB0PU5dg=w343-h106-no?authuser=0"
+  }
+},
+{
+  "_id": {
+    "$oid": "64e89f1ffaad5e51b864f9f7"
+  },
+  "nombre": "Mc Donalds",
+  "logo": "https://lh3.googleusercontent.com/pw/AIL4fc-pHgQNNdPb7M-eD1f9Hsps-1OQgqAN1l4xn6iZPjqkjt-1SpDtn_8WYNbSiylF5pgs0by2NbGxScoeqglbGlRxEIuEc6GSFT7qWfVY940QxZ6422ru-fO-tL7lGTy1NhsYuA7F4zepDVKadUqP4IOlklykzYw5Em0MLD5V4Dc57hNLEd7Rw8mCWLum4c2tDWZpdhjlRlIBBrvNn2ITtoB5tOyHtgK-gmws8_T5dNBV_JL56UXTnQXFWBMSQZq7HI14jSlOi448up1EkU8ZsHnUIXt9tBDepO_Z96YioU1uSBuAsj6Jc9RDV820QTBTh9ZzkwukawDRkr0M5ExdQhhkK8TbQh04Bdk8f5HSOfvKaeMd7xptOE71nBX1Kl07lNhl1tWY0nbYpJvTmByMrASigUbYu2z38vzuKyqeCymYwQlyc8Jr32pK5EGii8czmq0PKGI43bxtgXeM7mYxjjy5iQ7n26p4EBa-2dvU0vmPHt_m2JOip8oRl5vFD6sIU7bc0Eqv0fjwl51pRvAtrEi9uRkZrD8SSzcwfovl_dfhgp-4bJ-hegSxZ-6g8ub6T8xThox21MN5JXHrMVpiTUdvTLcAR0koU5JiePD9pbgkgxvYM2xLhf7_UqQnEUCxIq4IwqJNdcquOLalKNqOewc3RYOVrrpRm4LeDc1oTGTexmLsvvNw3SNQpkAeFcum7tTCXI_pdXsV09nWG-W838E-OL6e9mQCsSM0BM2zshK_BtLe8PMS-h8S0X51BJ_iWI-C1DYGixpPx3Kw1SifIZWqoQLzj1mQxdQaG0KoUBDJkC77-btq0vIgSL0sn7bzDrkS3WaYq_HmHon05VXlcozkgFSc7XUhFYUJ5tEGoYVf5cTk3DulRmpi87Ldh7VlvCJdeKDpwdhvhcoHNuTpVw=w293-h294-no?authuser=0",
+  "ubicacion": "Cascadas Mall",
+  "tiempoEnvio": "15-30",
+  "costoEnvio": "40",
+  "calificacion": "4.5",
+  "favoritos": false,
+  "productos": [
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9b9"
+      },
+      "nombreProducto": "Big Tasty Res",
+      "precio": "212.00",
+      "imagenProducto": "https://mcdonalds.com.hn/imagen/menu-products/1641161964_big%20tasty%20res.jpg"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9ba"
+      },
+      "nombreProducto": "Big Mac",
+      "precio": "172.00",
+      "imagenProducto": "https://mcdonalds.com.hn/imagen/menu-products/1690994235_Bigmac_400x400px_BB.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9bb"
+      },
+      "nombreProducto": "McNifíca de Res Doble",
+      "precio": "221.00",
+      "imagenProducto": "https://mcdonalds.com.hn/imagen/menu-products/1640814580_9.McNifica%20res%20doble.jpg"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9bc"
+      },
+      "nombreProducto": "Gran McMenú Familiar",
+      "precio": "549.00",
+      "imagenProducto": "https://mcdonalds.com.hn/imagen/menu-products/1641162647_4%20personas.jpg"
+    }
+  ],
+  "imagenLocal": "https://lh3.googleusercontent.com/pw/AIL4fc-oCSYr9FWeIa3mTMAwt88tekCjMmLOxUxPHMPsDp8cY5AJ3eDaTQH5nLxsY99MUpXkGNPWEyTZCEvLcPeXI9idJ7UPsr_xgU2bl3f3UL7085EHMImchRdKDYQVigUCvOA-hEE8WqaXtc2J7aidG6JY5NYY4cZHZOC_f5CD6c60AXA4r-SxaacFz01l75yFSyR91guf5Bg7AJWbmdRr1caBnhQDxA9xFB2iGXKN3I5TxTn1EJw4rUhHDPeG6Y0XStlPyPAzdXSeTkgzkap0AVqTByQh6CpOP1AEvoDBidj0CL7uX4QE-Fy_cH2HcEeqB2TixPzbixEEi5xITsFc3qGYpPVe0c1YyBJFRjFvnlnMhOUxVqOFRDAssUC-stjDyHhYyvnALF-37_X8TokkuU1GRjKSRHBVHm9_e6uPeISMODnfx-o3BZfHcU1EAw6E_bzosV3XfRJnDPPhpf2on7QbLuXbK_zHUABt1K5dRMvigoJ_7U-0VXHM4OyQA5A7Vq0zzUIE9P4mRGIWSH73uQ0rh-ip1DPUwVA1gZzZjk4pcnfHSFrLO62oZlx3cwKFWqd_AVD-KC2LGx7_bgTEVYGLNgvEsAjZYJ0n4JbukgXuwmV5ow2ZYZyftwxg9qFRqRGWlbDUpvwe6qnn6nCzk4oB01d8ne9IKHU4pY-6MfLNiHQh_PGJV2tZTRdiMpRVXmRXrrhDclDaFQvOMJa73Cf6gXiOCJSk0j2LstpQTcCPrTTAgz3Mnqo41Y4M1FwX3CWfHVA4iALbzO52tuF7Mec2J0xGJeKvJMmCGvHFF35JGiP2U_17-169wuKXr6JsGcVHOags81KU2NAI62ououRtavnWIYN1DE4FCuI_pBv1XFD7b2NIy4WA2BND-3z89J2slMcELBub3bl8g2BTjQ=w495-h242-s-no?authuser=0",
+  "recomendaciones": {
+    "nombreProducto": "McRIB",
+    "precio": "172.00",
+    "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc_XRQ5UuFqwmeTNyWnYG7J6MQ6t-X3MsrYpx7Zax-v-d_6h-Dg4MQRpCmd4dkfdY3USiXFXNPpsydbXNZgg35dZth3_mCK4V1yPIPDu8K_2IwirEgV3nK1BsCThFlxL6cw6ts94a4tgZmHyYOe7-UPZXcT6w40ETbcA5-3Z_7EUaRNwK-hRq_I5AwJ3Ge6I_ykKoWtWXXNhTda9ArmAAp3O9dg5hpFAmdOXN3WNVaxj_iDV8KPeeiigmIwjhGBvSRNvb38l4ETydCMaecIbWzRWnLkqOA83ElzmOSJl0b4TB3SOHo72gJd6g0bE4Q2EC4b6xGjX-PR5_RJoP_dr6DV7Y9GR4MqZogsaIIK1Lh9Rh0CWskMDgdQO07iaLJHg4GG7k873yu-7bOMbWoEnfA9bqQGJnHtAzh_JDb3FNdp-mNr160OVWtBWk53F5MqRoU7C6Yl4Gf9EpRNUxwz_A6GZoWIEMpak6WN-_qLMuQWqqY5Ro9DdrHEhetPyRg4RITC_RwWbnrhw4HYqvdYRotny1Qdo8KzGUYrsWmeNLwYRyXZMyRZXcuGgh3L50sqVkTVnvGGm7AfPT-IsJ8eIM8bkEWXih1e8YY7u0E1k6ZiGlo9CkVJUQnrx7r4nGNoihWTtAJ8lx01IKPmedHVrdC5IWWy6n3TmyVFk7_LySrRGSeRo53i0MSPLcoLe0Shp48S9jbNrPpNWoneeIfON5qskmiVA7PprQBWYRXFZBiqgYqNEehCCk75zulS3pppOWt2DFpVhW_4hB8YxrAm2bbWeCEX8STLSYhgEMZ-ejx9RT489oAKdcgRXsUB0cCyelFa5IkxIgp2ETKId3N1xm2DhJdqRLZaGiW3-qQWHhnl9OUg8_HQ8qTEJz_kBzepTm_7sPkBz6e3Xk9cFxpdC0g=w347-h102-s-no?authuser=0"
+  }
+},
+{
+  "_id": {
+    "$oid": "64e89f1ffaad5e51b864f9f8"
+  },
+  "nombre": "Pizza Hut",
+  "logo": "https://lh3.googleusercontent.com/pw/AIL4fc_uEwW4YTJ2e-WG_GCy0qee3LtonAUxZ0GgrEB4e86trB2UFY5_TD_bqcULxwLZa5CA754jfRLWDCcbIXLU7dbU1P_H-sEK8Jp_D-YjjY6SsNiX-1tuYyxBo64hlbzgEr_K2_WRtcl42YGfGjBCXHE-60y61qTvxuYeY438QMXuOALL1K6MS2aQz5zOUdRQ5PkaXZ2SzrO2MwbjnmXTydL2AaaaEkgzWC4Jbh7dWnMBU7NCZihBlcBrJPjCCIJSGHIABLKXxjw6pCunvNOmsTXruTDDvpyr1hY6r3gxR2DyIXpLelbifhod8XGaUaAMGjSEB_uv-UlQFCPVQV-HD9sJpmny91oa_OndXe_KK7pcDM5Ejfh6WUoLJL_aQ3Ivuefr53I_xJngcCATulzPD1VKLR_C6q2rPHy6H2W6QQNoQUe5D753oc4ARwtPh3xHWG3R3G5d2OsjRkcdfIyMbY6_4Ob8vnWmnQhQRYVc0pgmj022tvP_1hxrf-uK85fNu77F-fa6lvp_3baU8lEGOEV7iGBklPr7cK0CnRMQtHSrAE59Ol0RJD_pyJe8oOo8M0ttASgwQHwscWKJ2NLMY9wxokNS_-k70JzIoZIN1Ut9nlYZ3iuIxCdjfJAke70MihWslNvqo6qPhwFv6ehJwjUXJK-7tAhVz2Aw50MLkpI8oa42gbjQC01Ft_5QKkaQLkVb1pdV5c9c7qRVRW2jF-UC7NFKjYHyCv-j1iv1qn_eKkcnHkOIsMY48JskuYAsGpPOBPbEkooyFbBI0wmsHnO_L7ERrmQjuKJjeKYjTcZWNkM7KsgqSGZ7Dqt78HDbtgmHbGFrb0cWz_QmK4fNeK86VWzFAQRFapVWk0sZhuutYFR748V0djTg4X6PFnqf61BdTIxFejwvDNXEN6yGYA=w949-h924-s-no?authuser=0",
+  "ubicacion": "Toncontín",
+  "tiempoEnvio": "25-40",
+  "costoEnvio": "30",
+  "calificacion": "4.7",
+  "favoritos": true,
+  "productos": [
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9bd"
+      },
+      "nombreProducto": "4 Estaciones",
+      "precio": "299.00",
+      "imagenProducto": "https://www.pizzahutonline.hn/Imagenes/CATEGORIAS/PIZZAS/001.jpg "
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9be"
+      },
+      "nombreProducto": "Super Suprema",
+      "precio": "299.00",
+      "imagenProducto": "https://www.pizzahutonline.hn/Imagenes/CATEGORIAS/PIZZAS/SUPER%20SUPREMA.jpg"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9bf"
+      },
+      "nombreProducto": "Pepperoni o Jamón",
+      "precio": "279.00",
+      "imagenProducto": "https://www.pizzahutonline.hn/Imagenes/CATEGORIAS/PIZZAS/PEPPERONI%20O%20JAMON%20LOVERS.jpg"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9c0"
+      },
+      "nombreProducto": "WOw Box",
+      "precio": "669.00",
+      "imagenProducto": "https://www.pizzahutonline.hn/Imagenes/CATEGORIAS/PROMOS/Wow%20Box.png"
+    }
+  ],
+  "imagenLocal": "https://lh3.googleusercontent.com/pw/AIL4fc9KG7v3KfxuRg6OWTff_pCcnXmwUpd2NJCuNaaeJXzywILntwhIRs2YGMT2J0rupx6yeHPKYRBf-zq0y8Pz2-ViaC5-WruZKsW0cgo6WnCeHda03MSA4jQTgFPf2kzkK0E1PGjEK6BMplhyZyoro40P8Zg675EzhwbaTFoRyLI739Ruvv5DfZ_vHq2ls04KRFC7SiIyOOICXmKWALisb6Bv7P9aQSQTikkcbWeMKAZWBb8-wX_ed_odIkexTqU6tCt5No4ClSDBZMs4r75OHo7ssiJnKRrPdKmz5Bt27llFwJmoO2PVUpfUnZ4MDrJr3xq_k11njkW7dQoNkcjWfxU7Im1a7ukoVQpTuz6s_aSDPQ0759QyEfbWuoLv1qJ8BgIRRM-AV-koVhJbz7mYcKeNTmkmGyQwUlcMzWiNpZvgHSarGMBiFclfASnsEpFntNktkjCDO3hJHHOQf8G7aenlLJ-kbn_HGaZyr-btQ2dbHzSfiM2zqequkyfHAShZvO5F8ZdxOzLQmnJ_MsIXrvaiLb7ozQRsGtJAdkB3Hyw_mnQDasdgzktTvD_oE6ycD-o5s8GRzO2UQBftRkfVhr6Fc8qBlRXB6O5tey08bvTxZKtVBL2kRal10Fg_1AG6alLAsq8eQOR1-tzRAkjdMmYhnkvqDrixKKIIAc1MVOABH6BRzvJVa2eLbHjHhjX3lGf_6cPF9kphYVNQpEgyPyZWEQ6e_AWcWyJwlft7qhh8VRc5Pchl759HU_Ih5uBgpyyGBtliuI7sjhAAwmG75z-0BxTjwF9sPNJeBzL9G3Wzn7uXWVFwfiWZuf8tHs0Kgf_y-A2BO6vYB1fraG3Sji9G9sXr5ymHuZFRSNt_uq1uNlRds0xoC3IQgUE8Uo8dWaTVncdnYOfvo_FE6dZlHw=w476-h235-s-no?authuser=0",
+  "recomendaciones": {
+    "nombreProducto": "MY BOX",
+    "precio": "99.00",
+    "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc8fUg3SXrsoTpsIcqHPe0kD5dfV8lS8O0NC0N8hwgIWOlmIGvwWCJZSxHcjbW8_dcpe7lkxNhNT0bYtk6tl9WjJ9vzCmgRv7hw3Mg_znRtdarjG2noTXP33m4B_vwMDn1-hu3FekmC-gTne_qQ-BAJxXX22Ww3giVHxDRAd6d_4Rg4Jz5X4L2ngz92yeRbn_uc4Q8BCuI4GFtc4PQ0uzPXb5vXq772kHAPzfbqKamib4llanbq3PqMvEBEflTJE0lFqLD7uKt72UHTWBZV8PEP7ym1bdmsxuibkaRb7Rh-S_x0s2VME0cAMNkZKIdnjTdi5Gd_Vj-3S0Yc3uPmzJ8Gn3fRPlVxR5VUcprrWkFc2fYon1agKhy8i4PoeJoQzr_UX3sL8A-H-YnGcZq843FmwnDcu3ApuVnkL_4dlc5FjKDGqJWfoHFyeqRjhS13XHmyd8Llz-A32uGSDLewqWXIs5G1qAQZuPwfKB1AwmdEbH9zGnJ1gvMZMPs5AMidf_hUYtNAaQRDnzljv03j3FScd9KGWioDOnbuQ4RpY8B9hlZ2gXlBm82GfI0JEfR5BPh-ADjT7TvQkd48tFYdPPxJQxPiNtKPuhljao7qLe_SKkFWUYRht4jOkBxmighIiIlET3Qa_dWunB7ZxhbzHKFuwFebiOXDFoBnpgh6cNOzW4Aj-vmCJ5xSM_H0X2F1I144pzNdX0Q5abTVaSkqZjzrOqyL9vvYas3Oztj_82UC_rg60LiTtNNUoilzcSelxty1a1v9ad2qk5oNujQbDDcpKMHXVi99h_BIOcXfBXbLH-18GrWjzTfJtAWyLkvdH3iQdZimbh5RzlaL4gQXtIXRmw8uifE29Alog9AuPaSxsiaUxJdYnmB89W87-E0R5kCVVfvgh4u-lHH20kJZuYg=w339-h133-s-no?authuser=0"
+  }
+},
+{
+  "_id": {
+    "$oid": "64e89f1ffaad5e51b864f9f9"
+  },
+  "nombre": "Little Caesars",
+  "logo": "https://lh3.googleusercontent.com/pw/AIL4fc-DKrvTuewCuENSSBKp-0YdD5khTuiU8yFmOkZjLX2mi9X-IYgjzZzNW7C2pSih1GHd88cBUx10i6p1zJJBWcVdpruM63B1CoiPGvLPdSMcfEGwA1Lkjj_E_FhomGfH_n93aGN7i283ujM45bW01OtNjBpvGO7YI0WAW73mmdlH2mxiR9IeJgU5_mn2yfD8hgbQxwz5GTt4ne3YCti7SnJ9KKVkMMDCoV5gECGY28STHJIHfoWTqjoyRTXiO5AfyQHOYoq3-HYoNdSE8GBKGsB05-VgBzjWQ1irbpJULIfgqJiBXMOEsIh-tifqJrBvPOl74UyWddLc8GsPya3q_ZqW9tDPHTlXTcah4XFqEwm9D7-Vn_QeY19NBox_IUf1KBohwEu7OpQzbT810Hwa4atWsDrphUsomYT-jN60RH5HdCV_3v3Z0Oo56rnwMmiM26ORu7zRAOEUbDVvlX2KXUb549nirc1des8rgR-47tPFk32YQ0fbhUM79RBK1WlOa41OoH7nIaUOkr2rw5WOt7UP-LyDbdT3FFHGPRgq7w7w1_y5NT716BbFb2rCFVl29jMZSY4fJ4NoTglSjUtyM-rL_hAOrigyOrOHNPRTc3Y6ugLTJ93cdewVvyWJ6yeuqS95m-mJJI_FyX17gfFu8eXWg1N9Yd8fsvTxpylBWc_r2oZdN7HMNoXtpH0Sz8b1DD5ntzOiF8x9hmkOaYyVmVCfybNXjg6l3nRdCd37rSA6iDTuXm_vXpIrgfhzOmjC_zIZxd50rRwv92eJuEMs86-SDVcVNt1Cg4qneThzB2UqpXZAh2rfC9IJIQ0M7LSMLQ0slUBJmst6IVuTtTntTf5MCi-1n1S6RxInIvTcjFG8EwRhsCzhNpXzM15pweQ1azK4sHvgtU2hoR132IGeTQ=w839-h924-s-no?authuser=0",
+  "ubicacion": "Sta Mónica Toncontín",
+  "tiempoEnvio": "25-30",
+  "costoEnvio": "30",
+  "calificacion": "3.7",
+  "favoritos": false,
+  "productos": [
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9c1"
+      },
+      "nombreProducto": "Clásica Pepperoni",
+      "precio": "129.00",
+      "imagenProducto": "https://inturfiles.s3.us-east-2.amazonaws.com/folder/products/500X500/Pizza-Pepperoni-de_1611544979362.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9c2"
+      },
+      "nombreProducto": "Hula Hawaiian",
+      "precio": "169.00",
+      "imagenProducto": "https://inturfiles.s3.us-east-2.amazonaws.com/folder/products/500X500/Pizza-Hula-Hawaian-54_1611544977393.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9c3"
+      },
+      "nombreProducto": "Clásica Queso",
+      "precio": "129.00",
+      "imagenProducto": "https://inturfiles.s3.us-east-2.amazonaws.com/folder/products/500X500/Pizza-Queso-50_1611545034860.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9c4"
+      },
+      "nombreProducto": "Calzone",
+      "precio": "90.00",
+      "imagenProducto": "https://inturfiles.s3.us-east-2.amazonaws.com/folder/products/500X500/Calzone-82_1611545091416.png"
+    }
+  ],
+  "imagenLocal": "https://lh3.googleusercontent.com/pw/AIL4fc9o__ScSOplDG6R3u1LcdbERNiMRYwjb-M66vufOEv75b0LEmLjwAWevk3HZYRSKvcE-Drz7IeTtPi6h3NhLMAs3QHiRUqJ7QVm13mLvCjidBiPzI-FSTUmm-o4JtRLZ_jXHDKDkz4W4zWZGxlFzU5QH5-pUTEAr0lQDU_plApbZOtCE1tzx7-8hG5KZl6UF3PHv-GrECJl8T7ipOTRdp_aNlfIB4FZESRdyyPRutkaBKsWRRJyqn8oFXucKC8bsNtHJ8r4AMbH7yWdedRdg6R14miCoG2l5I1TUKydJjlKDAaxQdX5P8-TY4XHykGcflIPjHn9Q2FL9ufeYNtLc3Puss7uOMKs6ppqE8QIgM1nCiLaKg3gPgJiEvaPKvBX_Kybae0icbvYYzCAuvjPdoCL6XNhdFfZnO1-XhYgkLo_tisZrbVczrkQ8S-tH7OMSvaCmIm2_dCEwkIsz3Zd194B-zsw-ITzgnik9VtBvhPmN5vlHBUnUAxfR_2Pnm8ylooKBmHJk24GsSlhPWWKJfuzu9eubHBlUQKx3ipOjAw_Ud2_TQVBj_Kgj7dA7QmDrtKdyXHFt0Xi7pLbk_y2lEbwAWCAEZQtyxhagDKBTd-t0tBFtZFXA9Kl5scY27L4_SZujWv-vLe5vTZWXnJSLDKgNBUYy7CNoxzyT0DN64hKHUJjaTy6WHX1g6JI10V6DWKZKKbtsqdxC957fl30ggp6_5wokEUsRQSdaMVgO0RMj1zSrmHj5egg7v3g1rgdP8Rf2xpBkrCAb-IpWw4_16IVuhsFKs8hPmMJyZeSbT9C5AH4l3GXyJH9Uu2OGXZkL7U94PBB7kRHFnqHx472CBxhHyh0CM_HEFtmE1t762OmWm91N40n0raMUkhNcK-u08Ps9EHiaN0wVg_ziqq9aA=w604-h316-s-no?authuser=0",
+  "recomendaciones": {
+    "nombreProducto": "PIZZA DE QUESO",
+    "precio": "65.00",
+    "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc8Xnv6hTlKYebeAracf_kst5cVUW9tMJRIYc51fepN66o9Wren_uMq1zEkOC8VSQJrKU6S19STENDLK8T8reaPjQNjQMU61NWYp7QhXRQkH298um8L3VrjcoAY1xvKnu-H7q2-6iB1oVbn9vk-UflMZDOhteIermzMkVeywQlm6DOOY5ZAsiyol-2xvDpDolXB2Cr-4NRn8BWHKMrMA3uOq4YXmELl1cOgewlpzp8VQYga5PmXNMX2w6hmTggRHbUJUmt_JQKuKvdAcn-Kopu6qB5OPAEWNZhYY8uh3pvztPQQ67DGTKbZlSU6hCzhdbgE39-zASh2CEDODsD9tMHgH1DG66BZi82vb--jj-rng7S5rpaJqA_mlyfoWlsyfKpEAlTTPBusDOOVV5PaUvrfqljOR59XaDO0C3_JFzI_FDEr8E4zWisIvrwyJxdW6KtM_7nkuqGzaLs_PcszD1oGRlHMcSRwyaZSN2FV9WAx1esAoSx620S7kPnhFs9iCvQsCZOeBYWSd7ZqyQnWMN303cw91magf3O80tcZYnHD8zfKn6o_zTwBNRs3A_rhuCn2vduc8eV2H8VhF54uKKWidhZGW6anp01t1fSQC3LJA3FhKJ6Yw3JS5BlQHvEdCJQttZQmkVHH5N5vXb70jiKt-LMx9hw0o60dJqrhyFLZx1A1mtSbYOETcHtri66fZhW6yeT1CB9kjYXhz_h-P3cTRH-SkjyVJY8gN7L1oErzRmll_GwPlMoSPjFt4Af0d2vlH_VIUAcAqD0OxTR49ho_rsHK_c0hzb9Czj3fju9Boc02SL86ynuKUhfJFpGbRrqSpiQAA4X02NTcr4DHSbTcVrg38ZKcXaC3M_5sxnIXN-hyIaMlDdzajn1tO1OWjg-2cN_wV08-vjzB-O8qyoA=w347-h107-s-no?authuser=0"
+  }
+},
+{
+  "_id": {
+    "$oid": "64e89f1ffaad5e51b864f9fa"
+  },
+  "nombre": "Cafetano",
+  "logo": "https://lh3.googleusercontent.com/pw/AIL4fc--Omwp0vas4yR7hAQPQWV57iQbf_7ylHOyMV9tbvNZU2eBUY0MP2dtijx1RBuyKz-e4nK7ee620Yrk5mxQ2AAmAO20FIGkNfy8jaF_QI6S2YvkwFyWelS_nNDEg1jFyjpdQ7ioNLmHz1aIsVpKc3WNVRAX_y8Af9q2Nl9Bpfs38YfOT7OaO-Vrs2aXtQnv4lZm5FTyqFX5YTYu9bM4mROfB_j2QSvTIE8ax5ZOSQDGgwNVmgh_oPesoxwK6waU5nPaQs6YfZLXmfYbZImiUSuGjfpfNQH2NKe3A393BuMgvhAqpHq16pL0WTUCuWTRpjAmCYAgqFejkcpTD_hNRSb0PxqI_jFybkCeRicE_60-67WB3-otjDohMP_S1ZXVgTqObkHVSwfTyD4s-narGUKecDU3P0u_sm8isnErngkdRyWvHw9--xrcPQ-2-dTOg5l_ieQmGDyD6xeZJFusnTPFu3OiPcdLlc2-uEc4aSJ1u0lOjKremo6IWIhOucSnK2pgmsdXQ9kWTiirEGBqkxp-BVe-30215nsvzCCU1MFCtv9NjRqU1KRx4aAtNdYrmOQXTYL69OHFipxzS7-R6ovXsnczxX8Q7Gkuz220FeTSSmIJL0dObaM133a1Kh38552sHkhm9ExZp3256ImJUh8at-X0iX3Sowa6yvL8xdG1wQC8D1e3G9w3ZtRyRuVT7DXj-oEULX2XP3xfmZTaFT-NPaBeQlb5DXPgKsX1YSbigt9VgdQGsByMG1QmEg2fLcucZSaQD9TK5Klev8aDinLrq0_M7YALdU_b-kpww22ITtoaVGfFWLgLz9RVqyg0ldTvzFMeREOOlMcyEM-VJTC56ctU_iIL9OD3nzm27j2k6pVd_KN4iYWZDnjRSwWvAyjpZXFt3yUcyRCWfzNcUQ=w914-h924-s-no?authuser=0",
+  "ubicacion": "Aeropuerto",
+  "tiempoEnvio": "15-30",
+  "costoEnvio": "30",
+  "calificacion": "4.9",
+  "favoritos": false,
+  "productos": [
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9c5"
+      },
+      "nombreProducto": "Waffle Original",
+      "precio": "95.00",
+      "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc-JGxuNgEnkXl9595a4O-N8WNwW9uMKggbmAOcRTwNFkPObUoJhMbjjDTFWFbNhDJKihAZh-fcwOKocIBbY_aIYp5fjclynmjJxzMvKPdac__GVDl-YoWMbQCA6hZPo279JHHd6aaZfpvmOdd6jOrHizufjXIiuFSOLQlE6lg83cox9eHHPbTYc7bVdN7hISC_s4mhdV6SwvEvjT_ofPlp5tEdUkGMeNPzpcNL31gs7UQGNKoyke9NC6wTFF0aJPRmP7iKusxvBcoR8Gfb6jPBC0400hlN0BJnjvLzUsQDcpVfWqnP30r0wwWpVbazja88UY_hepVxhjfHEAvDp1qIesW3ePK3g_AXT_7md3uI1YkPALXZVkUqrCn0y_8n9cQ5j6Zfy60uYJNNnpgHoK8yEf1hjCMJ4GJUEJLVsFJKF5AoKYMcs8lS24J9nr1ZIKU5Mw0Mylr1r4WTf31zWtCS2LtqNhmCsfEUVlFmqIukTzRfsnvDdScrYxDlY6vhvQyPrJP3Vp_C67vnP6dLLG-6-fCLPVk9F4FUMN0jr6sf8g1SYyzoc-DYM2e_3R0Q0aJq_YImtkN00frwpgn8gneCFI0u3IQGreNfrsnH9ejS3xNB269WtTvHAgiaDSc9JD_pdi7nlieZAC_kmBY-PF82gTcXKyH5so5aIrVz-Mx0Osfqhy8UtgkLbTgXkO0XkVsiqgDvUdJjQHP6VvdrkTNi9j86FYAarEXZrmvWTjrN47JwEQpHIX_Z49tHs3L8okYktL2qmi6SL_PwsSq8c7HwWPbnMxw1lFOqn6U9eaSU9LcDgqxnhnglnFThNT5_5i2HXJSAyrhc78h7i8KkzoZA8XW-f9KnaQOrQYFqnd6DzFda8GOG_kln0WVo4ihH7q99Q-UYmIHKN781J03ficw=w201-h251-s-no?authuser=0"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9c6"
+      },
+      "nombreProducto": "Muffin de Elote",
+      "precio": "72.00",
+      "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc8GpaA1SYVTqiukPwHAELg4aLuyvUYJgssCMhbZs6oELlWRw6Vtt7OR5X-SSPZ_MPLFrrcgdoVXK2f9XI2J387rR5UrAYo6gKFw508v9TEzJ0x5n-pRo5o34b2IzUL-EnKUNZP1ohW5MmTU_a2GsgAp9Mt-NqGYmSiLdkIamZUDbOhaLfZUj5qXSWdKrC4sQRgourRihK9yicSpBoe9Z-87jWBM_JFtQ6Lj1d2MfvxPmCTGLdnPPX1x8dho-FUrETaDA6uRGgFPXM7KgsgmARymX6h-zNRulJq68XeGYGhWFAnxYeSQDTN7xYV5RFul0DAFa2kZgQ3P4GTBGT21yQ2SDzQlsQRJmQ5ZZOYQEZMXhs1YtqQCTdEJFC2xv0E1eT-xRqksP7HPJl1diyqq31MZNr4-kUcsa0BSNBNZqGQ5cpQNP0KQa-7qRyWt-MxKsooRZxBWkedzMehunZ_oxMXNenEE_gC22wkfbG5rKMbRXddXtXuW6fjbOyYyG_C-R10mCJFHcHW-OijSKthxaF9aqNgzQo62qrXse860DdkCHLtxxETvfkFkzkMfbM7WbOHad_mkPnsF5jut2ex-esA9H68wEEusPx7rrEj6HeSB3XoIHT30WDtjaClV5BcKz1tIDW9AHmCtRo_EjkVejEXxSSwi6RNnfI58qX5YTraHN4XzUY2CscfjxLO-vb4M0Bxh-Kt2LJ-WUihY9_jqeXh5IZyT83vCHYzBtjhiGLPHB8Ge-5MWvu1QcV2zdluHrYBrB2VAOD-y1JjNjV1jKJueZnLdVmCUv69QP_PsoyS_KrZdGEEj0613LCxap1hdaJMYv_FNuczRt2YWajai8GDq0bttUn_CuMcADpaMQzVOkNr07LL8vkv9l7Tg34lgmknD-PQX9WMEMfbAfGKV0A=w739-h924-s-no?authuser=0"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9c7"
+      },
+      "nombreProducto": "Frappé Chocolate",
+      "precio": "99.00",
+      "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc8dkjspQT0WMpVwiDB_eBgYwgCcAAE4w1_zZXFvSTW7ATzvtx3_VAy8Y_MNM5VyVi7S7TiIFeFYL2f7uG1tOAevrQp_JvIFZXeUMerIwWAdlCaI2Imc6YfSqe5XfaUA369DaZiOXwq4CbNuV34dO8xflDyF2YgA931rSC9ogzwihCuv3NMKu1lArmmJkOP6RutABwOutAzLXYjmVvNBE6CgFV07e_-XYHWU47665U3riCTnKt5ojLDNgOAJoQiIUHPCMz6KnOF_YTlXGGwZ9A0mQhnuIMp-Vj4Y8G6a8M0SeSmCmNmMll5dXnt3odAj1UY2m2787Ia_DCH_IdaUf5g1WaVm1agKOnETBwfPilQ23wgvf5146Eg1mCxHaBXFE_2qF7TEb0R0tYvdp0yIyjPybB0P4dzZ4i-21QVJebtRtUu5sZpWvsAMMVtVZcJwBO6iiw6xQXZUwQiMwFDaC0_EnlbEGfYD2RC7bVZayzOWdKklEYkiheDt0KWF6tPGBHVoeOFFKFLCGFLfe8qtyFiM7DkZP4RRqV2PpVDFPX_2dqSluys-FA3kS55lFFzsyDHJ1uUdfHmtsT-GbZcIbFdbWN3VnpvXkdeqQ1emd_e0dzGmFTBdxpYSlVhQeKS2psDRW8PnFJF5auAQ09dCRPJ9akA6X7G5fvtjfNMXxcGbKuTi1gE3tsJhcRiYzss3nE5kGmIR1HwnifbdYDHfzAK8neMd3lrheMJJU1tpcN8bhgIKDFgVw-AfYDQbNzW6K4FrHFVGq4yc7J5Jlxp86IUfAfYOyS6sL9CsT-Z7NpCv_lZSZ_vCbknF26Wnlr8h6gX5iXZz3SelbeJjGKBKGZDVya3M0kddOjUTlDGLnSjvP65d0Jsqx-_OrQ-iom7xkKZwIC6aUNksdbiQV1p5gw=w201-h251-s-no?authuser=0"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9c8"
+      },
+      "nombreProducto": "Cappuccino",
+      "precio": "73.00",
+      "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc866XBcvGsQJRdNoxvUe04qZK7JpLFEqCdsbyuxoX4gPepz3E0wx6VixlAESWKqxAe5KePiBWiT0aYLZgdOAHM9mGJgogoh3PIh6mXmEtNcnZdN7WeNn_e_CwtYPV5rK1Pa_oa_IfeTxNhzJFTEb0PNX3M3p-4fV3bpopPVQVwEqF6jENqxGviyCSRIYgFmZCC3OoEAc2OE-j3mE-_MlyPqqdvDFeLCG3kXEOxVtFqVYES-3hA8Om2owqNlfOcWvGOv29bLWrE2dXNpCPA5SGnOyO50heINepOYybz1zydTXoCuNL0RffI-jebNtVlW_QpVEQP1gOwBZAVEjlczSgX5NxkVzdUs9PmGFjXrsOo3OJWWJJKcQ3WNZDPe7rGMQsjRllLeLkufyRsL7qBYZ82oIO3e4FQyR16c5b4UToHcSR_uxzxf5UuwWGOZuwvtwhitru0j0RDnpGTTsEvdjvxFgt45YJU15h0F71D9OmGbHb9FdQtcf1WCubASj9G7QX-jD7AnLiOnAPyHj1NHfVwhZVd7gIHIOYaj0nysLtdn_E-7oNb7e8t6pdDXlrvp4nuEk4CCShuuDhKoSo80gwWsHu2CUIMZy7sWBPMI675t8xiCjcx87gpeCbmso8MsudbErZKPMkJdM4vslHHzYD24Wo8rMkMMbuB7JPGbzczU_wMgfKZHNo9ZGZeGLTQGJf9mw1CGCTH8iu9S2GtvMco07XwjJOYQqV_sNux3wi70xcJFdN2LxSORtBw_swZ4WOfz5YS4tw9fd8piDFGOByDqsjXemYOib5k4RL7oSv6hVzNLGt49EF3gO7ZJi9YsnbpMsabOabfS1yH8OCm2e90AKedJnNcWHknv94IVL3RpzlPW-t7STzbKy4zOAnB3bTzg7lZ4EgifkigOLikYfw=w573-h702-s-no?authuser=0"
+    }
+  ],
+  "imagenLocal": "https://lh3.googleusercontent.com/pw/AIL4fc_EFUoMbv0LL247IUAJHK5P1vT0uKAb91K_TXeFQBEI0_sz_Kxr35waLMC1QgPQp1mXW0pfjJQifZio6rwa2tj-PHSaT6DdRE9DLXxTqGh9N9CHJkpnWM1XTX8g-4ehOUll0JbC9Mk1_wTU_Duqyu7FGRDP0B73VHtoYKPFdMOJU9G6oAvFZ6-HcEF2N7O4F1m8YarogfZWYKVVLw-soSXjeI6h4jIMIELMwY8Rhy1IRodDBsY0el41ljJyEiFo3UA0umCQTtRQVuv8kXVUFONRnFO71tf2qaAU82obhv1fGpwxVDRxod1dch7EVNPQAi4nM7x7UiJ5x6q-CzF34-mpXGen5BNcG-JnyQRHNrS-1yQGjx-uektheVcgiKCtDr69wqR5JVrkGNnmWCNIjkZcavczjc3io-4xnqDAFpu0-dp0L6sDDkkiEQsa0OSQOD8A-sOIG2RbUOMpugIG2_gWAaQ2V05hnuE-TQm8wXO6wTsqstdYp5ht2enUtGL1q5TFAAXe1oJ-DQR0NjTufYubjwN1E0KlGtO6CrIwW8HZBeeBOEj1I_rzqnkdGs8hPfqevhMyEw1TRmUuSZ_bqrngKmYntBa_KKS8Ep8by07fIeGsgCKGHPx-dcXKGj2xsmpAyW8JnzqB2BCVxgja7-JAd7F2fntEJLn_TGw4kp-3bp0q8bL8bdOqRfB_e3S_bQr-geml9Chdw1bcg9nms6FS2-C7iO_52Gcv0zcZXVgx6Qpy2jNd6433aS9ROUEuwy8hYPKey9VztmODlSdTsPy6TWo5YtTvnB30t4wgMn95TTMk1FbLjec-ZRH8LCrLmq0iy0UE6cKtUiwOvicTVLv7nhf3n3oNCK99n_Z2DNvghw9l78WpzAQsIBVU33nOjXmz2NmO0JNdXXu5TXIgZA=w768-h432-s-no?authuser=0",
+  "recomendaciones": {
+    "nombreProducto": "WAFFLES",
+    "precio": "95.00",
+    "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc8JBTOC-JNwvUiUuwiUFYDnB76w7bsjecjdSTtf2fY3yNphRX6RA1NT29joYUinRt15zIvJot7HmgB-AfEgyInQbKCU4k2qe7ucsjFdAgRIPqKtqoYAvxpimPu0aWhhaczBaarvaAsMAdhuirylVTD1vzdKE9WZJG8X8BSmV-_0I9RUl8XBXwDAgER2rYcAd1JpqWOLFg0JADIEtUYeTmPq_QY44d-UR_FIFUBX1HnK6IwSek4q9ighEhdF7HRfOfQdORYc7QeRB6Wxwg2yJ7DHcxODZGMtDYw29VdwA0oN2lq1E4JOsP2cIdCg9jIYNiyhWvkKOvXEP68fLvR0-VygL3PYad81EntJr8tF17B3-QV15usnCIVNXRrlCcYgesYsk3JCKqjNO_kEwMN3sTVKN0i0hFTyRQKZaoMf2VYRvLznbEopDBLwSDyQUxy9d-eAsDIIyeBKhDWRZYpUmYqVFhmW5-TLAY4OgsTIZhYK7GD_VQ9vpUrUMlASFAMNKXMpF2Sn-gTAKcqQgviDME_fdX6nRKP_nf7Rw7LJ9efZ8mzg_pBFVhlwrZkPydf6edqPhFKnpUyy2mdXFDtAmnankaJ8ahN_f9o0YjFlJxzrzQoYjcSpwCJABiKnufIF2W7srF38vsN8HHrRNaSPYraT8XFyx10KVKOr7qrGZ5vcVTXufO5lc9VJN53EB3hR_sD26IMjni_1TBdkDoRGr06i4oqiTW9I9jHiMyBeoJAiS9RoU6Z7LKvsut7KiHxhTD2iSpPn-VzqIeRSxquQFOrtvwoa9CrzAF38Lk1P0SfdAJLVd3_H7_wx86WLnhzmmqRFKGcZHwChU3dTKjJC8xW4dRaepg2oFXxnyBgqt-qERxWI5ZF1-m-epqZsn1WVDCMRideJFG4qimhz031Mnw=w960-h617-s-no?authuser=0"
+  }
+},
+{
+  "_id": {
+    "$oid": "64e89f1ffaad5e51b864f9fb"
+  },
+  "nombre": "Cinnabon",
+  "logo": "https://lh3.googleusercontent.com/pw/AIL4fc8JOY7_jnPXNcIpK91ZxDCzmXgvoYF_XBU2B6DzYf-zW_G9vhfQQ944hzUH4XnhJP22dxN5XE7TqLU141a8suuTyje5VSUbYfFoZ9G7kr5pqcUW2PL3buF3AtCjmSsAd_uXE6-G_QMb2EfG3Y1GxrSxuWSCgbph7-LcYIyZclf4lqncPTTuyF6U4ussdjA8mDMjybYwMtm50JCYurWpjbA2MnsvGJZHNDyzDaXyS1HW8BpDFURzEBWhicyoU_RsD6fsEdSl1muBZz7Qgrb3khWZh-eplVBMe-WfwcQsvqaS9VRSC1reeFIEQ0Z0XQRrC2wpOW0k6aQQdL9MObBBS5Og0dXWrku8HY_vNarpsVowY54Mfr6Y2DyD7sriYE9UAnbPeOVLTfL7LTNJn_QJyovNE9scqXkGUwcGKfQOOIzVXVeXUztK8ysDWoXlkMisZwiGW9_ZCilzrZlNo0H3N25EKen0R0CBGUltNwRvPTONLu09kODoryn6jzkVZ_IIVW4T_yuu9Zm2w1C2cqB9PJcoh0lbsLMx4CV_R8ROND4SeREVrhtf_QA2tBz2uBtO9MmmjQDv5UzL4Hq8VLUY-theFBaaHUUM5z_sVeasUpNsZBJ91nxNYt_NuotvHBCJdlWElJDgsg14XTSet_3d-Iu0vVN1uwyH0reKsmDBVOHgDn4N9xpqd9y5f6MXN7x2HTH--m5-1RGXqgRzC-C9ILbDhrsYpSvjnvfquJACCmy12R1r-ODumg6pzegytB_EME8Z1mf46RgZZZwx3Gc4qiKdi2s1xueiC4KJaHq5XNn4oanPo5r349ZFwV1L0cseRG6iF1ag0tGSylw-XXtnLXs9pqkVbB-yDL23NhnVJoNJJjWfbbAPmJ-spZhoVPODcZAIj9s7oYVZqdbX9DI_0g=w637-h637-s-no?authuser=0",
+  "ubicacion": "Cascadas Mall",
+  "tiempoEnvio": "15-30",
+  "costoEnvio": "25",
+  "calificacion": "4.9",
+  "favoritos": false,
+  "productos": [
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9c9"
+      },
+      "nombreProducto": "Pecanbon Bites",
+      "precio": "145.00",
+      "imagenProducto": "https://www.cinnabon.com/-/media/cinnabon/menu/caramel-pecanbon/cin_520528_pecanbon_314x256.jpg?v=1&d=20220210T091139Z&la=en&h=256&w=314&hash=F73218C801B2F0BA70D0DE0BE96245BF"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9ca"
+      },
+      "nombreProducto": "Pecan Bites Cherry",
+      "precio": "90.00",
+      "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc-0vL7iLEBZTG29lo6o28pJYPE8u8fF54DtByDiUzvqb59-ujlM3Ihq0TAaH79iEVghLzDhpjDEhcwlqSBPDZo8Ni6MD-zUx3CGI8ZxvmZymKVC3PBeKphLpAmgFIAjGGsjCdB4ootIoPHTPlRnK7XPCrGae6rGoH9i90MdrKDFIncArNjueKt3anQBvem6dozG4bnoRqsbpkxrqI5E7jITE1oq0OtpV5ooYWrHMzlyZnbU6CPuV5oreTeeS7_jNr7JfUVxfR01IhaKXObRAk8gMOOmA772JIaqgVAgkX2XUfMNOoCfdgMA3J4_aZTdofVHckb5PIQQUzbfvRsXvoiFJPyz9FOddjZfUGFnEfY49Cr-3AUe3qa-YGJ69WlMWb4wLhyAGQyDkh2t1dBnFJ0mM2U3JsM3Dn2MDlmooJfVJFlT18j8SCBdlEU8QVIeVAfLMdVrgusRLg1BlVRHSYGrqdJ3ZDCB-RXQ0prjxbJ0ldh3BrsS3_8nvCOehWzxI5z4nRyufOtPqyom844gTAzN91BJda8rVTDZtBjuV1GRzUBwYIdB_Nh3TlHcevSeVyyhe5-eXelpXoBN61h2sTlm05mVG0-y5ZVz-PkTdWqSFAmcBSZ-mr9QrVKb_WSdab3Ufp0X3-aC3aoa5oeEei201KO0c237nF2GMcpuxdJ3Zrxw2ErhkicDtoEzzR3zk41LQjus7KDmjeWfQbIMIr0Jp-tdXZJpe6n7gnq3WYm8HwP7q7hoP3B7sdsoWuw2U11eIkkx5s9y8w-AlNANNxGMc5CRphwRKV5ybLLrWwXZcr1X9VEVnVtT0tQjJR5Ujj2Cm0bsr_4VnN2qTDiiPhz6wVTqYzrpNh6mmllaPUkxL-ZW-JBxsM9F2Q_8DlXWEGioyiGm2nGNSWz6gCiuZQ=w700-h779-s-no?authuser=0"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9cb"
+      },
+      "nombreProducto": "Cinnabon Classic",
+      "precio": "113.00",
+      "imagenProducto": "https://www.cinnabon.com/-/media/cinnabon/menu/classic-roll/cin_520528_classic-roll_314x256.jpg?v=1&d=20220210T085803Z&la=en&h=256&w=314&hash=DF46927F79A42465357785467AF71CC9"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9cc"
+      },
+      "nombreProducto": "Mocha",
+      "precio": "65.00",
+      "imagenProducto": "https://www.cinnabon.com/-/media/cinnabon/menu/mochalatta-chill/cin_520528_mochalattachill_314x256.jpg?v=1&d=20220209T122340Z&la=en&h=256&w=314&hash=D45C5484EDA5B1F692A1A2FFCDFE57DF"
+    }
+  ],
+  "imagenLocal": "https://lh3.googleusercontent.com/pw/AIL4fc8YGn6EDtanoapP1o_PW3a7bYGFywIdwqq7nhERa1cQgUDc120pMn_SCK2N0927suRm26TVXVQPWeBr3MdnWE3huhNvxBKLjQlO74A4s4adHQbErO3I5r44ni-e5HPumFPqawAGegTqfb05PaipMuxRD-jgm6uGmjd5ElaxLNFOwlssITe0wXby6fZorl9EH4ddCRkyd_CthNcQSiV1XDZnQ_QG9ig25M8lqj4LUc82_qq-A8plO36iZvYQNAuCdcIgujizB6u0DSZGEfTIZ2QlWrx22eEZoauU0oEbYRRfbGk7ORRhuxmiq8ZqRD0hddfS6NtWLiRsHGofyFFMxL35gJA3x0IgEPz76G4CAcZxcfRhBEmvBkBhgt34LtxXUBfj07GYsLaGM4TxbIq7UXHhWfvz6i3c_8Bp8LlyIapOZUTlIU96y70NAk1653OmYC2SD_NuuMu7OyQpqdjBwKIEikzisdOPH8EUn3Y1Y4P9XcmCQ0BEmnHob5LSyLSde6yq49JNnzrolYbaWTcA_5bSpm-7cygCIKj3XCYP0SOS2JRMJfWe8cO8sJ8IAmr6fUlONh8-DLPIFHe6EYNLDnjsjynmp1Vn54gn0vSTZvBSA7FrNRwWQDtlWu4Mp59X5Kk5TKNOHCIXNwtixCvex5JAvMCa4QM5pz_Qyt8E7tGHyV3WnS_cNRTFaaWv01ZrX3IlPb-CFqHvPcE2UiU3ffDYoCQ2q5qI2AExDZrey-5SSkx0FXW8jTImXWaccbsUKu1BUkxVkAJRTebqBVvc41MXIQDH2JaG86fys3HH6ky9IsUNzkOgYdj3rGn8H7-g7p8I8FHraPnPEmImgHteXLjvIxzwECAIQvFHw1q0Hfhx0P_4w3aXhbdjmmc1z6WcmoYK1R8Q4lUn6ydgUROi8Q=w1250-h612-s-no?authuser=0",
+  "recomendaciones": {
+    "nombreProducto": "CINNAMON ROLLS",
+    "precio": "113.00",
+    "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc8Wq9Z9HHEQOZ7tVu-PdndLARhKwpVEk0WLJlOSlTV_zvWdpxn9jDbxyPFMm_BgerbHIxcmp3SKPG7YdiCOTVcvUqt1BYv_xH7FZpYDHnENOeBCnI2oD_V6PwfbBiKn1wYfJ8q6cZHU6-3RPz8sf7Er6p0I_nJmG5MasolyRoXXxVEYFkrwakX5MEEbg-IeLqh5IB8wvWvMUDYYPvLBSVtL4L0J7qkeCQ9TdNs4L4sUttzgprtHQcvd8vZ6zZHk_o11siKd2TGiWQ4-6SP8divPvHs5sa1NJWD8idMf1XYclm4IO_faMt8NmolFC5Zm0MjOn_yqLItZaOVU74q-jUTcI9x_y_OQIdmNyQ-rRoLi4062vsQcvn9rDlV7zUI_iBsLRelzXb0BiY9xXcj-c8X1HQBEqbeBUssRJbixX9DZhxeIYT7gFkI1UvWA-FFNFAEMG3PJAOsSTAMoQ4KNuZKJxxXXb1L2PlaFDbwXzBwriw4JpovEXjFgndwuaHigy4idkzNO7o4lXMUROwJnj6bgDBf_97aukJOLv4sDJdxO8L7xxryCHoE6-QgWE8CA_NxdwBXYNZFXgcCQv3SxA37u7NmONNeqJZf0l4ATyP7tU0TAfTVhWhj_WDvTN21IrMAsbUFVfQJKtUO6VRMtjSwy1-BKiclqXuw6k4o2189QePGj1H1HgBxvrv422eOsgwSgr0DBjogr0oi0n4OIh1mXas1uKPaMfrt-rTVCNp3QbtAAIRVV3usrsn9jSzyt_R28O6BB8EtEGfACmU1zqAEdpSe5V41Jpd8eTphBD8dodO1kJyK3vaofGtaIE1knJNozlDUkCGXii2jBUWisTxKJwXFebjCm7rX_NomZN2IMQwDnA8ojH8-zIO-kyrNpBjZDJlMKizxvpP_aQlsqFQ=w300-h168-s-no?authuser=0"
+  }
+},
+{
+  "_id": {
+    "$oid": "64e89f1ffaad5e51b864f9fc"
+  },
+  "nombre": "Coffee Lab",
+  "logo": "https://lh3.googleusercontent.com/pw/AIL4fc90jjL9O3L3wWnsywK6isUJbgzG5GUVtIGRZ5gdchaRPmR9NZYlePVqzSGdFynbn0qh5NdGr5evReqfnhDbUYzLOV2_Il6uUxGyTqEaSfOfZgqHuW3WrQAviLO90RjbsrCPUn0MquJxQv4Nax4-oLOVTCyj2WJIPdvYB4JDm6b-GHVifwaEWMsrE65XrZD3ble4a5MSd4zXD_OuolNqOKX45uBvzPOuW6DijCXwvIxMUNgV57wWi4Y04CiDvNjOugpZNwzUokebYEMXa44Q668zJnjzVMBGUbwcVlospqXw0Ew7BTEcvYTsLkkmYRk-CnCBPfoqpsNCjPNHPMVD_3OPkNwPUIAs5xqaw3lRnXMwor6vnu8jy_AZAaupm5Uf49QVHxJRBERL1VIs9ETDbjtOjPEw8iLWzU3xyFbmYHOHtcC3xj1KdQ6eFGD8BcaAExpn-_sSFa0PiuL9ukrnnbDU1c5cHeVO7SqdLLxOmQ5BGVC_4e1xAeEOyZxSY-C9VgnFMcf2kzgE216qblRXPmCLHk3SA2cxjGX7jqqYH_kU_2YoKm3GrdXjOiNotK_-Zyy5G54XL6PbD1LdQE8AsxFWrCTMhTxvrli3FYMnK7ddwCpaPKomocKAiB-9RumRVb1L-iWHD9wkhx6YpjMDMpwagR1sntuzSrlHXzpuiOEyo0GSY9kBvCI6m21NcwBR0Ki3lmlQvU8gbMJpd3yhATAcJHexnBXQuwqiqJ64cWpI0bJdh2GDN0XnKcsp-nuJw7ZKB_7gBfN5BrM-riN6nlpSDBXrjKv1s7gwWq3RlTwvuO0pbReLFhip1JuJLpHyg7DwxvEnFmmNo2eyV3avb_Xeg83WaA7TISYgRHHFLg-wSi4u1xvD_ADXVPb2V0e43hzF6Jy6MFr4hcE7sMA0Qg=w225-h225-s-no?authuser=0",
+  "ubicacion": "Los Próceres",
+  "tiempoEnvio": "15-30",
+  "costoEnvio": "40",
+  "calificacion": "4.5",
+  "favoritos": false,
+  "productos": [
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9cd"
+      },
+      "nombreProducto": "Baleada",
+      "precio": "38.00",
+      "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc9FkqTeplTWV-pTumMOM61qskLHxwH8YJWP1W9QMS7k90mFpEhB463Scejza2NaEeksM_Ys09cYw8AM8DAH5OW78Fn8K49NJcjWGUR-8xNfj0FaXusdTAqDpoWpAHWoL22p1nvV774RFiCz9SqNJVLYCbtoI2RzGvi1fOYNbCYeggCRbMrZ6T61eBsHZJEA266eLzF6nZJjT0Kn1CqdHktSeUWkjpsDGcPT0hhh26otQgF7fz6LLgj9LPmu8WCdNy0WHUcqprGJMV4rZI7Fa2IyCWjlBrXke6VyL-QAxDihqaSnn2_Xn9oC0CCmOmcxMhT0X6jKjqD7-xj1P83-4IADPVrVoHNs_tQodWw9VbftWWqhBqWwNsid6WeuQH7QPA3fEreoQblI5C7u9oYcdJ3d2upzfIRNHkUcnGI3x6aVmi50RKtUggqBHWJMrS67EYMX70nQp8eqRYDsIbRtTj-P44tA8XfFwpZV9ApxQz-515omZkpXAwLZ6JBGWeo9S6lDScdEbt8a8jb_Jv2-lTSAmPJQp10IIVR5M830flF37sk5cIJimwmQdQTsL43efSFQRZFjbYVOAZO6n8cmscn-FpM7DaOrRithF-up201w0cWuOznw5jeuiAZXMUVJsZidVO5lLxFCICzg5ltOOkQHDwvsU9mZvpyWcJVLpd_wJgoL79PcOqxZaeLGgm1dvbKElclpScDn0OHM57PGk9BqeT1RRuFpNR_l5K1nWqNohgdIdEG_GzJOTL74xpStJnTItsYqEEc0afh9yD9WQFEu8F8VAgJAuY2d3nUvYy1jYdH9M3jcQ021dS-bV_pDzo91LS4Br7AL2shrDjKUMS6RifHcvVNb2rtf9M-tNf_51ChP7f52AkiACd9QyyWLvvPoCZRimlOdCLfeXHpy5Q=w355-h285-no?authuser=0"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9ce"
+      },
+      "nombreProducto": "Waffle Benedictino",
+      "precio": "99.00",
+      "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc_xzZRE9OsaXnkR_MTOcRe73XphpLZFwrjhpiEPFrocoG3XqDu8Z7GVKR4rcUcomP0CHSfI4V7bFa-7oUIqWPimCngo_FxtawkuHXBcX3tLidb6NbNK24Lh4Ys7haV44M22wOoaowwIdZ-idlI797Mt68yXCSS9Fv71v8ZQDSMjuDmXb7AYJOFcMm5piUpmlEF39B-DxW6UUMQbkE89u7c-pWJd8cIIGLNXkDwmpG_BsbR8fP8BdzQONghsmJGXa8Q4a_GPLv8UvpAiBXyHE8O0ovbEPl6Et9CTu8MQpZhU6-NWumO_JrhBSdf41wyZsOu8JF7LHUAEZrQjpaVq-9l6GsjncgHHs0JEZzBxz8pWTi6HpuBfwwQbQ2YEfDcMDX08kGu0rKdhMR3k1Cd1FZmvvF61MWZZ1CiCWEYpv9Y2UnVDZKdwVsNBxLJZ9WTlGm3EAp18yXXEB--a7mQYkSfTT8QTDrZogjnTuI1JhwwMxLybIOLyNIFv6JoqO_hHNb2mi1IKlZW9IWHwptq4ugkiWpcVinLzPLnePcb28gbndLjmG0r9cK9U1jgViUPqoRteGfI9jRsMTNq9LhoaQry0FqjLk6ipkMOhmFs8tK8Wvyxw-Xq9y1lhCnJwPvNmRzd3CBgBQY9zLXb5-AUxBabcDgtswRdxZDN5O24gjh13hykRgr6ARfioQW8J-eotnC36PNHi-KI_rer1FSuVQYxQwzD3jVCq2zDa2nNheNg4d7v2zc47LeVSDYaMjNS7TQ739T-P18b6fYj-oiB-pRrqFkIdb9pfn1H45O6wRt2RpGFEZ1sNGuOZiGi2kPM7hEOdf6LI-9Ra-1mzUIhzeOhD830cdEACsn_s4b0zVh6GDbwXQosC-QGrWJL-jgVsLVL76f5u6cNktD0uo3V2qQ=w1000-h563-s-no?authuser=0"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9cf"
+      },
+      "nombreProducto": "Cappuccino",
+      "precio": "60.00",
+      "imagenProducto": "https://saki.us/cdn/shop/articles/20221223082901-cappuccino-recipe-blog_1200x1200.webp?v=1671784153"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9d0"
+      },
+      "nombreProducto": "Café Latte",
+      "precio": "53.00",
+      "imagenProducto": "https://www.roastycoffee.com/wp-content/uploads/mBPxUtTx-480x480.jpeg"
+    }
+  ],
+  "imagenLocal": "https://lh3.googleusercontent.com/pw/AIL4fc9cEwOtyN8QtPKG57QFQljNhgmjlW7f7QidXvz510JV9EHrMtkW8O17BxG6HN70tmvIsYX60n5nhZe551TSRNzjJjgQei63Ruyn-jPV4vNk7NH9zxbJrul_BQ3MAKpMNIzwlI8jGWnsKbKgD7x23y0DwPQlUF3dVuqMdWGQOPd8H4xY-myHHCcgOjvCey2R41xrGQQXZFMI1dSPAlsOgzAbg7ygo8akhIp1ej6YEgki6-GLqmQdu2cSci-LIchIzAWE_OUPUleOtX3OQjwlZYFePgKiXVjAEBb-Tj4WX-JOzzvgcii37rAuq7B-BRxTtsaSuGCjAziNvclI72uDGdhlNqIlyAeZVKiuSO_Lw4FnldAt63FJDVwvXw_CVBvh6dyXpBIP7qRN25o5jAQXcRING2KY7-hq5KlvkIccj5qcslvZD-Hzldi9M2vn5yVMGqPZVnSWJKLS0YYHeyT0mlPf6X7whcFZawH8BGYf9-pwJsPKEG6hBPAVXTQbuCh9XCK8Hz7MSoKcnHQ-oMaWYs8y4XQd7p_Dr3ehuuNzzaDYsa21GhB1-owF-Eidni8GG2IP7ZQ6jr5dDLv6C8o2J2nCS_7TC_qCyNwCfKnYUBv8jArrKfZ_l91Vonoejc2Q9Nit_Sb_KimOfKl_iMc8mzPdSApKrj1SVinL30PDqHgHuSISYJzRofRLae3zVdswym18kTRh3Gm4sWF5kuZsSl7_4IB-uZ0zoNGLOkVVcxJk3hhUIBhUVkdL4z87SjFd7MzQaDsYL4osap0WenWqRODPg41Lq8g6H7-SiEBgHKJRZVOFgrQdls_lGrslV4nRp-CgqLdkFjRhbZV3lmTXFI0sRd8EP7ny0QktyGmY2ij4gDiY4wQBDu6eq_IRj5nJtbalIUilJ7MnSB1LZihjbw=w482-h207-s-no?authuser=0",
+  "recomendaciones": {
+    "nombreProducto": "WAFFLE BENEDICTINO",
+    "precio": "99.00",
+    "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc8ddHbiMP61l0rwpaDPgYynp_pWAM-vClrunABPOsG4m2J2sOWGkukUAk1A9IyofUVOSIA77MWMJw3-ac0Julh6gD4ignlaJFj832luBdOrJMkfFpCsab6BB0ZjdQX9WkQf9p8ijvgjTdxBe6lExT1UmXhCPi9BvcRVixE8V47cvB0rMo2P7Q2KhkuFf2db6xvca5uabm7YcwEK-ChbfeCpdZepknWpMZ2JzDc0g8sIv_grWXIpNEBxxuLTjtHLJC4wYoJbNoQnqVLuS1123N2NTmOagpD1I-ZYF0W3D6xbPqX8VCB4VtfORsCXVZp0IeL0ScFAeD6E3MWBNNoDygOkudWvkTwgZVMyvNm7Vs0gzZDRT8J5koGFT96W45ShcsX89yz0VwksoHmjMdWcmVNwAdUa7oL2WO7iZwebm1l_X2hG0sVVWbTCxO8Twpsp59OSV--vmpXpan2lkwBipkqnLOtNGUnE1v_NCwIqVVLK-TLfyfyJSXL8UFvd-N0vSkLtut3_v3-Hld-lTGVWt5GBDZgMvEuYd_eeW2FUF9rhn2NiW-iQgKr6EzRoTplk8kcdJTPWdvmpm8bojwssMgm_7NtquFTvQgLq_1QYzGhC6DThxrwjEaX8R7PVHaKrt7JVOq22RctHKz7o_b0RaVRBEV_aWQFf-nRuqVFfGzwLA2bm6xc1-MZOY-w7WulJDLNge3D60I9SG4P9jn0aAdW0kGq6vlSg1wdT7MH-uFqSoGImDzsWPnisAw_nCmgIZvl05m8OAnO5JJb2nvBZRcj5uVL2q8-lxVz_MuL3pLPFnm0et-yjyS5l9sqN5edqgh_3br0oTxR7FgsONROaOR5MiiLZPKBnbxW-sDkJUWj_GwKjJ8Eg_6idPblyKzSoCVBhDqj9lar-rB8vxi0VCw=w1000-h563-s-no?authuser=0"
+  }
+},
+{
+  "_id": {
+    "$oid": "64e89f1ffaad5e51b864f9fd"
+  },
+  "nombre": "Galeano Café",
+  "logo": "https://lh3.googleusercontent.com/pw/AIL4fc8Cw33ZPqAYVqKTVMxeaUyFeIOlqcwQyQzeN8VhE0jzejog9DHE7cwmlQjjgUKjWW04oH-AAk6igb0jkX7bH2-wVes0q8Dp-oJwUoFKiu5ecVLzeQHLlDdkglCKoUEcup3_LmaHt-9sAnzl8FziH8P7Cj8Jyp-ED13srQVuOwKagNgle4jChN3bxlE5F_yna4UxBLThIp2qoc1R_dVGLuVEf2EKw6azH7vwfTvYx3S6J72r-0_Jg6bj7X7Hjd8QBaKPZo6f0k6iAOLqLQgr76320wY_FlsEAixQx14LzsCE4wxJZlfCtwiHwXIkViFuP6RFe_n144X-ere6S_MV0kkMFfZ1o-4oc_dhTjwB5PcKt4DIfAi4IdyYtjcBnHwgnTLWK9vhhRgSDAY8N5h5c8oBs-ALjdMB36o4rQHTFM6RY--bbKqwi3aFh9qfYR0-Z2Ak8NUDWVu5OQ6TWHQrcqdt77d6kTF9-LN_ZCcWhoa1-L6IJXiDsC_vE7F7Dc86qj4FuZS7xvN6Iv0Gnn1MiE9iUw3UCFj8tTne1BMyWxilnx6EORAauWIeWuLPD7aeEUB7aAnS8DpbA_p-69eaq5YvaY2BDaD9aO2a2QKHWpY1an2qajRaEAW8-DrYytON8_8E2Oiv86WNwA-6N9i0mGJ7-x5q3lfhyg7G5q_dF75cKzIm8bL8UwqdIC8YjhQqdHrjgsgGG0HNbkWJh_ICHQTv5oYB7o33TwRTsuTqUu2JRsn1sPzeoOJbLmHZzmsWb1ZjKr78t9ug7RMmMu4Cv9ywj7fptCMZnsuJji-Pr8sk7tdFm1QMcnekadeYbJDIkt1XOAJSqnApMRQ14wWBOM8m8i2qId_COkIr-4UcB1iqa43dRfyWVB_dVDX07j-BN6DAaKxhTu-BCznP70GNVw=w597-h540-s-no?authuser=0",
+  "ubicacion": "Plaza Maderos",
+  "tiempoEnvio": "15-25",
+  "costoEnvio": "25",
+  "calificacion": "3.9",
+  "favoritos": false,
+  "productos": [
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9d1"
+      },
+      "nombreProducto": "Cappuccino",
+      "precio": "57.00",
+      "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc_okdRB8WK_684q7g3WDaJhp77wtRxxMGBVx2LaKX2Wva7hi66djLbWxNi1rKDYGC95eTDApKo9RoahCNpeP-87YhX6PfcNLkARlCy8YPeFnOLG9Fp7yMg-zmpf7vMYRvIlsJCOiET5or7YwiY5ZC9cmHfXdmXd5K-4b0f-w2qKYdG2776syXHPMhoaoaurUK1ugmGMajR0gRzwh_Bc_J0N6x-7IcxZMgJ_pXuiksl8CY6xciFKFFZiPV9SE1H5lOpbEYjE2vFxdbqq_8Bt5xQcd26OTX34dPzzfR0ZBkABP5bLOGh50wPAYRomjxrC26zF5PvsPVEvSnljVLevGdLmrXc0pU9MMRmCIQJHcZY3snIWSbYJBJW_Tmb8AG09An4t0Wf6Ne8CTsMS82FZMGGsaXh4WFC4ohZmdR3xOqlpZXNf7v25kz6isbEVgbiCVWqGDnX8COhCJeLs9RCOXadxKz2EZMw8nR5nN3g7kMKZMDNlnizzt22MT8ZBdVDPOfowJjm97vF0ZVHMOMiISCuDOK89Ns9NgSwcTmZWONf6P1AbAMoUwCxN2U-4r-KQMc3__Z5NbnJvaIpAJSPJqrIvjUnKFjkL-Ov3m_C_8Im-xpV2CfX7jNeGvkKv7IB_-DU12t7ExObi1KAAf6IR5H5LhAMUrOOdNT12pfQN87nE6A8Rex7pM1FJRiDs-15UfRlgNjDjo0Iz3fsH3ZXveDdwtO0hQbrEaY4d1BZLpPefaVcKIeSnkCKrx_0iEbgv9Ec_YwaXGBwvjgH4z6-trfFVfMk7lTCsL2U7jMKPE6CXReMMU1IhNJnCwsqDb7Ii1u-vs5ap7UeL0RE7TpHmuuisObOehGJgwFsIUm4xjbS-8E5aMjm6NBAIInc_QOZOHl6tCKdLt8xaXrYn8G019Q=w175-h202-s-no?authuser=0"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9d2"
+      },
+      "nombreProducto": "Mocha",
+      "precio": "90.00",
+      "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc-ZamVJEV8K-ysAZ5-eTTVDw6sJV0MKtHxrOvz2ZZnSylsdmub4X3679qn9oqB4lajSnrDKscZE_NURjV6d5stkXn7roTCUiBD7gqUGiOdLjzO-A_B5HAiaK_bZWVpS7UNqHGhcs2iS91OOPOz3BBvlk7LKq4_46e74T3hpVcjZ8sVHH7GHG1PxsXrm0AKo6VLlrTcfjRiVVIdiG8HVdHxUfh24p8-hofLat9uv9T4-3eqwvX55GnsPrEH0FY6TJ-yIW_bceFuTQlL8cor2qNYKTr_1fdaHu-2AaheTBCr3bi1vSZq69JUyYXSKvNLsispMh_crQ0wgStrb379oxqgx3Bos6HR_2qN6N8TRqtxx8o-Vgo5E8q179i8ewTVRtBIaeC0nAipZS8BpAxp1eBq9mzo6LSwUCT6Mpb-0GNNL3iyFI3MjF9AV4P0pyFPVlQ2lrEOFgjwgicA-fNlYK3b_a6gCk6MMTG5_l6XDQBP0ut4sEMSptFxuYKakoucy4c5ea14gsNDwFMx26Apjl07xaOe9bf03ERZ50ZGHzUUyn9wis_BZWZLteYPi21incxdplt2gP86TYZL1aoJm9WQ7AUgjqKtk1zaYF3hG-13ugp3qwqXytwkmiK2uHrSUYHiddxQ7cwHPJs7jNXubRZbrt9GUTWPzG9zzejAA6rv2WfqbX32lwvEmYwh_AvsVK5MA995SDScsR39MROE42XkfVLuwpjwuXb-xPlxd-JnGwa3PvS3rgdPJn8GNftF-sTbG0fcmx75jlhrZwvc0BSuP_vXghph3r1Vt1fIdKmmmEN1PrsfZGy2bvCjslDg4o7BUqbDnXOjNg4OQnW7ykHSVBdHF1xPQdCIzqnlm9bE77xiGOlM5HpvcsWr5hnWpk2-F0-elknHT0ZsNe8l_Cg=w924-h924-s-no?authuser=0"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9d3"
+      },
+      "nombreProducto": "Lempira en Paris",
+      "precio": "166.00",
+      "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc_JhhLaz_2r59CSyXDw6CVCYhRwNq8PL647lAdjHUfrjCkvie0q6k807CCXj49piLZJLvO1ZMwv7vpMts8JT4ZHGUhwOj8aDKqymyrwx8Gxn7Wni_IBtARsMKucRo-NoQrOrRVTe6KDg5F0wuaxuBbCoiCf2GVVJOxCp2UR64NsVTRgxYH1xLMsKcXnZNZnqBa1LXalF-v6LBdrZ8cMrcZAZrcQ4cZoWogRInY59Rqp6Oigh_7EVZRUGrI5SC8lt1c4FWj0L8SsAl7aoEyPObq3j0lHdpW3fb0rrOeQBSj4eXc5FII5zufIHaVWYPGry7eCMjaXtqFiameCv9gwtAWg4M2iRnCSXh2-v4XtXec7tXFt6qy4MxutJmoLfuIe2yb2zCABfbqYIP3RkHqShii_9Q9iu9E20U6yhbwzZdIS9Uf17DIvsaehFwEjfZbrtQCFznHyS6-wqjm6xyxdCjD--BUdM_dCUdF86ajp3SydxPeJ48sYgeTIts7jIv9Uf4xbwuQAINpB13-F6ZOXeFYtI_y0HSNQFQ9mo-L3xl0FvF7YwsqpxlIrL121Bfi2OvdYroKqVwPuIRFsTn0rSF4LXq8WIAhRRW406uImVjZG4swPqrhejxpz1nOYZK9FCI1i9UDfukZ34onAYL_qu9Ua005QoW8TcjZdwwjX-f9TNi8fZmwIMcYOcBpmvkgjSv7ZBtH1N9LUCn-eh1hOPAG7ROa-rH9i1zxYqC-7x29ukyC9zgGHJa560NpFPoZ-Of0uWDNV4wA3DpBwf1uFV0O4ypfkAIr0Obc40dMuoDn0U74fMFDGsyoVagZKBoowe8Z3bHijIlyVCFp5qvgQ1ZTno-C6KbiZx2py5zM0TwAM_gv9xP8REqd9QL42rfL5xzMitoTq-RiXy6VuJOaxVQ=w449-h307-no?authuser=0"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9d4"
+      },
+      "nombreProducto": "Crepas",
+      "precio": "99.00",
+      "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc_hmiLwdUaZmt1yfVN62npTx_vmxtsC8RcSWK9mvct0SEAHSWjJg2fnVDR7a8O0gjmJgNWD5rR0QjIv7urdhD2vDRCV9kWAvjsJmuDrOLWDz9hlvD8IO4c3W_8ZyXSbinnOF_Grn_pJXhgjQTGdCsN4AmIYL4k1m7rCgAMW0BtpTLH0edqH_7NgmE-L6bvmk3odM-JunW4BtcnbCTuKp32zVCXVjGTRk1cg88hmwhor20zv2CWYjj12qjvzG_6ntkNUiwFMV7FfRp-zc2dL8_zt_VC7hXROhvvg-BxJEKTrCrGgB9k25IvlyQbyL6r49fRbKo8lYxf22kSEV7_BImE83RK4Z9JZviTr2pG5bHFZkTY_o-F9OCFhAK49rQo-zlcXAuCMSCn8o-lGszxFHlgtaa1xzlfqo_Mnc3OGuo-Kznr7hdLdOLbAR_bhgwElMLGrYLZMHCthf7ahotnakVsuQLeD7P7g1lpIVNj1i8jBQgbcHuPCHmlIZfRuLnsepIn_PlIP8kVF4gB6V6kWGtqExNx2MnPRLJirQh_y6a_PIkGnqsTVgmppW4y_EzmzFjdALGbHTfiSMZzjkFYLGSGIo02p6RdMkqR0QHXZPPLaVBFYNu_oSJwU4xU-V7iRPund1L2PdTt2EJoKR_WXNXIApYRZb1lh2_O2yDJ2MtZ4c7etyFRhkjaPMO540yxVWoPiOW1d3emb0PZTj_pCQboPeSORQFhy7UR8NYN4q5Zwu5g_T53gWHXycVQ_0r94jxdtBZByBYhL96UxJswqBHc2lFofpRA_bQA_zTPDKC41RzEHClGqgL02o3fFnC0HE8wgJz04wJ7y_RhYrqgmL0V7azmEX7gbN7UcJbGmr_C_KV119BuQhJWRj-qzlJ77J7h_6Azz9LUWninu2tglYQ=w361-h329-no?authuser=0"
+    }
+  ],
+  "imagenLocal": "https://lh3.googleusercontent.com/pw/AIL4fc8r3jNTr6TzKAlgxg5cbGGKJ_3RnbArWqs1taN0Zef3gdv8vEj7yo13ir8QzNX6brlW2ubLfkLAfsuHZ_fLMuz_EU3iHpdd98ujM3R-vMf9dQoO0w2RSYmdfazDvjU24-EIRqLwa9edibGOFcrnjiwcDrG50fxyjv6mTFgOIdjOp_kcaUCr-TT9dc-WJH-NbtMJveQZ_kRQsf4FrCTEgM46AXTEO7aYfW2TzMlYoqkKlX67ooD3aGjyELGBEzYpuaaRMTaAtBdqn2OF01ksSWBFStTzRmQ7tBlolA_P3hdKZ984NbEYbdKeUweGyTvL9MLHCFjjIwCq9qyD9nQ7Jou1xRsk4Yqi3AZoWPQH5oCtwGUsnhhcwYQ9_0Pb6wjb-vhPIK37SshB5nsbSIYopwqYQz58mIqHKykR0-93iEYQzOiTsjsoq9ZBgTwNKB_qR6a_t54obvIRaMQmJrqHvl9oMBIuv0Gk4lDMn6n4Z6ArfwnuXyclxctwBnZEaTkWt46wtg57u5Jp6jXVI_oicAGFIClF2Du7gI7LV6WMmXaeQbB2GmuhaFNZivy0RqQJvp63W6jgS6H8_TA9ZOvdBf3ZlX-adjTFNkGuAEU1FH5VanQBl3YAy_ADCWVuzMXv834gUMugCT-8_3-lI-5cxYQ32PuoGAaKIvUcyyHQH8OsA9_xpE6mTpZu8StmuMM-juO1xEYTjrcU0wDB_grKk6wJykzeCa2JBvzT5epsIJJSTRmvplXNaovle8o5oVhahu49VKP2ZNYReqz1pmH_imGp35Dt682QbzK16Qh-IzTQeIrKs0RRI3ql2YHnLQrHVJz_c8EyReH314XLuMWY5cQCgfhno4stZy7Gm1EKtJLo8rqTPPXh1ukvuOF7AybhW9wTAt0Vr9xqts9_9QJGtQ=w450-h264-s-no?authuser=0",
+  "recomendaciones": {
+    "nombreProducto": "DESAYUNOS",
+    "precio": "166.00",
+    "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc8kGklYO0wQco1aTNkS79Q27f9fGZbJERVS9hOssG_Cas8IRNzUIkiavFUvIDtwgOMs22CfWoE5VM-moCSVqmJlszkukWb9TRvMnd1oYuk2PHnDKC5pF5wITaNk7KJyOnaUMPf9DCFK9jbNm8Tksfeh3awxma6PSTLDyIypu-TpeGWIpTA0Fa4NG2f6sE7Be5zfs1CyW2Qmu0RlmbmL8pUCQyLqHzRpdoEe2Y3nOVpP47U3KZaWLvwZIcfOemlxPOKhhU90wYrfduuMPufgC_Cb-NCfewi5bVMZNmxmZ4o7z9oQB1TLdqpuyRvgtkpLDsEemswhABtpo8dspV17bi3qOMLCLeXuC09FuCg857yeJ361OHLykYkJpjpROrQ37ILBkWD6lYBIW8J9Vo4q4vyUAHxZArTjBP7hUAp3jUjd8NS84VZxS3h-2_MriQRd2HTe07JOzQtwIE5WJWYC67QHKQd_TPWKthftmFs5W8lLeYWGvRiF3U2y_CnHSIgJv7nUum2DwiAFBrenEyAfR9AHYEFPH7iRRLbDvsBMHA_D0tCpH2OrZfbjJZ3UcmIAt2m6X3e7WQLljpghkFACMf2DueXfdzGgxLuRG7c0tN_Vxnd3CV1wkthLaI0EPCxRPQhm88DlyC-hZunue3hx8zlzbSAQ3b6nhVXwg91V8RfmPPprOL3ntNBSJb0tpMbdH0RJHdhegM2E8OjFASyYGwQXuSujTq11chxN3H0qqS0u6WG8YRqKtvgz6H-i9UV1pl_wPMCVKt5_vk9PYHDnXZ--Yfc2Cbzl1mKwJ0gTcCW-Ot0xYcdgXR2JoftmtdKGTZxJo0Nr9bw1Fsj1lOv5Ng_JtMWrf7ALKm_xWBQXcA_lZ_Y266HpwzyNYM9-qBpvJ9PN0wi7ZlNuZGzcDgfcWA=w1104-h755-s-no?authuser=0"
+  }
+},
+{
+  "_id": {
+    "$oid": "64e89f1ffaad5e51b864f9fe"
+  },
+  "nombre": "Buhos Liquor Store",
+  "logo": "https://lh3.googleusercontent.com/pw/AIL4fc9BqSbnJVZnhGxxKieTvfXfusHgJTUJTGUFaGSgoOY1oLzr9F_acJxMZjLLXF_KRcQNsQ8Ra9UQ9GDzg3B1W-3D6X0F5GS2QkmklQQ8t7wFE9KPQ42GYdrmX-_WtdbIyf3zreuM3jBdthMlrQa1d95Qw-bdUyln9e97HVX1gMEb9XGtvUxHL9Owlzm_ze2zyf9VJZK3mQ2VA315w3CNnIHGJTMYayJwo8IsfQuF8Rne5X2LUDSIX3z7-eROaraChz0FHZeflMFMBSnRCNEyRpgcV_1oopApUMz9UkGO2-jGNKZZZhqFDseWOQffAQ577eBZACyo_CGI1r0C8pUFQd-wYX9KvVrKn61kdJnETeRiuRbGMWvDvCdpbX_F-TlfMmFJGnv_zrDaGIH8xTViWolmfZs5LiVD0jtNHXmLxXmp79Udm159M3BSeSmtu1PeU-mq1iPgPMUb2H0vgR5shyk33hed9nX_Xokuwk1kyfbxvQD_mcMjffjotgE-yibbEFjtT6VNwsQRYbatPLjQhY_ZZMIz-qFd2deS3X44g7Vgo6MLuJ8z7S3v2CG0JFUCJGYk5eS0P_olVKFwgGtk1x7z8SsWMelexrLJ9hPo8d-1NT2g5emSAx-pn_LNUZEWUxiaBOQ-hkhjBVGKQr_OxOe2ITOc6crSEy4zNiW5SuX6CqEXcpuN2aPgmZgF0YzzBd2Bnyoro1vubqdaSly7P_W2oREXflFQAmJkcq4_m5s9v641n8eoBrpj-nMRsvMhG7VuDJ5qBnZmy7HzVvxIqxR-TsUwBCb90qYJ1uxfietFdq9M-BctxbYQ2vbdCI0ldW1n6dRgFyaXdWMXDkfmwLojwkxWdQtg3EQ2-oazPT3fgNlmEFZalxEoSRiwMddoAI7sR-A7Y5ijFmrSrxtDIg=w223-h226-s-no?authuser=0",
+  "ubicacion": "Blvd. Morazán",
+  "tiempoEnvio": "15-30",
+  "costoEnvio": "40",
+  "calificacion": "4.3",
+  "favoritos": false,
+  "productos": [
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9d5"
+      },
+      "nombreProducto": "Freixenet Italian Rose",
+      "precio": "588.00",
+      "imagenProducto": "https://www.vinosycavasonline.es/images/products/freixenet-prosecco-rose-italian-rose-.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9d6"
+      },
+      "nombreProducto": "Cerveza Gallo",
+      "precio": "145.00",
+      "imagenProducto": "https://i.pinimg.com/originals/81/5e/09/815e0979cb647ecc49befe49015327a8.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9d7"
+      },
+      "nombreProducto": "Licor St. Germain",
+      "precio": "1.085.00",
+      "imagenProducto": "https://surtivinos.com.mx/cdn/shop/products/germain.png?v=1689108279"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9d8"
+      },
+      "nombreProducto": "Martini Vermouth",
+      "precio": "382.00",
+      "imagenProducto": "https://curiada.com/cdn/shop/products/Martini_RossiTransp_450x450.png?v=1628102078"
+    }
+  ],
+  "imagenLocal": "https://lh3.googleusercontent.com/pw/AIL4fc-aIz9vKj9dEsubHQmR4lZWZir7gXChXB_y4uxXZM7VkSNWWGpSo3p-1KKj3d2XgX9pf3c5PT_ezgGKPIwSSPxn9E1P2gueB006YR69T6fevsgAk2zUzmwKWWWYlyosuvvR83c8Q5scGNXPqGmmU_6Q6uDKeQhwKjiJUZuFTvkftIXMOqZi78EhhBbhXeN1TxTAjA_xMLujGyiLD9dVPBkUWIKERavxModwNIZIx7waXfBBK6i8m2JbfozEC9ctJzbl9Z-dVaJXt9sGrwNrYC9PKxLZbuy2HhG21UYic_SDAOpha2iKn7F_tq14pa_1Zcv9I707HBoaaakp-Y6u5u7bzyPzLAGvVaaYaJZPrvCAJZb3cuGIVpnSckxWQWBMSU6vpc3Y4C30HEdTEI9WKBg9uSlA3fTgcPrXLIhR2zoKr7f8KAPGzE1QsGhwNvDsOV9WIGFQ7T2v_9r3uud0WK6aiXzmGREehRwkGRQoIq8EVLUTJOjelvHtnAN7O34PU_VRLAnQXBoNlNPQsHNE0ICA20nhNgtIxcB_sEA-fXxw4hvXnqv5fabmJ1o7WfOpCa1KltSZLmWjdEc7mql4kbQOLJ7vEQdXWpP5qEmOevifXZzenE4oyMoYzO30Y3Qhkn39HUxxP4E493xaqsG_nj9XG0cJw3okpRXn6Mj5hXE9maSWI1jsnal5Fmojo07nk8uafuyFS-aaO0xarZWQAguSApDLxjHWbrwZzjcFSwe2nc7BRUXMIGWGnKGGJdPPy1jMx634RXJDCEmeyrftFIT31CqPW_BeKRy77n-dr0iX7QNppRnKl2MoccgUjQyUdE9KvQYbgr2uSxa_ckDZkH1J6cROjbHcswQUc0pKjalgf0gLYE9nTABohBiiujfb7GZdgMtStR6Wjz6Z1kVDVg=w960-h455-s-no?authuser=0",
+  "recomendaciones": {
+    "nombreProducto": "VINOS",
+    "precio": "599.00",
+    "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc8rFhk4BhzVbMqV--LWS04nu0uxGd67j8W1mDL2PocQ3g_u2w8nIhuCe8DoOeX4s2VijD2bP5Mc1O-u5r6JD2n8zPgEGbKsfAcRK1CHwZDuq4TR0kWMJoIQ4H4UObSQJkZbC8-UDRNRcXVr5fzxvX_DaV00ErjsM3vY6lhFmhghQ6UOtCAzBmF6aEaWmTMPYK68umExPvnPJ_y7DqaWxZiDG3jWd3LNbo2pk7lWlYdsfhcPDiOvPJeSbPEpD-dDeZZmiQCZRHUn7iCgIvf67RU-0CzJ_qN-brBWP706wyqecIYUWJD-pwzQWjlobff54Y_w4bQugKMt-pBSaXdU7p0Ln9EW5U-MaDSJLMPsLgNODxAj2Y7ucpYTtpQnoyTw9J5N2LupK3d19zcPTwPIpITkgr1_mv_yTQutWiuvWwhD0Pj7sdpdfuCAeTcSmTOEst6fgmxNhGPjUEbROD1_d5BInSx8wnGw3H-sk9W8YrdVRXRytPSaDAnoW3FLE_UOrFU1wfFYEBg5ZTTgQRw5aCcMXop6aSZCEs79n-YkWa4s5hhMkgfwYNE4o4PsqGtM3o4WFYsj2cLLKbzn_rcvuEEfuotDa78Xvi4qu-Ya-c-Qj0yMAMyDeVu13pLS5sd5zNJcLKHLTtp3pqTQzbTQAKoY5OzyouRPSmRtj4fjH9Yw1wp1vtiHdqASERfyPpKbl7ce5BabdLruEuwwhCgmnY84gVFUX8CL1UZFmB1CB34CVN7-UPD3NYWIszMFY-fCI1drEoecw9uziXCFV4kG5nlCJbUZ38w8xxue_S9ftSa1My0MWUUYTv6OTiUBgnjPCeQe-hGy6jLoOE3FVUXlDompQhQ48cCdGwRSm336ln5K9jNzJX5RBsjFgFDwxJaNpJhnAgYuOYqKOsMFaIo9sQ=w1000-h500-s-no?authuser=0"
+  }
+},
+{
+  "_id": {
+    "$oid": "64e89f1ffaad5e51b864f9ff"
+  },
+  "nombre": "Rock And Ron Liquor Store",
+  "logo": "https://lh3.googleusercontent.com/pw/AIL4fc8RHHXnIGuAJEvvxGX8Lz5b2Xpvy6nJhg6A-tKXDrA1tb0H_nnD6E1nbhjZsLjTqRveeU1TEK4Axmjbgr9n-YkE3Ed6KjrYKuHwANJjghVj6c_fZfXunN-aAKJYZu0TfPoP7D49yvrDCNhAb1YMyUkgYjJsYighe2hzmpYMXJjPLFvz8EHQCUwG6MOlhWZSLQXh-bgQj_F9K-Hggmy3oPQjB44SdC7fnd0eNUZCKG5DhVZT0PjHc4EcPpUxg2bIoy4l3J8SarnXbI_QNg5ZdDiBnIEhIzveUOV1s7Yc_qo6Ob6qiF-GIBFwCuVqV3hy-6H9XieXmX6O-lhXTFaP2CV2ejrxmAG5e2duiOUeJos4rBPApz2XVYC4-tCPNQI23MLUcW51yHRtNPAFnLNihnxI56KZ1ZfHnBykk3UFAbN5-8JxqPsahHq3neDXpm339fW_fnCd7ZgtTEayIJ-2l2YKTzg6uoZTAjjOWnFEYjLliMXYQEx8vBbCiSpXKTGNASUdxgH7LT-q2t0E4frCvhHxnk44WkNnR_mTcMP61IILY7iKoFvi3CZSfUr2sbtX5ram2joEcphCdGbS8EWGY8Jt-qePIgwXbpPFuQSJtsgGEyuU6w_m_YBfLeE1otkQQh46Mm2l1keKOvKEfaU-e3VAnhL-DY8OPB2JKhufTGM4mSYvvjrxVpN_C7eY83IFCDZnyAC4EFC5s16Rlu8AEt4BG8gZD74moexdnfHI5sJ5CJ1cShnjQq2Mb0XZs5Gr1MM2brw1F-LrlPtyledw3rp1KWlEKsx6k_-AbYpIv9foNyJBmAO_GYvQaH0Jv-SLpspS50AXaLtj8g7HwicSaqlBCHCxrvWJIuDFHabTmbAluyWWhKmVYqiIiyzukh-lJj5Z7AIbHsp568HCfcvdhw=w225-h225-s-no?authuser=0",
+  "ubicacion": "Toncontín",
+  "tiempoEnvio": "15-25",
+  "costoEnvio": "35",
+  "calificacion": "5.0",
+  "favoritos": true,
+  "productos": [
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9d9"
+      },
+      "nombreProducto": "Tequila Corralejo",
+      "precio": "1.140.00",
+      "imagenProducto": "https://corralejotequila.com/wp-content/uploads/2020/12/corralejo-anejo-tequila.png.webp"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9da"
+      },
+      "nombreProducto": "Tequila Patrón Reposado",
+      "precio": "2.736.00",
+      "imagenProducto": "https://www.patrontequila.com/binaries/largeretina/content/gallery/patrontequila/products/patron-reposado/bottle-37.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9db"
+      },
+      "nombreProducto": "Tequila Rose Strawberry",
+      "precio": "1.425.00",
+      "imagenProducto": "https://www.inveruriewhiskyshop.com/cdn/shop/products/TequilaRose_1200x1697.png?v=1506965971"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9dc"
+      },
+      "nombreProducto": "Jack Daniel's",
+      "precio": "1.200.00",
+      "imagenProducto": "https://www.nicepng.com/png/detail/78-786131_jack-daniels-png.png"
+    }
+  ],
+  "imagenLocal": "https://lh3.googleusercontent.com/pw/AIL4fc_W2AkX_JzzsQVLAhR9tPcnKMFiN5FGsuOmWFJEXM1VXwNc2C59kJQ-tJaENStyiHrbrIUYMmm-kAe9Kw2mZGPVYG6zgMHlh2e6fH69Vgpdv7yvGYwoPEBpwUeDraiOS5MA28_3HqyIM9Ia8Wd21qTuZGM_NKPbrF9vWSK9QHvJvS-O_Yya_XR9rl-r0gBXwkQXdXj3UOFCB6HxBpg_e5Kiek4byqpCGIMOxUwe5a2fiSqAWL9vVQbS-yFoucgV75AF-O-gHdyqqEUKTP77dTgCNOslsfipLojRVNqDYdaSRVO8oggx8SINVWSpL-FclWQ5SCNhpIPQlKVmWqtD7cBzv7ZHvvP6Y1gVOM82nKg9EQT8AduvfHOwMCdoLIA83SLs7Xvcq9BVBRYtcq5GVhQ35yIWCi5yVcdO1LqJS2h7k8QfgfHJFR4lBY_C5HvWX4Z5nhGKUObvKwV8hhhN8xLrzt6fwSz5qm_2xOabeB4eQlt0e0gCI3qcWdOlHGtLB8hOQW5Dz9UGBlhcBRqU-c0IestdnwOaOFXc9YNo7aAM0zT1lUgF9PUtX5VhxdTuYx9OXUww1lb2uF2PPsUL5ivJMj0BagxyWrwFoKhK0jTwFBN4z50BvBOhk2V7s6WDFJBG1ilk26xSuHAAHZbl6Cz2ITCgQIHuD7wP9pFNVzbruxSgnVvYfBSHKOmK3t7ak66W62PvxdAJ6Txqpq6-rEmCrAv5FmgCA_0XImyW8wzagmKUqOJUBp0KeMpcPUtQITUH5JMioe82ja4F2fW5ZQTJlVgKWgfXHqi8msBme91YFlnLpley8KjwUxdhjAWZPKt3H8gmAgZE5HTSHzzUOliNYv-VWXHxC_EOwtI0U_mbqQ72Rz0b76ukv8Oz9rN4dKTiKtpRWFGPtvHziMk8DA=w769-h515-s-no?authuser=0",
+  "recomendaciones": {
+    "nombreProducto": "CHAMPAGNE",
+    "precio": "660.00",
+    "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc8rFhk4BhzVbMqV--LWS04nu0uxGd67j8W1mDL2PocQ3g_u2w8nIhuCe8DoOeX4s2VijD2bP5Mc1O-u5r6JD2n8zPgEGbKsfAcRK1CHwZDuq4TR0kWMJoIQ4H4UObSQJkZbC8-UDRNRcXVr5fzxvX_DaV00ErjsM3vY6lhFmhghQ6UOtCAzBmF6aEaWmTMPYK68umExPvnPJ_y7DqaWxZiDG3jWd3LNbo2pk7lWlYdsfhcPDiOvPJeSbPEpD-dDeZZmiQCZRHUn7iCgIvf67RU-0CzJ_qN-brBWP706wyqecIYUWJD-pwzQWjlobff54Y_w4bQugKMt-pBSaXdU7p0Ln9EW5U-MaDSJLMPsLgNODxAj2Y7ucpYTtpQnoyTw9J5N2LupK3d19zcPTwPIpITkgr1_mv_yTQutWiuvWwhD0Pj7sdpdfuCAeTcSmTOEst6fgmxNhGPjUEbROD1_d5BInSx8wnGw3H-sk9W8YrdVRXRytPSaDAnoW3FLE_UOrFU1wfFYEBg5ZTTgQRw5aCcMXop6aSZCEs79n-YkWa4s5hhMkgfwYNE4o4PsqGtM3o4WFYsj2cLLKbzn_rcvuEEfuotDa78Xvi4qu-Ya-c-Qj0yMAMyDeVu13pLS5sd5zNJcLKHLTtp3pqTQzbTQAKoY5OzyouRPSmRtj4fjH9Yw1wp1vtiHdqASERfyPpKbl7ce5BabdLruEuwwhCgmnY84gVFUX8CL1UZFmB1CB34CVN7-UPD3NYWIszMFY-fCI1drEoecw9uziXCFV4kG5nlCJbUZ38w8xxue_S9ftSa1My0MWUUYTv6OTiUBgnjPCeQe-hGy6jLoOE3FVUXlDompQhQ48cCdGwRSm336ln5K9jNzJX5RBsjFgFDwxJaNpJhnAgYuOYqKOsMFaIo9sQ=w1000-h500-s-no?authuser=0"
+  }
+},
+{
+  "_id": {
+    "$oid": "64e89f1ffaad5e51b864fa00"
+  },
+  "nombre": "Licorería El Corcho",
+  "logo": "https://lh3.googleusercontent.com/pw/AIL4fc_c5ZwFn6RCrF3OuEZRideocJRG_UpnUH5AG7nVgM7n8a6ZNKDHG-3UPLXd7lGC2bhcM1KL4P6vo4bfhT_j5TAtcehA70_oY44Vyn71HxLtRf93saBzdh0_Bs10HiUAYYJG2p_D1kkF31SafOu_rYD7YDKv6W08HZHtCcGfIzVGWBHhGgtWL8gaXumM79RXkNR2KJe90GGavvK-8iCE0P8Bf42vXCdnp2K59oqxUP9V9p1Ku3eRXep6DtICcRJhRpz89wt-e2X0FtQ90fk_xERedHt8n-1-oYYnftp7WlBobl7x2_RDYpqPz30KemYl6gb8kCu44TVt58lYh8J4QxPByoXdgektLbjUC0vM2vgKcrP7HvO6jm8kuMrkcOdIFzajliIDBjeEZJ1DEw1HsmiLcS3MWAXUzXtEt4cLqshZINp9gw31ZlRPw7ZSYNmKtF0T8mhinvyuLmigq-4v2fu8hiYwEUEtF2KSQLIoA-Ym-ID0cj9hkUcDQ8XNTc1DwCnGy4IVXjBrm3kgyIj_x559W_SfQLyMrvUO4C6UCD4UJPdS10l3lzBKnDfr4Wqs2KHVuWiX5JaHCBYMV4XymCDmf2uRw97wt33RIeS0ZDyxFFDGRM_PAzrtQkzKzOKASFxA6OBwcAHxI4Y8u1nIn-JBAMyatk0DOTXp-aWUUNwCiPEOKnXyAuiWvDZFs5Cc8FrVXhUpb-_EFN92gLzoGJ1GIPRHB4Y7xusADMiFKsoYa8IcarYJInlt2TaPl2lhGL33V4qil7B_Ty68aoOofU-FueYLCVqMd7NA66rwvcLOge0CPYisKHD5xbc-dLDjF42VAk6px6rG--heMLeoLLPu2LkjNFxLyYP32u3vlwmhTtAqQiUNNPql7td3dEHk53ZUS6IzUSOCsmRuSrjMsw=w225-h225-s-no?authuser=0",
+  "ubicacion": "",
+  "tiempoEnvio": "10-25",
+  "costoEnvio": "45",
+  "calificacion": "2.3",
+  "favoritos": false,
+  "productos": [
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9dd"
+      },
+      "nombreProducto": "Cerveza Corona Extra",
+      "precio": "47.00",
+      "imagenProducto": "https://www.cervezacorona.cl/sites/g/files/seuoyk931/files/2021-11/Ritual-Del-Limon-La-Historia%20%281%29.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9de"
+      },
+      "nombreProducto": "Tequila Don Julio Añejo",
+      "precio": "2.789.00",
+      "imagenProducto": "https://d37orfp70tellf.cloudfront.net/wp-content/uploads/2016/11/11000117/Tequila-Don-Julio-AnCC83ejo-75cl.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9df"
+      },
+      "nombreProducto": "Tequila José Cuervo",
+      "precio": "590.00",
+      "imagenProducto": "https://www.vinasa.mx/wp-content/uploads/2021/07/Jose-Cuervo-especial-1L.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9e0"
+      },
+      "nombreProducto": "Vino Freixenet Rosado",
+      "precio": "520.00",
+      "imagenProducto": "https://www.distribucionesgourmet340.es/wp-content/uploads/xItalian_Rose_Freixenet_Mini.png.pagespeed.ic_.6BSCJ9KQ7S-3.png"
+    }
+  ],
+  "imagenLocal": "https://lh3.googleusercontent.com/pw/AIL4fc-ZsECFi0LCRBftGm7U2b6JxSxfkPAhmUPdjoGhw9SWI6dx0aRt0Zv34kxwU_g495QF9RmONb19_q1Y3WVfEQ7PNg4DrccD5NvGumDK_qO5VrC50bGDal1j9Ke9-vAmwYVAHVwDJf_XmvFbbjoXYk8v4S5q2SE_4cYR-xWwJeRvE3PROkd8N1wSPTbwixjCNFgDYkS3WhXXXL07La9bMsdEWrzOv980IwpAXhnYTshBJBMftJ58pydDtol98kByFgLPhntOUxaG88Ew9GMO5HNqUGRYHKbjo2ustmiBOwETnCbX3y5DbYVTw4nclunY5KV5MRLMH6AZMMqwEyMT3rQwoKiK2TK5gOTIlupJDxNGh-PfmDxqyTZYIgLuZsFc9UdIgkAAG0QKwmiR9yFhkTF3R3l6K6KpxcX8zvQqd9tfPjQ4r8wuKfN67YYWCBDADZz8wn-3sDgPEHysxnpVQTA2yuthpTLN34LJlnnBZEnLTmobSmkzZcQTxeLXjVoKH3bnAkaPktwrydCl7UkSqiH3wNXvS5N4kkA-wIv7wzWnDFzKjtdee-CUsh5qUFi9fXl3-ACxduPcR_AfZ1w8ylAaqPZxUb4dv0WRWP2VlJtcQd0nR18L2PJpifx6NhynYr4yfSyPzrGaFlwx1iLAvthvy2g75LwrgubTgYxwrjiDCUaAZPtHkmeRkTw75YTJ-M3m3fh1zitGu2InnbNKSAfatL2xwzg7rnVruqJs1xtpl7ggXUC71-TRrwuKmtmvyNZJU-8JPeceqfWe8FHzIfLqGsMeGgSJ9xyS0RoMv_A7Ql7EwD2PCfj3D_LFdpdWIJAk-SbPSkj-boWBwWPmd4U9YLSdlV0tvU4qTpWtORt8MdTkpamtQ8HiGQzlZGTViWCn7jqFDi5VoVSqxhWWlA=w550-h367-s-no?authuser=0",
+  "recomendaciones": {
+    "nombreProducto": "VINOS",
+    "precio": "1.575.00",
+    "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc8rFhk4BhzVbMqV--LWS04nu0uxGd67j8W1mDL2PocQ3g_u2w8nIhuCe8DoOeX4s2VijD2bP5Mc1O-u5r6JD2n8zPgEGbKsfAcRK1CHwZDuq4TR0kWMJoIQ4H4UObSQJkZbC8-UDRNRcXVr5fzxvX_DaV00ErjsM3vY6lhFmhghQ6UOtCAzBmF6aEaWmTMPYK68umExPvnPJ_y7DqaWxZiDG3jWd3LNbo2pk7lWlYdsfhcPDiOvPJeSbPEpD-dDeZZmiQCZRHUn7iCgIvf67RU-0CzJ_qN-brBWP706wyqecIYUWJD-pwzQWjlobff54Y_w4bQugKMt-pBSaXdU7p0Ln9EW5U-MaDSJLMPsLgNODxAj2Y7ucpYTtpQnoyTw9J5N2LupK3d19zcPTwPIpITkgr1_mv_yTQutWiuvWwhD0Pj7sdpdfuCAeTcSmTOEst6fgmxNhGPjUEbROD1_d5BInSx8wnGw3H-sk9W8YrdVRXRytPSaDAnoW3FLE_UOrFU1wfFYEBg5ZTTgQRw5aCcMXop6aSZCEs79n-YkWa4s5hhMkgfwYNE4o4PsqGtM3o4WFYsj2cLLKbzn_rcvuEEfuotDa78Xvi4qu-Ya-c-Qj0yMAMyDeVu13pLS5sd5zNJcLKHLTtp3pqTQzbTQAKoY5OzyouRPSmRtj4fjH9Yw1wp1vtiHdqASERfyPpKbl7ce5BabdLruEuwwhCgmnY84gVFUX8CL1UZFmB1CB34CVN7-UPD3NYWIszMFY-fCI1drEoecw9uziXCFV4kG5nlCJbUZ38w8xxue_S9ftSa1My0MWUUYTv6OTiUBgnjPCeQe-hGy6jLoOE3FVUXlDompQhQ48cCdGwRSm336ln5K9jNzJX5RBsjFgFDwxJaNpJhnAgYuOYqKOsMFaIo9sQ=w1000-h500-s-no?authuser=0"
+  }
+},
+{
+  "_id": {
+    "$oid": "64e89f1ffaad5e51b864fa01"
+  },
+  "nombre": "The Winery",
+  "logo": "https://lh3.googleusercontent.com/pw/AIL4fc-p0pXO-fOFXfnn8lWPpS-yr7NW6oPUFnIiFymLgnpPf7XSRp7XlboXphIiU7uYtKhW0ZgpRD04cA9QHHT_LIvzOncQ7LD0QJVLunwy4mi7vFQYxIKT0DliNCEj4pWfWovRV39xiB-d-tFC0Rxlg0PBIUit6B0d9Zug9qNoxPCHXgZKWVbW1Htn_pMLiLP2mT860en3kO7XLHLUzhRSDGbpFFr-aURtBLlm-bL9nltC6zXhr2BISXriudMrZ4m6d-G8dXscNW8HwATJRc1CB0r1KffpCm6plcJJM4AJvoEUBE3oFBZSaMeNsxCiP9-U2YEr0rqLL-srIKwsT_jWpBC6dtRfPrlcgKbzV9AO7tShhNIYIJBk_8Yi4_vP6jG8mGC9iy7q6btdIGDnZ0pJ-vIa-kSsZ3X9_bKA1_ZvK8zZ63Wo4G72XuWEw9T5yOERwGMhzRf8sbdNWPvN76QWYrBVH1PVQmE4dfkYqGLtAD1NBcLppcHLzXL-qhZ0ZiCzr9Lpn9N5pSaWQWGSdS2sTtU7tPOuwiJh4OLf1tDyJbWqDF_hyK_DqIIroiPqjWsmmd1jQsvQfZcDR7dL-t2GKGZCgavUA7LYUvOgkQyNDcw_JgVmvfVxLnaLXV3lwTD4PTM8D2zDD5sALaahZS162fvZx5d6NKI1bdqHXXZsfuEyQtP87PhPL5qJvQd2K06mxaawVVqrQKIrltiZvl6MggmlLZ8385znSjkCTMQ-nYFR-XaYxQRdL9WClE3Vjw1D_QhrfEvnTtm13kjVaH4nA5HMIxEMgcOeS0MD-B8DY9hUXm1XH-7RErQPS-kuSRAbbNzg8JjBfh0yHCVhWlLKqEHhNVkj6MHXtazTnw7U5lvc-emdpNas5jUI6EwVPuIDhLM4bgliewx8rJW0-gFVpg=w225-h225-s-no?authuser=0",
+  "ubicacion": "Plaza Los Cipreces",
+  "tiempoEnvio": "10-25",
+  "costoEnvio": "Gratis",
+  "calificacion": "5.0",
+  "favoritos": true,
+  "productos": [
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9e1"
+      },
+      "nombreProducto": "Vino Tinto Enemigo Malbec",
+      "precio": "1.735.00",
+      "imagenProducto": "https://www.vinoselkiosco.com/wp-content/uploads/2021/05/El_Enemigo_Malbec-edited.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9e2"
+      },
+      "nombreProducto": "Vino Tinto Rutini Malbec",
+      "precio": "1.105.00",
+      "imagenProducto": "https://www.vintagevinoteca.com.ar/image/cache/catalog/VINOS_BOTELLA/RUTINI/ESTUCHE_RUTINI_CAB-MB_X1-651x800.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9e3"
+      },
+      "nombreProducto": "Ramón Bilbao",
+      "precio": "1.235.00",
+      "imagenProducto": "https://static2.aporvino.com/14625-thickbox_default/ramon-bilbao-crianza-2019.jpg"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9e4"
+      },
+      "nombreProducto": "Vino Romeo & Julieta Blanco",
+      "precio": "660.00",
+      "imagenProducto": "https://www.cava.pa/cdn/shop/products/PASQUAPassioneeSentimentoRomeo_JulietaWhitewine-2016_1024x1024_2x_eef82b72-1059-4bc0-a1d6-21eb76c2771e_948x.png?v=1644950955"
+    }
+  ],
+  "imagenLocal": "https://lh3.googleusercontent.com/pw/AIL4fc--araiZwJHsTLLWsh6AJUU3qlBuDyV7sq85BMQ005Fw2v9b65dy9Eq1fWNTSf7CkuFwzOriJuTFfsqwG1hhTta1Ld1NgNHAWfO1Rn3ZQRRtXSabjm8F060eNCMEtYHPujIcPcOIrU3XU7wsLPKPWqfhV73_DrrkjYT_2sDmRacgx5Fu69GP5hrvOOxbZsHTdjYwvHkTzj9bNxQ8LqtNBOas9RdW90EK_NNWHqGmNN8Pj8Kcpboy932a9QItFJlhlCTcSguejhOBW1PIiB-xIMP_82JrLKyf5TQFgfXsRqbl8akF2Y_ioYQXlT--718UsLJuZVMueMsree-EvaIcHjsz7KSjYhhRAdetgpd57W7IzAWN5hpuiVh6t_2zlQ1_u_uFlZPCP5VjN53yFtImxyQ3AT_7GEK-mJDzwMc9xB1990PwkiUiFPKNlhWxLqNve0OUxxh0qkca5MtUI2wneOWqJtKnZRd9whSC8ukzsjIObsV1exfSmy8kWaF2SOUEFZ8kRqXB9tlMEDhHRQ_-KMpIbSs6e4gIpWBDHi4AzYtYc3V6HO94RVZCFPL3oB4V7_H2zSytLYcSwXhZp3pi1euiSiprWZKbIKKnNzVRMoClCGXYsdQyKlKlSTWQgJDkMMycS-Sqtt72Pfc22adHxcEolbZJZM7dL67wtADugGfXvdjMnRS4hnqtx-2JNELIKzG_F3BgWM5KalNh2y_SfYXPMxG05ENVKfmuOn3A8wIV1DdocVXYIsc-emnmFDV1qoxET1ff2UQaGBfAb_gEtpLGCY605_jvBfbkep_GJpIL5ljF28I_6D0UeI1XhTeVu5W-GUzIH--XH_hhpERRH449h18oY0QzuzceOyKGX_IECX7ATu1IVu9X8LFdV-xten4esFgzc_LMMC5UAK3QQ=w1256-h924-s-no?authuser=0",
+  "recomendaciones": {
+    "nombreProducto": "WHISKY",
+    "precio": "1.200.00",
+    "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc8rFhk4BhzVbMqV--LWS04nu0uxGd67j8W1mDL2PocQ3g_u2w8nIhuCe8DoOeX4s2VijD2bP5Mc1O-u5r6JD2n8zPgEGbKsfAcRK1CHwZDuq4TR0kWMJoIQ4H4UObSQJkZbC8-UDRNRcXVr5fzxvX_DaV00ErjsM3vY6lhFmhghQ6UOtCAzBmF6aEaWmTMPYK68umExPvnPJ_y7DqaWxZiDG3jWd3LNbo2pk7lWlYdsfhcPDiOvPJeSbPEpD-dDeZZmiQCZRHUn7iCgIvf67RU-0CzJ_qN-brBWP706wyqecIYUWJD-pwzQWjlobff54Y_w4bQugKMt-pBSaXdU7p0Ln9EW5U-MaDSJLMPsLgNODxAj2Y7ucpYTtpQnoyTw9J5N2LupK3d19zcPTwPIpITkgr1_mv_yTQutWiuvWwhD0Pj7sdpdfuCAeTcSmTOEst6fgmxNhGPjUEbROD1_d5BInSx8wnGw3H-sk9W8YrdVRXRytPSaDAnoW3FLE_UOrFU1wfFYEBg5ZTTgQRw5aCcMXop6aSZCEs79n-YkWa4s5hhMkgfwYNE4o4PsqGtM3o4WFYsj2cLLKbzn_rcvuEEfuotDa78Xvi4qu-Ya-c-Qj0yMAMyDeVu13pLS5sd5zNJcLKHLTtp3pqTQzbTQAKoY5OzyouRPSmRtj4fjH9Yw1wp1vtiHdqASERfyPpKbl7ce5BabdLruEuwwhCgmnY84gVFUX8CL1UZFmB1CB34CVN7-UPD3NYWIszMFY-fCI1drEoecw9uziXCFV4kG5nlCJbUZ38w8xxue_S9ftSa1My0MWUUYTv6OTiUBgnjPCeQe-hGy6jLoOE3FVUXlDompQhQ48cCdGwRSm336ln5K9jNzJX5RBsjFgFDwxJaNpJhnAgYuOYqKOsMFaIo9sQ=w1000-h500-s-no?authuser=0"
+  }
+},
+{
+  "_id": {
+    "$oid": "64e89f1ffaad5e51b864fa02"
+  },
+  "nombre": "Supermercado La Colonia",
+  "logo": "https://lh3.googleusercontent.com/pw/AIL4fc9dy0tpd9aYdnWcxDVieaxg68AKs2aV_pVz04PtfjyknCyzg-fZqrZMR8P5kirDacv1qQI1dxDF5a1-QCPN40pw6nQUZReAb-ICiete4YjmWDJfD24UAfdiQmFuzM7ytNpJysoXd57396XEnpbRCKwzfN7OGTU8c-C58NLfhlzcOytPBOjbghXq4XSfj2EHyOwym6J4k08E75Sn8iYkYISWzuxYAihxBf6TiJM8dx5RXm6cgXogq0vG8J7S-7MGNLo3SqJogQFwXewPGX7ckvkeg8aAd2mGH9WopSQseGyVbm1hNZOiiVj5ysCrBDqiQ6-69Z5mitp5rZ4jzM8sB9Yo9cDi6kh4jLYheVGxlV5pcRrKtC9A4O-FmRkQLEXHoiSIgRv932_FONrppQ6t79SlY-lFt8Uexm5xyWcc4crRRSZpaHF9-I_3N6KooF9MTd5mumgJwdk4u3atMqEBq5yCJI6-AA_90knV9qu91uZ2wO_a58_bBJouqM7KnZT4uHzAZRmQYvKAfOl37J2uVumSNVe47Z7Uo1jPhj9rs7u2gWx7Ge2fzsBs9R9cQZp1bOTJOVBkCpQ29Ato2pVjqkHoq08_ZKPQL6pJwtDD3nuclF6ItIo9wAV5R1IXomJ8JlcJrLLwrREf6fMpdkofskaIMue9uWkmiSZu3uPUHHjBNrb7THv3vMxAF317C5QXm33vy4SnU7sqfKaLc2fF9S_af-0dA4WGoOwfyRAQCfwn4XLawGl6-IXiinkmvCuBFigMnSQsJN8oJEBR1hqdNmRFXuW38kQLyRcZbuBitgtEzbmd1l77gNfo89vVhl8YSZll3a_z2BbUNi0edouspXXoEMbRRqRr4bJZalDJn8iOG9-ECAo8aYVgdNJ-qOu9tqIHccz0g1xc54jobsj11A=w187-h153-s-no?authuser=0",
+  "ubicacion": "Las Torres",
+  "tiempoEnvio": "10-30",
+  "costoEnvio": "40",
+  "calificacion": "4.5",
+  "favoritos": true,
+  "productos": [
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9e5"
+      },
+      "nombreProducto": "Piña",
+      "precio": "75.00",
+      "imagenProducto": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c181.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9e6"
+      },
+      "nombreProducto": "Zambos Chile Limón",
+      "precio": "32.00",
+      "imagenProducto": "https://www.dinant.com//wp-content/uploads/2018/06/11-6.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9e7"
+      },
+      "nombreProducto": "Gomitas Panditas",
+      "precio": "45.00",
+      "imagenProducto": "https://cdn.shopify.com/s/files/1/0566/4391/1854/products/7501030452508_2ee78846-65d6-4a21-a165-7c6a00fa255d.png?v=1646614254"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9e8"
+      },
+      "nombreProducto": "Manzanas",
+      "precio": "190.00",
+      "imagenProducto": "https://www.vip.coop/images/content/473963_37260_5_N_350_400_0_6276405/blitzmatic-8fr-biography-gala-wiederhergestellt.png"
+    }
+  ],
+  "imagenLocal": "https://lh3.googleusercontent.com/pw/AIL4fc-XYI6wohUMf2-rqzfQDPEAiKdtyXD3bBID_UDTK_GGsG9bIp1kZhsQ8-2bNZamG6LRBmhxdMVWVVvZArJpQQKEqbOPwxIYu1B7k2B1hUkbBRhOGuExsylNAPx8OJeRrgcAAFgGJV544f7tXyB3UocxZzb7Lagu9JSLxEnNRtrhlNWhW3dnEFzL0FV47fLZvU90gEO3N_rBP0Fqs8fxdqgtgyNVo795Twn0Ry5JSIIzS90xOmo4qrpibIL5COPKDXAgaRYwg_ysWQeLwU_SyA18MNoZxZqJS9Ow5cYthGGCtO3D7i844Wev8T6JmyqNHDFisxdTosXKAjUT9cro8ik76vnaFVw8-rFa3629cZDIgBOYeQWDTVMKAHWe6Yy0kF3iHwIIYj6l_Bt0FDv68o2ioJhG8RIoUc7pllMh4rUU8xzZBqUIpwwI77RElE6_Uxd0NPeol1yH35VWOhdY4DqfXnpxGPvxIY_LH5nJIzXpN0cSecZ2QjO6yrktUeOpnDG9TWWBHFXUQ8E7AajfQ5FofT-VmRtWfuCUJkZp0W3xtLtIZ271knnEln9x_mmPPT68iA5RyM6RscPpG7pGj_KBALxe0Rp-pYTyHEzrUDUVs555ASMQ91ddg_A-RJSLW5GoKHwZ2-OHiHawNk7s9oJNr7a3DyLdCWlvhrQgCWaM92T7-aLKKsGwvtY-Z4wuYuBkOYFw2jswNpTjYH1yINxs4UbButllUpgiHwacZ63d8DTMcv-YR0VCfG7sl988M4Hny2vOMkeOeAFSC7o7wZ1DhuK1byRzornCJcJbVE_mR9UqB6H2Cy-_gHyFisxmw116m0_rqZUyShsIRny0Ui9LOrRJw-idu9JxwwqsR3DY1mEUI44xXJ7sonjebO_Diwap9QDQK3CI47i3vm0zXQ=w1140-h579-s-no?authuser=0",
+  "recomendaciones": {
+    "nombreProducto": "FRUTAS",
+    "precio": "59.00",
+    "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc_3Xtu5ZzOQroLgKuIcMCZkTHXLcLIMzZ-7N-xA4-tmwrQd4tl1O_6wOB4ZR5-7jjqcQ7-Wp8VTx7jv3Pj2eoYZ3Wnbcs6cHIiOJfYJdIt1scXPH4pSiyWui90TQy3LUMQYnVSxFanofa8KjSIH968kMVTKdj5EZVEgvynbC6zmMkTKpuKHopzFylpFwUpJ0iIQ0IZImADcse2J1358n9uxA7fUAbtVZSGrP3hxq0I13-b6uZpO2tB9RDx78d5nL7bUSyrrT8YllTBq4fnLNzf4p7gd26vZbRUx3V29IL3OHICLd-H2bJeNvB1RCtSIvHGpRy7kI09eYsUMQFJoKq4_aJAoacdK_EfJAzLDBvSGGx9Npq60XtTS3cvQAamZskwTN0bNS5XcpxP_3Q5QyEVIMpcG5w4Wxut_RQcpJXWSuzSDk0Dt9kAsJr2y0J3v9JSTFpIMiAv8bxkiPEDe-Ao-mDjiYTIjtt3BBRohdgsoFhfirFfXmamuvrxnn-W4XN_KgidB-_NvR-QpryJ-2zhGX-1wYJXxwOXENECingChPb0vD9xPMNr0kkUl7Wl394IFHuu-rZVHqlAWUJTVTonSLnBMS8PYB8AUfF5xg0k6HVnxrzy9sU4Igk2cww2s3QJ4n9gQjXFOK4XsVMh7jQVR-c5BrioqsaiLrqjirCZCpOqKjUo3H6Nanetj4lXVJWCXdIpkYUpZt9vn7rHvBzr0jxoGAxAv-gFYEEgmxWxsua94WcTwZij8Kf7AMuCMOTupE87lRmUAcphRkshURYnrY3-sOP9TKghuZuawMEp8UclC3Iawq9sdeQIvOdTUJZlbFJE8AUMcrhNx6qYNaHXx6_PIM3Yrqu5veVzNnyK2trJ4CYkqo7t_4DWHVTU7bXVK1K2tD5WJBLqJHAW_MQ=w840-h400-s-no?authuser=0"
+  }
+},
+{
+  "_id": {
+    "$oid": "64e89f1ffaad5e51b864fa03"
+  },
+  "nombre": "Walmart",
+  "logo": "https://lh3.googleusercontent.com/pw/AIL4fc8p7KW43PjUuI5c5pqtOmyVbWFgw2_UyPiDv_tybkWwr6PPo7Y7Oz9eTzhF5xQh_mRFEy2sH3qw6VJXz1vmFSU68yA18Sw7P2WJYap5rOg9VzATMXQ6IhAqgi8b_ZbGfEfwQh_rm0whCn958KPQgzEqruFpg3Bg44al29jB58aWPhtvbFOaeAjs9nO7Zw_qQ-wtEINRNBDkX1xWxmiGf58Cu_VyQb55yPxoO6Pq7o6ilLkHmNIGG5oZzoZ7ewJ-6V7H7GqStCj0yxByuSPfoZoYYAoj5KEdFcKNWkkGmkgu7ypTZDRm1DZfZC0T85Y--nddLyB4bgpH_pex-IXo2pnrfJJSvHhcgKi2BCYPu27cW6QXJUWFdE9-XHHqed9-5XNQ8uuK3rqgxtfKhWuF46G2PpnOMjkZQ4HoSGyJ96R9j_8h9HdrGX-yHxbVdZ3_BmJPzq8bcUNSbX84wMMPp5-UTROVMndbu86JLUytPGaw_L2HIpoo6NNfSxF3nya-Cs2fmVIRuvoRgtipe66ZHD04CpN5fVXdDYH8Ssqz49_hNITPYwDjM4X267FhjtRxf-uuOTq3KlAI0kaV-avkKZ-e82XQsQ3nJksbCDahJ44MnjDrhqlIXnG7etirTVF9D3HitsqqGycRUR4-NafXSJLvrpV20nCc_bG-_o-ebwOwtFRhE15xad7NYEf_vvDyugXOcVJUVEkRd9VyoLktFat7l99XJO7CnXzUkSqFJ5RurBRZJ-aUHfc7ZQFlHvQ3RNiCBs9r3DdSA52NiqBncgzS03DRXCC4yFk5MAgYv69XFqe_vao7AjmBPpvBiwnT8eXqdiGvGETe0p1z_RHLLTzzxicA-kc9H0qjrNNYTG4Sbr9CiM6XAWV8qWnJjdwn5dh-_z0ZZrmF5uIkUJwZGQ=w374-h340-no?authuser=0",
+  "ubicacion": "El Sauce",
+  "tiempoEnvio": "25-40",
+  "costoEnvio": "30",
+  "calificacion": "5.0",
+  "favoritos": true,
+  "productos": [
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9e9"
+      },
+      "nombreProducto": "Zanahoria Lb",
+      "precio": "8.00",
+      "imagenProducto": "https://cdn-icons-png.flaticon.com/512/2036/2036016.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9ea"
+      },
+      "nombreProducto": "Manzana Roja Lb",
+      "precio": "40.00",
+      "imagenProducto": "https://assets.stickpng.com/images/580b57fbd9996e24bc43c112.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9eb"
+      },
+      "nombreProducto": "Uva Lb",
+      "precio": "70.00",
+      "imagenProducto": "https://www.pngplay.com/wp-content/uploads/1/Grapes-PNG-Photos.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9ec"
+      },
+      "nombreProducto": "Bistec De Res Especial Lb",
+      "precio": "115.00",
+      "imagenProducto": "https://cajausa.com/wp-content/uploads/2020/10/bisteck.png"
+    }
+  ],
+  "imagenLocal": "https://lh3.googleusercontent.com/pw/AIL4fc-ZCmd5NSQyzyW1IENWBWSB4_hHGUNrktAszKBo0vlwx8lE3RlkjiXu2ARkQeW-rwUkaF9GUYeZeR_zlAAdrVdvOMyypCw6Ee0tMGbimBLdyNOaESEhJUTBvtc4cyNaNHRXt0LV_2VyP7RJCHFyThcOIHJfsTNbVaEpDLCT_XXMJgzrzmWH6PYdVu97gQsMibecUei7WDhnHkpJJKaHSeuvQP4ZZGFc3gHVj359dvhqrql1wKifO1mm9XZKt_V9WJC4h_05YNNsbwBkaj_harODNMz_4AmN61Rm54NnimwsHkQydgKDjcVIFLz_-1Jp62qt3rPVnEZFGZiyjpL1COXC7U81DalWqTjGbtwGQN5QqqNSCpXE-zB5DSYKQEyWBv_rU3bD9c-IiMBs6mFRzbyR8-NH9as9X3_PFI6fqSIdhN0_IJl4hl6VGpS9n0Um5PgUVYaIxHPSR7tFWvtKgUZYBoJblB00Ee8TBsGAy5opuSOXwiaXRqcz5f_zU1a12g_NisG8w2ci68ZVuhEpgsRZfINh9sVYB0VHC6IpnHL8SUu_yymAf5vHQmWPH5fdwFK0yV7Y2d77gwHnfqTYf3KTPKFusxOb5pIg2I2YJLg1M5fYlitD4XMUj62oz119nBcJJw9f7w1_AdHXVGnz8SM-WQFymBy7SqLjq7foaefzPqLk9MqEqabHIlsQuMkPXy2qxOc0whQRxi_Jt7GMYm2-eHN0tKb18VRZ1w97CcCuZsL08qfh0xGyCZoguX7h2KB2N3Mgl9CSl9rajO9y3hz5cZWLD7T-IEe7R11oDojVb8BnGaMW_EL07fAe70CtjXBcrhkuYxTZwtq3uaWMh0hL-W2AhfiLUdUUVZwJq7xcshWAvkGTTTX6KknnGcVoiebMiUrqxD2u4bvVL_YYSQ=w849-h437-s-no?authuser=0",
+  "recomendaciones": {
+    "nombreProducto": "VERDURAS",
+    "precio": "39.00",
+    "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc_3Xtu5ZzOQroLgKuIcMCZkTHXLcLIMzZ-7N-xA4-tmwrQd4tl1O_6wOB4ZR5-7jjqcQ7-Wp8VTx7jv3Pj2eoYZ3Wnbcs6cHIiOJfYJdIt1scXPH4pSiyWui90TQy3LUMQYnVSxFanofa8KjSIH968kMVTKdj5EZVEgvynbC6zmMkTKpuKHopzFylpFwUpJ0iIQ0IZImADcse2J1358n9uxA7fUAbtVZSGrP3hxq0I13-b6uZpO2tB9RDx78d5nL7bUSyrrT8YllTBq4fnLNzf4p7gd26vZbRUx3V29IL3OHICLd-H2bJeNvB1RCtSIvHGpRy7kI09eYsUMQFJoKq4_aJAoacdK_EfJAzLDBvSGGx9Npq60XtTS3cvQAamZskwTN0bNS5XcpxP_3Q5QyEVIMpcG5w4Wxut_RQcpJXWSuzSDk0Dt9kAsJr2y0J3v9JSTFpIMiAv8bxkiPEDe-Ao-mDjiYTIjtt3BBRohdgsoFhfirFfXmamuvrxnn-W4XN_KgidB-_NvR-QpryJ-2zhGX-1wYJXxwOXENECingChPb0vD9xPMNr0kkUl7Wl394IFHuu-rZVHqlAWUJTVTonSLnBMS8PYB8AUfF5xg0k6HVnxrzy9sU4Igk2cww2s3QJ4n9gQjXFOK4XsVMh7jQVR-c5BrioqsaiLrqjirCZCpOqKjUo3H6Nanetj4lXVJWCXdIpkYUpZt9vn7rHvBzr0jxoGAxAv-gFYEEgmxWxsua94WcTwZij8Kf7AMuCMOTupE87lRmUAcphRkshURYnrY3-sOP9TKghuZuawMEp8UclC3Iawq9sdeQIvOdTUJZlbFJE8AUMcrhNx6qYNaHXx6_PIM3Yrqu5veVzNnyK2trJ4CYkqo7t_4DWHVTU7bXVK1K2tD5WJBLqJHAW_MQ=w840-h400-s-no?authuser=0"
+  }
+},
+{
+  "_id": {
+    "$oid": "64e89f1ffaad5e51b864fa04"
+  },
+  "nombre": "Hiper Tinedas Extra",
+  "logo": "https://lh3.googleusercontent.com/pw/AIL4fc-LNenf1fM1pih-6Eisp9LbI0fDpxnjpYMZroolaQViEhO-d_K_VcWiczrC92LQ36dm7SWQmv9y5QerVK813oWdGXbcp-AB4PA-HKall8fAf0oz1C0qB0WhADiZh8gMhCKIGCOIESfGaa-1HfumigMZlhc2GJkrdiZj5oGnOloYu6zR5HZ69zRdWtLZVfljPYq6bbfdSqm_R9gi7SL4DZoevJFZvMhmycUPJ3U7U7ABdjvcbRYX3pW9QJwSKtQXtv179V8ZFo1gtLjKEryUndAmdtiPT98ggTvVp5oazk6g5Nnu_J6x_HUWP2iBJPpGJShvWkwU1NuU8Z-mb9RnmmeEdUHBTZHe0h0JuvXh36gqS43JAORgPsDdqstVQ91tVAb1-teP3Rhd8LuUTPb0Rdhfaozhdpzc3hj73D4DV-c3GypyTbnO-kRgkuohrf8Qor5RMkkM-D95gEewhzqsW4Dg7_EYyj1ujbbFcgu0ELoIGK8beFYTPM11cxyLk8qITPtTHWl4tPOAyZ4XEiaHc65GD4DG5Fjhpky_5NRN19OQZ8bbbG7U0HK5fJhZM7nlTDXFbYnIVs0xH0dzQEW1bg4TLAqoQSQ7aRIYDfzxBUaR5fy-HCQKsekDttF6WpnrTOboCfAnVBPaERCnn9UytVwnAFdc1fSuz-NFgG1OXBZ9hZW-QgDp1vpqTMjv5FfiRwNx5c4KICa7Ffdly3-vjhv0QmQHjSd5on9aBEUPPRTXOTMvRITfX50ddGCn8hFK_mCu-KQN-Qtc5ilCACDLS0FRe4jb8HQq1VVHF8O_b7tepap2KSYV0ZMrF0f9L92_AxCd2nTI7vUasKLa7B0xfaKgLZpxZBstAz02Hz2nd-PrWX4bVr69jnRiZLTyqyldKvzzzTh7ucm7f30QMI-R6Q=w434-h425-s-no?authuser=0",
+  "ubicacion": "Blvd. Suyapa",
+  "tiempoEnvio": "25-40",
+  "costoEnvio": "45",
+  "calificacion": "4.9",
+  "favoritos": true,
+  "productos": [
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9ed"
+      },
+      "nombreProducto": "Cereal Rice Krispis 42 Oz",
+      "precio": "410.00",
+      "imagenProducto": "https://images.kglobalservices.com/www.kelloggs.com/en_us/product/product_4508660/kicproductimage-127505_kicproductimage-127505.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9ee"
+      },
+      "nombreProducto": "Choco Krispis 290g",
+      "precio": "90.00",
+      "imagenProducto": "https://supernossoio.vtexassets.com/arquivos/ids/228022/CER-CHOCO-KRISPIS-200G.png?v=637914114358400000"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9ef"
+      },
+      "nombreProducto": "Alitas De Pollo Krispy",
+      "precio": "99.00",
+      "imagenProducto": "https://walmarthn.vtexassets.com/arquivos/ids/175130/Alitas-De-Pollo-Rey-Picante-340Gr-1-9815.jpg?v=637667674305370000"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9f0"
+      },
+      "nombreProducto": "Alitas De Pollo Picante",
+      "precio": "90.00",
+      "imagenProducto": "https://walmarthn.vtexassets.com/arquivos/ids/175130/Alitas-De-Pollo-Rey-Picante-340Gr-1-9815.jpg?v=637667674305370000"
+    }
+  ],
+  "imagenLocal": "https://lh3.googleusercontent.com/pw/AIL4fc902XREeTyRxK3aZbEesLxkvBBuREaBm_Tle1eXgndfuof2ZvZk67ylWMJdPcXDeqsxIpTRyEZXv4B4mzdYijQyyeJGqBRlj_8P91WeqJmbi7nj-9r6-0CPo1WOzWYDwh2cl68x5JnzYC58j3w7a2S6B5Dhc6Nl4rHv4qqtN_lfWEBPSYWxBwA5cKpnf4QCG4CfXE_tp1eq-hYwPfVU6ZX7a_AHJlLE3bSSjybcJaMY6rVTTueGMmtjFbzb6chLNetiVEu2ENRqE23ZojVd05wjT8sgrAvf0rTgBR-HNtOFwAgUR-RrF_Wakq6Utt8SlqflxxYV9XcGCmzCEbulZF80EIs4K5cj3_0DkD9ifuje24HWNCwweLVbgSVBfcg8flM-lOoj_ObQsDnh-pNQ2uauyonNJn8GmV2bP48YAQdh7bZrYqIw35v8fKHG5SPv139rWwQR8javAwe6m0RAW6XD7X0W61MCgZvDWanRPjjusXBrGt2k7hLjF0059z13nDGzU6EeNQTkPJHNRAULR_YFTo4fLz1abtFsoIIU4267kxB3v6r6MfPvP1MGHTSJJnMSSJioR2pkL7FNvT7jsSW_WK_79Gst9EsKPiEEJXnww75l2wFYGoRRgePUEILwyb5MB13oHU8JSH3TcQTeLpADvmJNlMvyz_rofKtq_dwYzZM5xhceRLPrfPjWcJWS1jZVf1XFUJiIaWHVMdwz4zoBnG_RpgeKeQieVgimdh46fjfN3SkO032ok7MlhNW98XP8EDXzi7xTrNI2m2zHiyUv2CzZN6hWqHFuFph4cXFRKy3166-Bw4JlfuMw5PrY9tPUpECT4rciNWK0l-NCPicxBxdy2LXr0VoclLLOITwyeYOgdi0R9215B5AhfhzJI2fxxPh6SlACwteKJdIqgw=w400-h188-s-no?authuser=0",
+  "recomendaciones": {
+    "nombreProducto": "FRUTAS",
+    "precio": "33.00",
+    "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc_3Xtu5ZzOQroLgKuIcMCZkTHXLcLIMzZ-7N-xA4-tmwrQd4tl1O_6wOB4ZR5-7jjqcQ7-Wp8VTx7jv3Pj2eoYZ3Wnbcs6cHIiOJfYJdIt1scXPH4pSiyWui90TQy3LUMQYnVSxFanofa8KjSIH968kMVTKdj5EZVEgvynbC6zmMkTKpuKHopzFylpFwUpJ0iIQ0IZImADcse2J1358n9uxA7fUAbtVZSGrP3hxq0I13-b6uZpO2tB9RDx78d5nL7bUSyrrT8YllTBq4fnLNzf4p7gd26vZbRUx3V29IL3OHICLd-H2bJeNvB1RCtSIvHGpRy7kI09eYsUMQFJoKq4_aJAoacdK_EfJAzLDBvSGGx9Npq60XtTS3cvQAamZskwTN0bNS5XcpxP_3Q5QyEVIMpcG5w4Wxut_RQcpJXWSuzSDk0Dt9kAsJr2y0J3v9JSTFpIMiAv8bxkiPEDe-Ao-mDjiYTIjtt3BBRohdgsoFhfirFfXmamuvrxnn-W4XN_KgidB-_NvR-QpryJ-2zhGX-1wYJXxwOXENECingChPb0vD9xPMNr0kkUl7Wl394IFHuu-rZVHqlAWUJTVTonSLnBMS8PYB8AUfF5xg0k6HVnxrzy9sU4Igk2cww2s3QJ4n9gQjXFOK4XsVMh7jQVR-c5BrioqsaiLrqjirCZCpOqKjUo3H6Nanetj4lXVJWCXdIpkYUpZt9vn7rHvBzr0jxoGAxAv-gFYEEgmxWxsua94WcTwZij8Kf7AMuCMOTupE87lRmUAcphRkshURYnrY3-sOP9TKghuZuawMEp8UclC3Iawq9sdeQIvOdTUJZlbFJE8AUMcrhNx6qYNaHXx6_PIM3Yrqu5veVzNnyK2trJ4CYkqo7t_4DWHVTU7bXVK1K2tD5WJBLqJHAW_MQ=w840-h400-s-no?authuser=0"
+  }
+},
+{
+  "_id": {
+    "$oid": "64e89f1ffaad5e51b864fa05"
+  },
+  "nombre": "Paiz",
+  "logo": "https://lh3.googleusercontent.com/pw/AIL4fc-bFz5-uwk3rbwIEpa17n3CDl4NUNr3ucvBkAF5A7VB1ClbnZfV8lSUw8DfC-_47UBgEFDoIRvoIDsbkpJPfHTAT7XIRCHlYOabqjtWXJx-l89m5-upcJl5o6m4CQzKS6EPgjA1t6m1__5tf3EQsAgDsnx5aBUQtcl6bv79tx3Snv8gfQbsFK1OckVguOFKX0XPnjSCa6P53Et_M9v5AVGTMAoKwk_m2ywqqsvaAP1gS1U_gE22ehtFA9PlWI3AtRYK_X_X79XK-xfw2b9zSw6SwCaqZm9UZelPnthQk7KGz1dAeBcyeI_Kgzp3a2ahh8rUDWoYQf97_EPoRCgsiqLDb4_5rv75JgoQ5L2U8bC81hHd1FDmngS8_Z7QLUAzJsrCL8n6AHXpJ8kHpq9E5XsyyZyqmTikYP3NNO9TUjvjdUskmcK1FObxy93qqtgcTNdj7rVVnmKQ4bP8hySjTScZfOlUN8X8kB0szWIsYfmUAW7jHlJsIib9BAAegtYzxd2wTFtm2Cd8GEPbQ_8rXEF2gZpDYejUDMr9AfjM5v9NGnrGPJc8FJd8sUYFqRKhE4A7abNWCftF4gMsitEizZd2jPR2DX7Otcsk7syfVuM4-QNVtDqhKHr_T8Qv9P3gyXeNoROE2c4vEZxOftYLhvhQThHZmcL9cYOw8wotBYEbXEefRCbKRU40hC_MgRpaB1re2gx2PB85m3yhWAO6z9bGJSHIFxgYiI7phJykU9wJBeKdSOCpwBVOJf4n0cmfkvse8K7DYCUakFtqfZDq99pFN6p4ItrxSqUSFFvxVxKmFDKMEcuBk2jTaoc8xq3LzAf9z-svVT928AyuBOtj7HQ5YaS0xJop0ZVwLQKyKqOvhZTab7RxFjT9npUZdGKoD9jV80H-L41XgY0K9xQFYw=w195-h195-s-no?authuser=0",
+  "ubicacion": "Plaza Miraflores",
+  "tiempoEnvio": "25-35",
+  "costoEnvio": "30",
+  "calificacion": "5.0",
+  "favoritos": true,
+  "productos": [
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9f1"
+      },
+      "nombreProducto": "Manzana Lb",
+      "precio": "45.00",
+      "imagenProducto": "https://assets.stickpng.com/images/580b57fbd9996e24bc43c112.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9f2"
+      },
+      "nombreProducto": "Tomate Pera Lb",
+      "precio": "12.00",
+      "imagenProducto": "https://hortiberia.es/wp-content/uploads/products-tomate-pera.png"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9f3"
+      },
+      "nombreProducto": "Escarola Unidad",
+      "precio": "15.00",
+      "imagenProducto": "https://d1cft8rz0k7w99.cloudfront.net/n/6/7/e/1/67e15b406412c3f27353a6b4d7864aa8f8b8e5cf_FruitsandVegetables_104016_01.jpg"
+    },
+    {
+      "idProducto": {
+        "$oid": "64e89f00faad5e51b864f9f4"
+      },
+      "nombreProducto": "Cebolla Morada Lb",
+      "precio": "45.00",
+      "imagenProducto": "https://img.freepik.com/vector-premium/bulbos-cebolla-morada-fresca-cebollas-verdes-picadas_212889-2395.jpg"
+    }
+  ],
+  "imagenLocal": "https://lh3.googleusercontent.com/pw/AIL4fc8fRYsb3-sogAZeoESstsxrDHARXvkPDTjCUXRPm4FlGY2IBAIg3dlabR9ts3LdDh2Fi7hli4vbm0nBF6In-fR0Rt4clvaVfsi3MJZvUTwnuNbLGiyPlU_iWo1gdxyrWuq8QCkNhj6ssGWWc-rke2vFGJvFLKZAzd9SGxbE7tmKrpA7EyDGuu_nkH7MH1MRo8Z0L07FbwD7V-g_vbC7yA7qKRq1zMzFj-kW2qT1TS27PJSWDqKz28MF_JO4nrL3pRFApi4F-OEtKC0qBcge-aLpmo8m-xzoXQY9AkAOT6PVIcKb_A1RzcUQLuVtcygzIkZFM-BEATkHuSsG2lm0Hgi1_zToLqmfMYPAvMhKcNsHoEyQp-RNe8UzNVMjpfWekVCM1JoYr8ttJ0qLHmh3h839Ynp0WsISAqtgDxfJ7FmLyTsYyYCeoKvK_kFQAg4f-9uy7lpHdY1dZd1TN_PnyYKFTS_br_IS-pSzTZvWiorZHCsFCCrdqQfoI0kHb8BM9pZ8ERWFZj4vL4qu7FcX1VPmtYcD7aQLw7boqQJh4-ZpGldHOsOBAgisu3bRS1pV6ozGPZXjeVjEnqmdOpHZsjdO6k06AcPFqu1QldZeI-Hl64iS3dnp5iRaWQhqfCGZhcG631cW04HB9-xpCcDlK9jIBv0JbQ26GPf7xaBMAhamPt8zYL5RTKyYvlMQP7jmLHLj2DCSkXuVIUzokqKI79wMJTsimvsexFQWdTPAdSk2VZPyXUMc_J7vGpXtoBq066_m64yW4ZT8KjalsRK2fz0sem4NSwK5CMwFPVFBOLmhd-lwHjzZZuenk3nUfofzIDd7hOkzSzu8390H-cqj8z30yAGcAKFy3AR3L32NALj5raQPa48scymyq6ueFaJnaUkHVhptjKUGtig1NnDGSA=w512-h293-s-no?authuser=0",
+  "recomendaciones": {
+    "nombreProducto": "VERDURAS",
+    "precio": "55.00",
+    "imagenProducto": "https://lh3.googleusercontent.com/pw/AIL4fc_3Xtu5ZzOQroLgKuIcMCZkTHXLcLIMzZ-7N-xA4-tmwrQd4tl1O_6wOB4ZR5-7jjqcQ7-Wp8VTx7jv3Pj2eoYZ3Wnbcs6cHIiOJfYJdIt1scXPH4pSiyWui90TQy3LUMQYnVSxFanofa8KjSIH968kMVTKdj5EZVEgvynbC6zmMkTKpuKHopzFylpFwUpJ0iIQ0IZImADcse2J1358n9uxA7fUAbtVZSGrP3hxq0I13-b6uZpO2tB9RDx78d5nL7bUSyrrT8YllTBq4fnLNzf4p7gd26vZbRUx3V29IL3OHICLd-H2bJeNvB1RCtSIvHGpRy7kI09eYsUMQFJoKq4_aJAoacdK_EfJAzLDBvSGGx9Npq60XtTS3cvQAamZskwTN0bNS5XcpxP_3Q5QyEVIMpcG5w4Wxut_RQcpJXWSuzSDk0Dt9kAsJr2y0J3v9JSTFpIMiAv8bxkiPEDe-Ao-mDjiYTIjtt3BBRohdgsoFhfirFfXmamuvrxnn-W4XN_KgidB-_NvR-QpryJ-2zhGX-1wYJXxwOXENECingChPb0vD9xPMNr0kkUl7Wl394IFHuu-rZVHqlAWUJTVTonSLnBMS8PYB8AUfF5xg0k6HVnxrzy9sU4Igk2cww2s3QJ4n9gQjXFOK4XsVMh7jQVR-c5BrioqsaiLrqjirCZCpOqKjUo3H6Nanetj4lXVJWCXdIpkYUpZt9vn7rHvBzr0jxoGAxAv-gFYEEgmxWxsua94WcTwZij8Kf7AMuCMOTupE87lRmUAcphRkshURYnrY3-sOP9TKghuZuawMEp8UclC3Iawq9sdeQIvOdTUJZlbFJE8AUMcrhNx6qYNaHXx6_PIM3Yrqu5veVzNnyK2trJ4CYkqo7t_4DWHVTU7bXVK1K2tD5WJBLqJHAW_MQ=w840-h400-s-no?authuser=0"
+  }
+}]
