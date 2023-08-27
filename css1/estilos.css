@@ -188,6 +188,7 @@ width: 100%;
     border-width: thin;
     width: 100%;
     height: 90px;
+    display: none;
 }
 .botonestabs.cli.active{
     background-color: #C5FEF3;
@@ -201,9 +202,11 @@ width: 100%;
 }
 .botonestabs.cli{
     border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 .botonestabs.moto{
     border-top-right-radius: 25px;
+    display: none;
 }
 /* fin seccion de login*/
 
