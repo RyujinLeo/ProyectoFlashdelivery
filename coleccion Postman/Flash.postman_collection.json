@@ -1,0 +1,316 @@
+{
+	"info": {
+		"_postman_id": "897531fe-a846-414f-9792-c80249c413e2",
+		"name": "Flash",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28147939"
+	},
+	"item": [
+		{
+			"name": "login usuario/cliente",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"correo\": \"pedro@gmail.com\",\r\n    \"contrasena\": \"asd.456\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/usuarios/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"usuarios",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener pedidos del usuario/cliente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/usuarios/64ea61bcf27e029b36f16124/pedidos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"usuarios",
+						"64ea61bcf27e029b36f16124",
+						"pedidos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Empresas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/empresas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"empresas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Categorias de la pantalla principal del cliente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/categorias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"categorias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener productos una empresa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/empresas/64e89f1ffaad5e51b864f9f6/productos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"empresas",
+						"64e89f1ffaad5e51b864f9f6",
+						"productos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener recomendaciones una empresa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/empresas/64e89f1ffaad5e51b864f9f6/recomendaciones",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"empresas",
+						"64e89f1ffaad5e51b864f9f6",
+						"recomendaciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login motorista",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"correo\": \"ramon@gmail.com\",\r\n    \"contrasena\": \"asd.456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/motoristas/login-motorista",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"motoristas",
+						"login-motorista"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ordenes de un motorista",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/motoristas/64e89f39faad5e51b864fa08/ordenes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"motoristas",
+						"64e89f39faad5e51b864fa08",
+						"ordenes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener detalles un motorista",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/motoristas/64e89f39faad5e51b864fa08",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"motoristas",
+						"64e89f39faad5e51b864fa08"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener motoristas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/motoristas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"motoristas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener motoristas disponibles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/motoristas/disponibles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"motoristas",
+						"disponibles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener todos los productos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/productos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"productos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login administrador",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"correo\": \"maria@gmail.com\",\r\n    \"contrasena\": \"asd.456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/administradores/login-administrador",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"administradores",
+						"login-administrador"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener administradores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/administradores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"administradores"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
