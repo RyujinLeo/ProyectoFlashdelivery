@@ -462,3 +462,193 @@ padding: 5px;
 }
 
     /*fin index cliente*/
+
+    /*carrito*/
+    .ordenbotones{
+        display: flex;
+        z-index: 99;
+        background-color: #d9d9d96b;
+        height: 28px;
+        width: 83px;
+        border-radius: 10px;
+    }
+
+#botonmenos{
+    width: 40px;
+    background-color: #FE293E;
+    font-size: 1.0rem;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-width: thin;
+}
+
+#botonmas{
+    width: 40px;
+    background-color: #FE293E;
+    font-size: 1.0rem;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-width: thin;
+}
+
+#cantidadbotones{
+    font-size: 0.6rem;
+    margin-top: auto;
+margin-bottom: auto;
+}
+
+.bottones1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    /*carrito*/
+
+    /*recibos*/
+.formulariorecibo{
+    background-color:rgb(252, 252, 252) ;
+    margin-top: 50px;
+    margin-bottom: auto;
+    height: 852px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulariorecibo1{
+    background-color: rgb(234, 235, 239);
+    margin-top: 50px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 482px;
+    width: 376px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border: solid;
+    border-width: thin;
+    border-bottom-color: #FF293E;
+    border-top-color: #FF293E;
+    border-left-color: #FF293E;
+    border-right-color: #FF293E;
+    border-top-right-radius: 30px;
+    padding-top: 97px;
+}
+
+.formulariorecibo #primercirculo{
+    z-index: 2;
+    position: fixed;
+    height: 155px;
+    width: 174px;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    /* padding-left: 150px; */
+    border-radius: 76%;
+    background-color: rgb(253, 224, 179);
+}
+.formulariorecibo #segundocirculo{
+    z-index: 5;
+    position: fixed;
+    margin-top: 5px;
+    height: 139px;
+    width: 162px;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    /* padding-left: 150px; */
+    border-radius: 76%;
+    background-color: #FFAB07;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-solid.fa-check{
+    font-size:4.0rem ;
+}
+
+#textogenial{
+    display: flex;
+    justify-content: center;
+}
+
+#textogenial h1{
+    font-size: 1.0rem;
+    margin-top: 8px;
+    color: #FF9C07;
+}
+
+.info123{
+    display: grid;
+    grid-template-areas:
+    "desde tarjeta"
+    "pago pagototal"
+    "admin precioad"
+    "fecha infofecha"
+    "totalapagar idpagar"
+    ;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-around;
+}
+
+.info123 h1{
+    color: rgba(0, 0, 0, 0.555);
+    font-size: 1.0rem;
+}
+.info123 h2{
+    color: rgb(0, 0, 0);
+    font-size: 1.0rem;
+}
+
+.info123 #pagadodesde{
+grid-area: desde;
+
+}
+.info123 #tarjeta{
+    grid-area: tarjeta;
+    
+}
+
+.info123 #pago{
+    grid-area: pago;
+    
+}
+.info123 #montopago{
+    grid-area: pagototal;
+    
+}
+.info123 #administ{
+    grid-area: admin;
+    
+}
+.info123 #montoadmin{
+    grid-area: precioad;
+    
+}
+.info123 #fechapag{
+    grid-area: fecha;
+    
+}
+.info123 #fechaid{
+    grid-area: infofecha;
+    
+}
+.info123 #totalapagar{
+    grid-area: totalapagar;
+    
+}
+.info123 #idpagar{
+    grid-area: idpagar;
+    
+}
+.botonaceptarorden.uno{
+    z-index: 8;
+}
+    /*recibos*/

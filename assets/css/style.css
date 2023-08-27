@@ -216,6 +216,7 @@
 
 .card-producto{
     display: flex;
+    justify-content: space-between;
     border: 1px solid #a79f9f;
     background-color: #f7f7f7;
     padding: 7px;
@@ -229,8 +230,9 @@
 }
 
 .estilo-precio{
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
     color: #fe293e;
+    margin-left: 10px;
 }
 
 .scroll-producto{

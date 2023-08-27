@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orden</title>
     <link rel="stylesheet" href="/css1/estilos.css">
+    <link rel="stylesheet" href="/css1/Estiloscliente.css">
     <link rel="stylesheet" href="/css1/mobile.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <script src="/js/bootstrap.min.js"></script>
@@ -31,16 +32,10 @@
             <h3 id="Preciorden">Precio</h3>
             <h4 id="Cantidadorden">1</h4>
         </div>
-    </div>
-    <div class="ordenobjeto">
-        <div id="containerimagen">
-            <img src="../img/Ordenes/restaurantes_hamburguer.jpg" alt="Imagen">
-        </div>
-        <div id="detalleobjorden">
-            <h1 id="Nombredeorden">Nombre de orden</h1>
-            <h2 id="Restauranteorden">Restaurante</h2>
-            <h3 id="Preciorden">Precio</h3>
-            <h4 id="Cantidadorden">1</h4>
+        <div class="ordenbotones">
+            <button id="botonmenos" type="button" placeholder="remover">-</button>
+            <h3 id="cantidadbotones">cantidad</h3>
+            <button id="botonmas" type="button" placeholder="añadir">+</button>
         </div>
     </div>
     <div class="ordenobjeto">
@@ -52,21 +47,49 @@
             <h2 id="Restauranteorden">Restaurante</h2>
             <h3 id="Preciorden">Precio</h3>
             <h4 id="Cantidadorden">1</h4>
+        </div>
+        <div class="ordenbotones">
+            <button id="botonmenos" type="button" placeholder="remover">-</button>
+            <h3 id="cantidadbotones">cantidad</h3>
+            <button id="botonmas" type="button" placeholder="añadir">+</button>
+        </div>
+    </div>
+    <div class="ordenobjeto">
+        <div id="containerimagen">
+            <img src="../img/Ordenes/restaurantes_hamburguer.jpg" alt="Imagen">
+        </div>
+        <div id="detalleobjorden">
+            <h1 id="Nombredeorden">Nombre de orden</h1>
+            <h2 id="Restauranteorden">Restaurante</h2>
+            <h3 id="Preciorden">Precio</h3>
+            <h4 id="Cantidadorden">1</h4>
+        </div>
+        <div class="ordenbotones">
+            <button id="botonmenos" type="button" placeholder="remover">-</button>
+            <h3 id="cantidadbotones">cantidad</h3>
+            <button id="botonmas" type="button" placeholder="añadir">+</button>
         </div>
     </div>
 </div>
 
 <div class="infoorden">
         <h1 id="numorden">Orden:123456789</h1>
-        <h1 id="total">Total</h1>
-        <h2 id="numtotal">L550.50</h2>
-        <h1 id="ganancia">Ganancia</h1>
-        <h2 id="numganancia">L45.00</h2>
+        <h1 id="total">Orden</h1>
+        <h2 id="numtotal">L500.50</h2>
+        <h1 id="ganancia">Administracion/entrega</h1>
+        <h2 id="numganancia">L50.00</h2>
+        <h1 id="gananciauno">Total</h1>
+        <h2 id="numgananciauno">L550.50</h2>
         <h1 id="direccionlabel">Direccion de entrega</h1>
         <Div id="direccionform">
             <h1 id="direccion">Residencial los platanos, calle xxx, casa 322222</h1>
         </Div>
+        <h1 id="Metododepago">Metododepago</h1>
+        <a href="#" id="pagoseleccionado">Predeterminado</a>
 </div>
-<button class="botonaceptarorden" type="button" placeholder="Acpetar orden" onclick="rediriniciomt()">Aceptar Orden</button>
+<div class="bottones1">
+    <button class="botoncancelar" type="button" placeholder="Cancelar orden" onclick="rediriniciocl()">Cancelar Orden</button>
+    <button class="botonaceptarorden" type="button" placeholder="Acpetar orden" onclick="redirrecibo()">Aceptar Orden</button>
+</div>
 </body>
 </html>

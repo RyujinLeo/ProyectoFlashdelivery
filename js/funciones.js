@@ -42,3 +42,6 @@ function redircafe() {
 function redirbebida() {
     location.href= "/html/bebidas.index.html"
 }
+function redirrecibo() {
+    location.href= "/html/recibo.html"
+}
