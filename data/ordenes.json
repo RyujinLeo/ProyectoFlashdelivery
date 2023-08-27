@@ -41,7 +41,7 @@
         "total": "299.00",
         "ganancia": "40",
         "direccionEntrega": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "estadoOrden": "tomada",
+        "estadoOrden": "entregado",
         "detallePago": "efectivo",
         "detalleProducto": [
             {

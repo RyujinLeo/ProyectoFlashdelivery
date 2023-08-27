@@ -19,7 +19,7 @@ export const obtenerProductosUnaEmpresa = async (req: Request, res: Response) =>
       }
       else
         res.send({status: false, message: 'Recomendaciones no encontradas'});
-      res.end();
+    res.end();
 }
 
 export const obtenerRecomendacionesUnaEmpresa = async (req: Request, res: Response) => {

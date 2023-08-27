@@ -4,5 +4,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
+const producto_controller_1 = require("../controllers/producto.controller");
 const router = express_1.default.Router();
-//
+//Obtener todos los productos
+//http://loclahost:3000/productos
+router.get('/', producto_controller_1.obtenerProductos);
+exports.default = router;
