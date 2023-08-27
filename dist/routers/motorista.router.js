@@ -20,5 +20,7 @@ router.get('/', motorista_controller_1.obtenerMotoristas);
 router.get('/:id/ordenes', motorista_controller_1.obtenerOrdenesMotorista);
 //Obtener motoristas disponibles
 //http://localhost:3000/motoristas/disponibles
-router.get('/disponibles', motorista_controller_1.obtenerMotoristasDisponibles);
+router.get('/:estado-disponible', motorista_controller_1.obtenerMotoristasDisponibles);
+//Registrar un nuevo motorista
+router.post('/', motorista_controller_1.registrarMotorista);
 exports.default = router;

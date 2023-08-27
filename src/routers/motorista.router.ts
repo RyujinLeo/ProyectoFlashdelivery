@@ -1,5 +1,5 @@
 import express from 'express';
-import { loginMotorista, obtenerDetalleMotorista, obtenerMotoristas, obtenerMotoristasDisponibles, obtenerOrdenesMotorista } from '../controllers/motorista.controller';
+import { loginMotorista, obtenerDetalleMotorista, obtenerMotoristas, obtenerMotoristasDisponibles, obtenerOrdenesMotorista, registrarMotorista } from '../controllers/motorista.controller';
 
 const router = express.Router();
 
@@ -21,7 +21,10 @@ router.get('/:id/ordenes', obtenerOrdenesMotorista);
 
 //Obtener motoristas disponibles
 //http://localhost:3000/motoristas/disponibles
-router.get('/disponibles', obtenerMotoristasDisponibles);
+router.get('/:estado-disponible', obtenerMotoristasDisponibles);
+
+//Registrar un nuevo motorista
+router.post('/', registrarMotorista);
 
 
 export default router;

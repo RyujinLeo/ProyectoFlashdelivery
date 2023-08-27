@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.obtenerMotoristasDisponibles = exports.obtenerMotoristas = exports.obtenerDetalleMotorista = exports.obtenerOrdenesMotorista = exports.loginMotorista = void 0;
+exports.registrarMotorista = exports.obtenerMotoristasDisponibles = exports.obtenerMotoristas = exports.obtenerDetalleMotorista = exports.obtenerOrdenesMotorista = exports.loginMotorista = void 0;
 const motorista_schema_1 = require("../models/motorista.schema");
 const loginMotorista = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const motorista = yield motorista_schema_1.MotoristaSchema.findOne({ correo: req.body.correo, contrasena: req.body.contrasena });
@@ -52,7 +52,7 @@ const obtenerMotoristas = (req, res) => __awaiter(void 0, void 0, void 0, functi
 });
 exports.obtenerMotoristas = obtenerMotoristas;
 const obtenerMotoristasDisponibles = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    const motorista = yield motorista_schema_1.MotoristaSchema.find({ disponible: true }).limit(2);
+    const motorista = yield motorista_schema_1.MotoristaSchema.find({ estado: req.params.disponible }, {});
     if (motorista) {
         res.send({ status: true, message: 'Motoristas disponibles obtenidos con exito', motorista });
     }
@@ -61,3 +61,8 @@ const obtenerMotoristasDisponibles = (req, res) => __awaiter(void 0, void 0, voi
     res.end();
 });
 exports.obtenerMotoristasDisponibles = obtenerMotoristasDisponibles;
+const registrarMotorista = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    res.send('Registar motorista esta funcionando');
+    res.end();
+});
+exports.registrarMotorista = registrarMotorista;

@@ -50,12 +50,19 @@ export const obtenerMotoristas = async (req: Request, res: Response) => {
 
 export const obtenerMotoristasDisponibles = async (req: Request, res: Response) => {
 
-    const motorista = await MotoristaSchema.find({disponible: true}).limit(2);
+    
+    const motorista = await MotoristaSchema.find({estado: req.params.disponible}, {}) ;
     if (motorista) {
         res.send({status: true, message:'Motoristas disponibles obtenidos con exito', motorista});
     }
     else
         res.send({status: false, message:'Motoristas disponibles no encontrados'});
     res.end();
+
+    
 }
 
+export const registrarMotorista = async ( req:Request, res:Response) => {
+    res.send('Registar motorista esta funcionando');
+    res.end();
+}
